@@ -1,0 +1,257 @@
+{
+  "D:\\Working Place\\My Project\\expo-japanese\\CLAUDE.md": {
+    "mtime": 1781593929.7349102,
+    "ast_hash": "12ce346203815a0b58ece1e6d0a7eeaa",
+    "semantic_hash": "12ce346203815a0b58ece1e6d0a7eeaa"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\BUILD_ORDER.md": {
+    "mtime": 1781514580.0,
+    "ast_hash": "f47151fb38f1ec35145bd162d68045db",
+    "semantic_hash": "f47151fb38f1ec35145bd162d68045db"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\CLARIFICATIONS.md": {
+    "mtime": 1781540199.1287105,
+    "ast_hash": "3bdc62437cab7eec5e6adaa0c70e34a6",
+    "semantic_hash": "3bdc62437cab7eec5e6adaa0c70e34a6"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\CLAUDE_CONTEXT.md": {
+    "mtime": 1781514580.0,
+    "ast_hash": "dc2966a9eb0908de1b9642001be93996",
+    "semantic_hash": "dc2966a9eb0908de1b9642001be93996"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\CODE_REVIEW_WORKFLOW.md": {
+    "mtime": 1781514580.0,
+    "ast_hash": "4964d97d43efb201d2f3bb5c58dca54f",
+    "semantic_hash": "4964d97d43efb201d2f3bb5c58dca54f"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\FINAL_SUMMARY.md": {
+    "mtime": 1781540281.6448038,
+    "ast_hash": "7fcfbf7f7fa015a9946951c7481c403c",
+    "semantic_hash": "7fcfbf7f7fa015a9946951c7481c403c"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\JLPT_App_PRD.md": {
+    "mtime": 1781540180.3227856,
+    "ast_hash": "d0978139840333b98d94e693d9c0c107",
+    "semantic_hash": "d0978139840333b98d94e693d9c0c107"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\JLPT_Backend_BetterAuth.md": {
+    "mtime": 1781540184.7966402,
+    "ast_hash": "0cb82b2644970c97dee06fff44afcab2",
+    "semantic_hash": "0cb82b2644970c97dee06fff44afcab2"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\JLPT_Backend_Setup.md": {
+    "mtime": 1781540672.8152802,
+    "ast_hash": "a6590102012bdde33583a2ce1208fa05",
+    "semantic_hash": "a6590102012bdde33583a2ce1208fa05"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\JLPT_COMPLETE_CHECKLIST.md": {
+    "mtime": 1781540332.7275712,
+    "ast_hash": "a0b548df90636d26127c3911e72b8a3b",
+    "semantic_hash": "a0b548df90636d26127c3911e72b8a3b"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\KNOWLEDGE_README.md": {
+    "mtime": 1781514580.0,
+    "ast_hash": "2de851326e3d31bfb6f4698e2dcee5ae",
+    "semantic_hash": "2de851326e3d31bfb6f4698e2dcee5ae"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\PROJECT_SETUP_GUIDE.md": {
+    "mtime": 1781514580.0,
+    "ast_hash": "df6deeb7f8551bfa587acc97e6d2acea",
+    "semantic_hash": "df6deeb7f8551bfa587acc97e6d2acea"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Knowledge\\QUICK_REFERENCE.md": {
+    "mtime": 1781540307.2166996,
+    "ast_hash": "6b93b90e091c69a8b2438f63544d1edf",
+    "semantic_hash": "6b93b90e091c69a8b2438f63544d1edf"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\.claude\\settings.json": {
+    "mtime": 1781541742.5481238,
+    "ast_hash": "af5683cedca023035194f9ad92eb0eef",
+    "semantic_hash": "af5683cedca023035194f9ad92eb0eef"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\drizzle.config.ts": {
+    "mtime": 1781545656.8411918,
+    "ast_hash": "68d0483cc3880556545fd4f8073f6a65",
+    "semantic_hash": "68d0483cc3880556545fd4f8073f6a65"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\package.json": {
+    "mtime": 1781587553.5614977,
+    "ast_hash": "5582187c52b10e25f3092352a480a144",
+    "semantic_hash": "5582187c52b10e25f3092352a480a144"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\client.ts": {
+    "mtime": 1781545761.2159238,
+    "ast_hash": "63b6b025a6abf3f27147144e79540de9",
+    "semantic_hash": "63b6b025a6abf3f27147144e79540de9"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\index.ts": {
+    "mtime": 1781547976.3244147,
+    "ast_hash": "6ee601633b88da9b7ff0accc81cbada8",
+    "semantic_hash": "6ee601633b88da9b7ff0accc81cbada8"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\migration\\0000_stale_edwin_jarvis.sql": {
+    "mtime": 1781546702.733417,
+    "ast_hash": "c257e3f3b2a49af729bd2ff2de49e0c7",
+    "semantic_hash": "c257e3f3b2a49af729bd2ff2de49e0c7"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\migration\\0001_lazy_dakota_north.sql": {
+    "mtime": 1781548010.9095657,
+    "ast_hash": "e2886f75ace9e3ae4abb7aac599f390d",
+    "semantic_hash": "e2886f75ace9e3ae4abb7aac599f390d"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\migration\\meta\\0000_snapshot.json": {
+    "mtime": 1781546702.733417,
+    "ast_hash": "d5fdfd017b3e89754bea8b40733bbd5e",
+    "semantic_hash": "d5fdfd017b3e89754bea8b40733bbd5e"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\migration\\meta\\0001_snapshot.json": {
+    "mtime": 1781548010.9085636,
+    "ast_hash": "f04be2310a832b8a916e2d6ca1377f3c",
+    "semantic_hash": "f04be2310a832b8a916e2d6ca1377f3c"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\migration\\meta\\_journal.json": {
+    "mtime": 1781548010.9095657,
+    "ast_hash": "9b014513677f7fb78f6bb1a707883123",
+    "semantic_hash": "9b014513677f7fb78f6bb1a707883123"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\schemas\\auth.schema.ts": {
+    "mtime": 1781547546.4278595,
+    "ast_hash": "8d0c5930b4254d864fff8b6785f26f12",
+    "semantic_hash": "8d0c5930b4254d864fff8b6785f26f12"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\schemas\\friendCodes.schema.ts": {
+    "mtime": 1781545040.1533208,
+    "ast_hash": "f1f4d31da3515e53b6c1bbea36467975",
+    "semantic_hash": "f1f4d31da3515e53b6c1bbea36467975"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\schemas\\friendships.schema.ts": {
+    "mtime": 1781544861.239464,
+    "ast_hash": "c4a6c697aece6e6e524b964a804f1cfa",
+    "semantic_hash": "c4a6c697aece6e6e524b964a804f1cfa"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\schemas\\reviewItems.schema.ts": {
+    "mtime": 1781544317.454627,
+    "ast_hash": "1523f6386752fa601b11ededd72653d1",
+    "semantic_hash": "1523f6386752fa601b11ededd72653d1"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\schemas\\userProfiles.schema.ts": {
+    "mtime": 1781544007.2911696,
+    "ast_hash": "d483b0798bb30571574cbb51e1f13eff",
+    "semantic_hash": "d483b0798bb30571574cbb51e1f13eff"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\db\\schemas\\userProgress.schema.ts": {
+    "mtime": 1781544144.3331926,
+    "ast_hash": "2ac066fe84015e1be08ae514e863067a",
+    "semantic_hash": "2ac066fe84015e1be08ae514e863067a"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\index.ts": {
+    "mtime": 1781593601.0374932,
+    "ast_hash": "0515b83cba2180b012aeade7033ce93d",
+    "semantic_hash": "0515b83cba2180b012aeade7033ce93d"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\lib\\auth.ts": {
+    "mtime": 1781581842.672278,
+    "ast_hash": "f1054e529067b5df8d55caf7a7b72ad8",
+    "semantic_hash": "f1054e529067b5df8d55caf7a7b72ad8"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\lib\\type-variables.ts": {
+    "mtime": 1781583512.0420227,
+    "ast_hash": "7433f54f82b42ba975705ffd814a6af5",
+    "semantic_hash": "7433f54f82b42ba975705ffd814a6af5"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\middleware\\auth.middleware.ts": {
+    "mtime": 1781584310.8902876,
+    "ast_hash": "3dd3b286465b34e7ebef8ace93f4fec1",
+    "semantic_hash": "3dd3b286465b34e7ebef8ace93f4fec1"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\routes\\auth.ts": {
+    "mtime": 1781581507.2032049,
+    "ast_hash": "7df4185cb8c976a30775138972cf7f3b",
+    "semantic_hash": "7df4185cb8c976a30775138972cf7f3b"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\routes\\friends.routes.ts": {
+    "mtime": 1781590433.8472524,
+    "ast_hash": "aa4afcbee7083b1807aee77edddaeca9",
+    "semantic_hash": "aa4afcbee7083b1807aee77edddaeca9"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\routes\\lessons.route.ts": {
+    "mtime": 1781593853.285849,
+    "ast_hash": "29ef4f6e96bdb44d8d0107a26ef42e8a",
+    "semantic_hash": "29ef4f6e96bdb44d8d0107a26ef42e8a"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\routes\\profile.routes.ts": {
+    "mtime": 1781590405.874437,
+    "ast_hash": "d9d4dbf27d9318410fb8ee21e3aa6675",
+    "semantic_hash": "d9d4dbf27d9318410fb8ee21e3aa6675"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\routes\\progress.routes.ts": {
+    "mtime": 1781591842.5694487,
+    "ast_hash": "f93d1f9ed903f9c8782c385419b14209",
+    "semantic_hash": "f93d1f9ed903f9c8782c385419b14209"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\schemas\\friends.schema.ts": {
+    "mtime": 1781587895.347048,
+    "ast_hash": "e15dfba447ad17416207045432196fba",
+    "semantic_hash": "e15dfba447ad17416207045432196fba"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\schemas\\profile.schema.ts": {
+    "mtime": 1781587790.9947076,
+    "ast_hash": "4ea66be6ec4237141c060961e756c886",
+    "semantic_hash": "4ea66be6ec4237141c060961e756c886"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\src\\schemas\\progress.schema.ts": {
+    "mtime": 1781591358.9035442,
+    "ast_hash": "60debf7fe45b090f0ad3689092cbee74",
+    "semantic_hash": "60debf7fe45b090f0ad3689092cbee74"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\tsconfig.json": {
+    "mtime": 1781593249.946504,
+    "ast_hash": "e5fc2d9c8811853621626526c4124246",
+    "semantic_hash": "e5fc2d9c8811853621626526c4124246"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\static-content\\grammar\\n5-grammar.json": {
+    "mtime": 1781590948.0880687,
+    "ast_hash": "1f7b1ba8188e784b7087c8fdea688c59",
+    "semantic_hash": "1f7b1ba8188e784b7087c8fdea688c59"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\static-content\\hiragana\\n5-hiragana.json": {
+    "mtime": 1781590892.2728138,
+    "ast_hash": "53fa82e0294ca4ae69be7e6f87ce0f37",
+    "semantic_hash": "53fa82e0294ca4ae69be7e6f87ce0f37"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\static-content\\kanji\\n5-kanji.json": {
+    "mtime": 1781591254.3492167,
+    "ast_hash": "f353654023c371bf4aa477f285b6b986",
+    "semantic_hash": "f353654023c371bf4aa477f285b6b986"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\static-content\\katakana\\n5-katakana.json": {
+    "mtime": 1781590912.1333375,
+    "ast_hash": "af77f13aab03b486618bedcdd455f743",
+    "semantic_hash": "af77f13aab03b486618bedcdd455f743"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\static-content\\lessons\\n5-lessons.json": {
+    "mtime": 1781593792.1132689,
+    "ast_hash": "af09b83bc402f29a49626d6e6caa5a0a",
+    "semantic_hash": "af09b83bc402f29a49626d6e6caa5a0a"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\static-content\\vocab\\n5-vocab.json": {
+    "mtime": 1781591295.3518121,
+    "ast_hash": "1ab53327def3c1997b78cc64a9f4fc20",
+    "semantic_hash": "1ab53327def3c1997b78cc64a9f4fc20"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\README.md": {
+    "mtime": 1781528655.0,
+    "ast_hash": "5a03cbbb27541ce430b9df49091acfeb",
+    "semantic_hash": "5a03cbbb27541ce430b9df49091acfeb"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\Backend\\pnpm-workspace.yaml": {
+    "mtime": 1781542864.8928816,
+    "ast_hash": "7bb23c19c0343fac40d375bacca550d0",
+    "semantic_hash": "7bb23c19c0343fac40d375bacca550d0"
+  },
+  "D:\\Working Place\\My Project\\expo-japanese\\CLAUDE.original.md": {
+    "mtime": 1781582371.620618,
+    "ast_hash": "6378fbc416451b74fa629d957d2276ff",
+    "semantic_hash": "6378fbc416451b74fa629d957d2276ff"
+  }
+}

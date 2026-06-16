@@ -1,0 +1,2133 @@
+﻿[
+    {
+        "id":  "vocab_001",
+        "word":  "学校",
+        "reading":  "がっこう",
+        "meaning":  "school",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_002",
+        "word":  "川",
+        "reading":  "かわ",
+        "meaning":  [
+                        "river",
+                        "stream"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_003",
+        "word":  "手",
+        "reading":  "て",
+        "meaning":  [
+                        "hand",
+                        "arm"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_004",
+        "word":  "戸",
+        "reading":  "と",
+        "meaning":  "door (esp. Japanese-style)",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_005",
+        "word":  "メガネ",
+        "reading":  "メガネ",
+        "meaning":  [
+                        "glasses",
+                        "eyeglasses",
+                        "spectacles"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_006",
+        "word":  "煙草",
+        "reading":  "タバコ",
+        "meaning":  [
+                        "tobacco",
+                        "cigarette",
+                        "cigar"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_007",
+        "word":  "赤",
+        "reading":  "あか",
+        "meaning":  [
+                        "red",
+                        "crimson",
+                        "scarlet"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_008",
+        "word":  "仕事",
+        "reading":  "しごと",
+        "meaning":  [
+                        "work",
+                        "job",
+                        "labor",
+                        "labour",
+                        "business",
+                        "task",
+                        "assignment",
+                        "occupation",
+                        "employment"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_009",
+        "word":  "英語",
+        "reading":  "えいご",
+        "meaning":  "English (language)",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_010",
+        "word":  "問題",
+        "reading":  "もんだい",
+        "meaning":  [
+                        "question (e.g. on a test)",
+                        "problem"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_011",
+        "word":  "部屋",
+        "reading":  "へや",
+        "meaning":  [
+                        "room",
+                        "chamber"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_012",
+        "word":  "子供",
+        "reading":  "こども",
+        "meaning":  [
+                        "child",
+                        "children"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_013",
+        "word":  "時間",
+        "reading":  "じかん",
+        "meaning":  "time",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_014",
+        "word":  "雨",
+        "reading":  "あめ",
+        "meaning":  "rain",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_015",
+        "word":  "先生",
+        "reading":  "せんせい",
+        "meaning":  [
+                        "teacher",
+                        "instructor",
+                        "master"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_016",
+        "word":  "年",
+        "reading":  "とし",
+        "meaning":  "year",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_017",
+        "word":  "手紙",
+        "reading":  "てがみ",
+        "meaning":  [
+                        "letter",
+                        "note"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_018",
+        "word":  "電話",
+        "reading":  "でんわ",
+        "meaning":  [
+                        "telephone call",
+                        "phone call"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_019",
+        "word":  "水",
+        "reading":  "みず",
+        "meaning":  "water (esp. cool or cold)",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_020",
+        "word":  "病気",
+        "reading":  "びょうき",
+        "meaning":  [
+                        "illness (usu. excluding minor ailments, e.g. common cold)",
+                        "disease",
+                        "sickness"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_021",
+        "word":  "会社",
+        "reading":  "かいしゃ",
+        "meaning":  [
+                        "company",
+                        "corporation",
+                        "firm"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_022",
+        "word":  "結婚",
+        "reading":  "けっこん",
+        "meaning":  "marriage",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_023",
+        "word":  "言葉",
+        "reading":  "ことば",
+        "meaning":  [
+                        "language",
+                        "dialect"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_024",
+        "word":  "目",
+        "reading":  "め",
+        "meaning":  [
+                        "eye",
+                        "eyeball"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_025",
+        "word":  "走る",
+        "reading":  "はしる",
+        "meaning":  "to run",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027ru\u0027 ending"
+    },
+    {
+        "id":  "vocab_026",
+        "word":  "名前",
+        "reading":  "なまえ",
+        "meaning":  "name",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_027",
+        "word":  "旅行",
+        "reading":  "りょこう",
+        "meaning":  [
+                        "travel",
+                        "trip",
+                        "journey",
+                        "excursion",
+                        "tour"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_028",
+        "word":  "道",
+        "reading":  "みち",
+        "meaning":  [
+                        "road",
+                        "path",
+                        "street",
+                        "lane",
+                        "passage"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_029",
+        "word":  "飛行機",
+        "reading":  "ひこうき",
+        "meaning":  [
+                        "airplane",
+                        "aeroplane",
+                        "plane",
+                        "aircraft"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_030",
+        "word":  "映画",
+        "reading":  "えいが",
+        "meaning":  [
+                        "movie",
+                        "film",
+                        "motion picture"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_031",
+        "word":  "音楽",
+        "reading":  "おんがく",
+        "meaning":  "music",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_032",
+        "word":  "木",
+        "reading":  "き",
+        "meaning":  [
+                        "tree",
+                        "shrub",
+                        "bush"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_033",
+        "word":  "大学",
+        "reading":  "だいがく",
+        "meaning":  [
+                        "university",
+                        "college"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_034",
+        "word":  "時計",
+        "reading":  "とけい",
+        "meaning":  [
+                        "clock",
+                        "watch",
+                        "timepiece"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_035",
+        "word":  "家族",
+        "reading":  "かぞく",
+        "meaning":  "family",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_036",
+        "word":  "花",
+        "reading":  "はな",
+        "meaning":  [
+                        "flower",
+                        "blossom",
+                        "bloom",
+                        "petal"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_037",
+        "word":  "猫",
+        "reading":  "ねこ",
+        "meaning":  [
+                        "cat (esp. the domestic cat, Felis catus)",
+                        "feline"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_038",
+        "word":  "毎日",
+        "reading":  "まいにち",
+        "meaning":  [
+                        "every day",
+                        "daily"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_039",
+        "word":  "宿題",
+        "reading":  "しゅくだい",
+        "meaning":  [
+                        "homework",
+                        "assignment"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_040",
+        "word":  "雪",
+        "reading":  "ゆき",
+        "meaning":  [
+                        "snow",
+                        "snowfall"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_041",
+        "word":  "山",
+        "reading":  "やま",
+        "meaning":  [
+                        "mountain",
+                        "hill"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_042",
+        "word":  "窓",
+        "reading":  "まど",
+        "meaning":  "window",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_043",
+        "word":  "動物",
+        "reading":  "どうぶつ",
+        "meaning":  "animal",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_044",
+        "word":  "夜",
+        "reading":  "よる",
+        "meaning":  [
+                        "night",
+                        "evening"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_045",
+        "word":  "料理",
+        "reading":  "りょうり",
+        "meaning":  [
+                        "cooking",
+                        "cookery",
+                        "cuisine",
+                        "food",
+                        "dish"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_046",
+        "word":  "夏",
+        "reading":  "なつ",
+        "meaning":  "summer",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_047",
+        "word":  "新聞",
+        "reading":  "しんぶん",
+        "meaning":  "newspaper",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_048",
+        "word":  "公園",
+        "reading":  "こうえん",
+        "meaning":  "(public) park",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_049",
+        "word":  "意味",
+        "reading":  "いみ",
+        "meaning":  [
+                        "meaning",
+                        "significance",
+                        "sense"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_050",
+        "word":  "自転車",
+        "reading":  "じてんしゃ",
+        "meaning":  [
+                        "bicycle",
+                        "bike"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_051",
+        "word":  "足",
+        "reading":  "あし",
+        "meaning":  [
+                        "foot",
+                        "paw",
+                        "arm (of an octopus, squid, etc.)"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_052",
+        "word":  "電車",
+        "reading":  "でんしゃ",
+        "meaning":  [
+                        "train",
+                        "electric train"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_053",
+        "word":  "散歩",
+        "reading":  "さんぽ",
+        "meaning":  [
+                        "walk",
+                        "stroll"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_054",
+        "word":  "声",
+        "reading":  "こえ",
+        "meaning":  "voice",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_055",
+        "word":  "朝",
+        "reading":  "あさ",
+        "meaning":  "morning",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_056",
+        "word":  "歌",
+        "reading":  "うた",
+        "meaning":  [
+                        "song",
+                        "singing"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_057",
+        "word":  "靴",
+        "reading":  "くつ",
+        "meaning":  [
+                        "shoe",
+                        "shoes",
+                        "boots",
+                        "footwear",
+                        "footgear"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_058",
+        "word":  "箱",
+        "reading":  "はこ",
+        "meaning":  [
+                        "box",
+                        "case",
+                        "chest",
+                        "package",
+                        "pack",
+                        "crate"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_059",
+        "word":  "机",
+        "reading":  "つくえ",
+        "meaning":  "desk",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_060",
+        "word":  "帽子",
+        "reading":  "ぼうし",
+        "meaning":  [
+                        "hat",
+                        "cap"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_061",
+        "word":  "海",
+        "reading":  "うみ",
+        "meaning":  [
+                        "sea",
+                        "ocean",
+                        "waters"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_062",
+        "word":  "授業",
+        "reading":  "じゅぎょう",
+        "meaning":  [
+                        "lesson",
+                        "class",
+                        "teaching",
+                        "instruction",
+                        "classwork",
+                        "schoolwork"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_063",
+        "word":  "銀行",
+        "reading":  "ぎんこう",
+        "meaning":  [
+                        "bank",
+                        "banking institution"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_064",
+        "word":  "写真",
+        "reading":  "しゃしん",
+        "meaning":  [
+                        "photograph",
+                        "photo",
+                        "picture",
+                        "photography"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_065",
+        "word":  "冬",
+        "reading":  "ふゆ",
+        "meaning":  "winter",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_066",
+        "word":  "村",
+        "reading":  "むら",
+        "meaning":  "village",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_067",
+        "word":  "傘",
+        "reading":  "かさ",
+        "meaning":  [
+                        "umbrella",
+                        "parasol"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_068",
+        "word":  "口",
+        "reading":  "くち",
+        "meaning":  "mouth",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_069",
+        "word":  "橋",
+        "reading":  "はし",
+        "meaning":  "bridge",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_070",
+        "word":  "病院",
+        "reading":  "びょういん",
+        "meaning":  [
+                        "hospital",
+                        "clinic",
+                        "doctor\u0027s office",
+                        "doctor\u0027s surgery",
+                        "infirmary"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_071",
+        "word":  "図書館",
+        "reading":  "としょかん",
+        "meaning":  "library",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_072",
+        "word":  "春",
+        "reading":  "はる",
+        "meaning":  [
+                        "spring",
+                        "springtime"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_073",
+        "word":  "買い物",
+        "reading":  "かいもの",
+        "meaning":  [
+                        "shopping",
+                        "purchased goods"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_074",
+        "word":  "椅子",
+        "reading":  "いす",
+        "meaning":  [
+                        "chair",
+                        "seat",
+                        "stool",
+                        "bench"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_075",
+        "word":  "自動車",
+        "reading":  "じどうしゃ",
+        "meaning":  [
+                        "car",
+                        "automobile",
+                        "motorcar",
+                        "motor vehicle",
+                        "auto"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_076",
+        "word":  "色",
+        "reading":  "いろ",
+        "meaning":  [
+                        "colour",
+                        "color",
+                        "hue",
+                        "tint",
+                        "tinge",
+                        "shade"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_077",
+        "word":  "卵",
+        "reading":  "たまご",
+        "meaning":  [
+                        "eggs",
+                        "egg",
+                        "spawn",
+                        "roe"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_078",
+        "word":  "肉",
+        "reading":  "にく",
+        "meaning":  "flesh",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_079",
+        "word":  "風邪",
+        "reading":  "かぜ",
+        "meaning":  [
+                        "(common) cold",
+                        "influenza",
+                        "flu",
+                        "ague",
+                        "inflammatory respiratory system illness (in general)"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_080",
+        "word":  "掃除",
+        "reading":  "そうじ",
+        "meaning":  [
+                        "cleaning",
+                        "sweeping",
+                        "dusting",
+                        "scrubbing"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_081",
+        "word":  "紙",
+        "reading":  "かみ",
+        "meaning":  "paper",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_082",
+        "word":  "鍵",
+        "reading":  "かぎ",
+        "meaning":  "key",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_083",
+        "word":  "雑誌",
+        "reading":  "ざっし",
+        "meaning":  [
+                        "magazine",
+                        "journal",
+                        "periodical"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_084",
+        "word":  "切符",
+        "reading":  "きっぷ",
+        "meaning":  "ticket",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_085",
+        "word":  "外国人",
+        "reading":  "がいこくじん",
+        "meaning":  [
+                        "foreigner",
+                        "foreign citizen",
+                        "foreign national",
+                        "alien",
+                        "non-Japanese"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_086",
+        "word":  "財布",
+        "reading":  "さいふ",
+        "meaning":  [
+                        "wallet",
+                        "purse",
+                        "coin purse",
+                        "billfold",
+                        "pocketbook"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_087",
+        "word":  "鉛筆",
+        "reading":  "えんぴつ",
+        "meaning":  "(wooden) pencil",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_088",
+        "word":  "大人",
+        "reading":  "おとな",
+        "meaning":  [
+                        "adult",
+                        "grown-up"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_089",
+        "word":  "塩",
+        "reading":  "しお",
+        "meaning":  [
+                        "salt",
+                        "common salt",
+                        "table salt",
+                        "sodium chloride"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_090",
+        "word":  "地図",
+        "reading":  "ちず",
+        "meaning":  [
+                        "map",
+                        "atlas",
+                        "chart",
+                        "plan"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_091",
+        "word":  "砂糖",
+        "reading":  "さとう",
+        "meaning":  "sugar",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_092",
+        "word":  "夏休み",
+        "reading":  "なつやすみ",
+        "meaning":  [
+                        "summer vacation",
+                        "summer holiday"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_093",
+        "word":  "郵便局",
+        "reading":  "ゆうびんきょく",
+        "meaning":  "post office",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_094",
+        "word":  "池",
+        "reading":  "いけ",
+        "meaning":  "pond",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_095",
+        "word":  "教室",
+        "reading":  "きょうしつ",
+        "meaning":  [
+                        "classroom",
+                        "lecture room"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_096",
+        "word":  "耳",
+        "reading":  "みみ",
+        "meaning":  "ear",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_097",
+        "word":  "切手",
+        "reading":  "きって",
+        "meaning":  "stamp (postage)",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_098",
+        "word":  "台所",
+        "reading":  "だいどころ",
+        "meaning":  "kitchen",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_099",
+        "word":  "電気",
+        "reading":  "でんき",
+        "meaning":  "electricity",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_100",
+        "word":  "歯",
+        "reading":  "は",
+        "meaning":  [
+                        "tooth",
+                        "teeth"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_101",
+        "word":  "歯",
+        "reading":  "は",
+        "meaning":  [
+                        "tooth",
+                        "teeth"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_102",
+        "word":  "紅茶",
+        "reading":  "こうちゃ",
+        "meaning":  "black tea",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_103",
+        "word":  "家庭",
+        "reading":  "かてい",
+        "meaning":  [
+                        "home",
+                        "household",
+                        "family",
+                        "hearth"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_104",
+        "word":  "野菜",
+        "reading":  "やさい",
+        "meaning":  "vegetable",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_105",
+        "word":  "風呂",
+        "reading":  "ふろ",
+        "meaning":  [
+                        "bath",
+                        "bathing",
+                        "bathtub",
+                        "bathroom"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_106",
+        "word":  "玄関",
+        "reading":  "げんかん",
+        "meaning":  [
+                        "entrance",
+                        "front door",
+                        "entryway",
+                        "entranceway",
+                        "entry hall",
+                        "vestibule",
+                        "porch",
+                        "foyer",
+                        "mud room"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_107",
+        "word":  "地下鉄",
+        "reading":  "ちかてつ",
+        "meaning":  [
+                        "subway",
+                        "metro",
+                        "underground (railway)"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_108",
+        "word":  "鼻",
+        "reading":  "はな",
+        "meaning":  "nose",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_109",
+        "word":  "緑",
+        "reading":  "みどり",
+        "meaning":  "green",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_110",
+        "word":  "昼",
+        "reading":  "ひる",
+        "meaning":  [
+                        "noon",
+                        "midday"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_111",
+        "word":  "西",
+        "reading":  "にし",
+        "meaning":  "west",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_112",
+        "word":  "白",
+        "reading":  "しろ",
+        "meaning":  "white",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_113",
+        "word":  "洗濯",
+        "reading":  "せんたく",
+        "meaning":  [
+                        "washing",
+                        "laundry"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_114",
+        "word":  "冷蔵庫",
+        "reading":  "れいぞうこ",
+        "meaning":  [
+                        "refrigerator",
+                        "fridge"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_115",
+        "word":  "南",
+        "reading":  "みなみ",
+        "meaning":  "south",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_116",
+        "word":  "火曜日",
+        "reading":  "かようび",
+        "meaning":  "Tuesday",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_117",
+        "word":  "北",
+        "reading":  "きた",
+        "meaning":  "north",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_118",
+        "word":  "茶色",
+        "reading":  "ちゃいろ",
+        "meaning":  [
+                        "brown",
+                        "light brown",
+                        "tawny"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_119",
+        "word":  "喫茶店",
+        "reading":  "きっさてん",
+        "meaning":  [
+                        "coffee shop",
+                        "tearoom",
+                        "coffee lounge",
+                        "coffeehouse",
+                        "cafe"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_120",
+        "word":  "黒",
+        "reading":  "くろ",
+        "meaning":  "black",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_121",
+        "word":  "青",
+        "reading":  "あお",
+        "meaning":  [
+                        "blue",
+                        "azure"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_122",
+        "word":  "靴下",
+        "reading":  "くつした",
+        "meaning":  [
+                        "socks",
+                        "sock",
+                        "stockings",
+                        "stocking"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_123",
+        "word":  "封筒",
+        "reading":  "ふうとう",
+        "meaning":  "envelope",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_124",
+        "word":  "辺",
+        "reading":  "へん",
+        "meaning":  [
+                        "area",
+                        "vicinity",
+                        "region"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_125",
+        "word":  "黄色",
+        "reading":  "きいろ",
+        "meaning":  [
+                        "yellow",
+                        "amber"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_126",
+        "word":  "映画館",
+        "reading":  "えいがかん",
+        "meaning":  [
+                        "movie theatre",
+                        "movie theater",
+                        "cinema"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_127",
+        "word":  "箸",
+        "reading":  "はし",
+        "meaning":  "chopsticks",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_128",
+        "word":  "食堂",
+        "reading":  "しょくどう",
+        "meaning":  [
+                        "dining room",
+                        "dining hall",
+                        "cafeteria",
+                        "canteen",
+                        "messroom"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_129",
+        "word":  "牛肉",
+        "reading":  "ぎゅうにく",
+        "meaning":  "beef",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_130",
+        "word":  "交差点",
+        "reading":  "こうさてん",
+        "meaning":  [
+                        "crossing",
+                        "intersection"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_131",
+        "word":  "曇り",
+        "reading":  "くもり",
+        "meaning":  [
+                        "cloudiness",
+                        "cloudy weather"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_132",
+        "word":  "漢字",
+        "reading":  "かんじ",
+        "meaning":  [
+                        "kanji",
+                        "Chinese character"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_133",
+        "word":  "茶碗",
+        "reading":  "ちゃわん",
+        "meaning":  [
+                        "rice bowl",
+                        "tea cup",
+                        "teacup"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_134",
+        "word":  "背広",
+        "reading":  "せびろ",
+        "meaning":  "business suit",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_135",
+        "word":  "万年筆",
+        "reading":  "まんねんひつ",
+        "meaning":  "fountain pen",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_136",
+        "word":  "灰皿",
+        "reading":  "はいざら",
+        "meaning":  "ashtray",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_137",
+        "word":  "大使館",
+        "reading":  "たいしかん",
+        "meaning":  "embassy",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_138",
+        "word":  "豚肉",
+        "reading":  "ぶたにく",
+        "meaning":  "pork",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_139",
+        "word":  "交番",
+        "reading":  "こうばん",
+        "meaning":  [
+                        "police box",
+                        "koban",
+                        "small neighborhood police station"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_140",
+        "word":  "飲む",
+        "reading":  "のむ",
+        "meaning":  [
+                        "to drink",
+                        "to swallow",
+                        "to take (medicine)"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027mu\u0027 ending"
+    },
+    {
+        "id":  "vocab_141",
+        "word":  "上げる",
+        "reading":  "あげる",
+        "meaning":  [
+                        "to raise",
+                        "to elevate"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Ichidan verb"
+    },
+    {
+        "id":  "vocab_142",
+        "word":  "頭",
+        "reading":  "あたま",
+        "meaning":  "head",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_143",
+        "word":  "日曜日",
+        "reading":  "にちようび",
+        "meaning":  "Sunday",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_144",
+        "word":  "誕生日",
+        "reading":  "たんじょうび",
+        "meaning":  "birthday",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_145",
+        "word":  "可愛い",
+        "reading":  "かわいい",
+        "meaning":  [
+                        "cute",
+                        "adorable",
+                        "charming",
+                        "lovely",
+                        "pretty"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "I-adjective (keiyoushi)"
+    },
+    {
+        "id":  "vocab_146",
+        "word":  "鞄",
+        "reading":  "かばん",
+        "meaning":  [
+                        "bag",
+                        "satchel",
+                        "briefcase",
+                        "basket"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_147",
+        "word":  "土曜日",
+        "reading":  "どようび",
+        "meaning":  "Saturday",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_148",
+        "word":  "月曜日",
+        "reading":  "げつようび",
+        "meaning":  "Monday",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_149",
+        "word":  "金曜日",
+        "reading":  "きんようび",
+        "meaning":  "Friday",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_150",
+        "word":  "花瓶",
+        "reading":  "かびん",
+        "meaning":  "(flower) vase",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_151",
+        "word":  "木曜日",
+        "reading":  "もくようび",
+        "meaning":  "Thursday",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_152",
+        "word":  "本棚",
+        "reading":  "ほんだな",
+        "meaning":  [
+                        "bookshelves",
+                        "bookshelf",
+                        "bookcase"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_153",
+        "word":  "石鹸",
+        "reading":  "せっけん",
+        "meaning":  "soap",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_154",
+        "word":  "水曜日",
+        "reading":  "すいようび",
+        "meaning":  "Wednesday",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_155",
+        "word":  "飴",
+        "reading":  "あめ",
+        "meaning":  [
+                        "(hard) candy",
+                        "toffee"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_156",
+        "word":  "八百屋",
+        "reading":  "やおや",
+        "meaning":  [
+                        "greengrocer",
+                        "fruit and vegetable shop"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_157",
+        "word":  "成る",
+        "reading":  "なる",
+        "meaning":  [
+                        "to become",
+                        "to get",
+                        "to grow",
+                        "to turn",
+                        "to reach",
+                        "to attain"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027ru\u0027 ending"
+    },
+    {
+        "id":  "vocab_158",
+        "word":  "より",
+        "reading":  "より",
+        "meaning":  "than",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Particle"
+    },
+    {
+        "id":  "vocab_159",
+        "word":  "一番",
+        "reading":  "いちばん",
+        "meaning":  [
+                        "number one",
+                        "first",
+                        "first place"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_160",
+        "word":  "私",
+        "reading":  "わたし",
+        "meaning":  [
+                        "I",
+                        "me"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Pronoun"
+    },
+    {
+        "id":  "vocab_161",
+        "word":  "外",
+        "reading":  "そと",
+        "meaning":  [
+                        "outside",
+                        "exterior"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_162",
+        "word":  "姉",
+        "reading":  "あね",
+        "meaning":  [
+                        "older sister",
+                        "elder sister"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_163",
+        "word":  "百",
+        "reading":  "ひゃく",
+        "meaning":  [
+                        "hundred",
+                        "100"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Numeric"
+    },
+    {
+        "id":  "vocab_164",
+        "word":  "有る",
+        "reading":  "ある",
+        "meaning":  [
+                        "to be",
+                        "to exist",
+                        "to live"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027ru\u0027 ending (irregular verb)"
+    },
+    {
+        "id":  "vocab_165",
+        "word":  "其の",
+        "reading":  "その",
+        "meaning":  [
+                        "that",
+                        "the"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Pre-noun adjectival (rentaishi)"
+    },
+    {
+        "id":  "vocab_166",
+        "word":  "言う",
+        "reading":  "いう",
+        "meaning":  [
+                        "to say",
+                        "to utter",
+                        "to declare"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027u\u0027 ending"
+    },
+    {
+        "id":  "vocab_167",
+        "word":  "出来る",
+        "reading":  "できる",
+        "meaning":  [
+                        "to be able to do",
+                        "to be possible",
+                        "to be permitted (to do)"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Ichidan verb"
+    },
+    {
+        "id":  "vocab_168",
+        "word":  "良い",
+        "reading":  "よい",
+        "meaning":  [
+                        "good",
+                        "excellent",
+                        "fine",
+                        "nice",
+                        "pleasant",
+                        "agreeable"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "I-adjective (keiyoushi)"
+    },
+    {
+        "id":  "vocab_169",
+        "word":  "下さい",
+        "reading":  "ください",
+        "meaning":  "please (give me)",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Expressions (phrases, clauses, etc.)"
+    },
+    {
+        "id":  "vocab_170",
+        "word":  "見る",
+        "reading":  "みる",
+        "meaning":  [
+                        "to see",
+                        "to look",
+                        "to watch",
+                        "to view",
+                        "to observe"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Ichidan verb"
+    },
+    {
+        "id":  "vocab_171",
+        "word":  "此の",
+        "reading":  "この",
+        "meaning":  "this",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Pre-noun adjectival (rentaishi)"
+    },
+    {
+        "id":  "vocab_172",
+        "word":  "自分",
+        "reading":  "じぶん",
+        "meaning":  [
+                        "myself",
+                        "yourself",
+                        "oneself",
+                        "himself",
+                        "herself"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Pronoun"
+    },
+    {
+        "id":  "vocab_173",
+        "word":  "知る",
+        "reading":  "しる",
+        "meaning":  [
+                        "to know",
+                        "to be aware (of)",
+                        "to be conscious (of)",
+                        "to learn (of)",
+                        "to find out",
+                        "to discover"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027ru\u0027 ending"
+    },
+    {
+        "id":  "vocab_174",
+        "word":  "持つ",
+        "reading":  "もつ",
+        "meaning":  [
+                        "to hold (in one\u0027s hand)",
+                        "to take",
+                        "to carry"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027tsu\u0027 ending"
+    },
+    {
+        "id":  "vocab_175",
+        "word":  "何",
+        "reading":  "なに",
+        "meaning":  "what",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Pronoun"
+    },
+    {
+        "id":  "vocab_176",
+        "word":  "車",
+        "reading":  "くるま",
+        "meaning":  [
+                        "car",
+                        "automobile",
+                        "vehicle"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_177",
+        "word":  "話す",
+        "reading":  "はなす",
+        "meaning":  [
+                        "to talk",
+                        "to speak",
+                        "to converse",
+                        "to chat"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027su\u0027 ending"
+    },
+    {
+        "id":  "vocab_178",
+        "word":  "今",
+        "reading":  "いま",
+        "meaning":  [
+                        "now",
+                        "the present time",
+                        "just now",
+                        "soon",
+                        "immediately"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_179",
+        "word":  "今日",
+        "reading":  "きょう",
+        "meaning":  [
+                        "today",
+                        "this day"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_180",
+        "word":  "買う",
+        "reading":  "かう",
+        "meaning":  [
+                        "to buy",
+                        "to purchase"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027u\u0027 ending"
+    },
+    {
+        "id":  "vocab_181",
+        "word":  "読む",
+        "reading":  "よむ",
+        "meaning":  "to read",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027mu\u0027 ending"
+    },
+    {
+        "id":  "vocab_182",
+        "word":  "皆",
+        "reading":  "みな",
+        "meaning":  [
+                        "everyone",
+                        "everybody",
+                        "all"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_183",
+        "word":  "新しい",
+        "reading":  "あたらしい",
+        "meaning":  [
+                        "new",
+                        "novel",
+                        "fresh",
+                        "recent",
+                        "latest",
+                        "up-to-date",
+                        "modern"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "I-adjective (keiyoushi)"
+    },
+    {
+        "id":  "vocab_184",
+        "word":  "話",
+        "reading":  "はなし",
+        "meaning":  [
+                        "talk",
+                        "speech",
+                        "chat",
+                        "conversation"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_185",
+        "word":  "明日",
+        "reading":  "あした",
+        "meaning":  "tomorrow",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_186",
+        "word":  "昨日",
+        "reading":  "きのう",
+        "meaning":  "yesterday",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_187",
+        "word":  "出る",
+        "reading":  "でる",
+        "meaning":  [
+                        "to leave",
+                        "to exit",
+                        "to go out",
+                        "to come out",
+                        "to get out"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Ichidan verb"
+    },
+    {
+        "id":  "vocab_188",
+        "word":  "勉強",
+        "reading":  "べんきょう",
+        "meaning":  "study",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_189",
+        "word":  "取る",
+        "reading":  "とる",
+        "meaning":  [
+                        "to take",
+                        "to pick up",
+                        "to grab",
+                        "to catch",
+                        "to hold"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027ru\u0027 ending"
+    },
+    {
+        "id":  "vocab_190",
+        "word":  "誰",
+        "reading":  "だれ",
+        "meaning":  "who",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Pronoun"
+    },
+    {
+        "id":  "vocab_191",
+        "word":  "お金",
+        "reading":  "おかね",
+        "meaning":  "money",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_192",
+        "word":  "男",
+        "reading":  "おとこ",
+        "meaning":  [
+                        "man",
+                        "male"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_193",
+        "word":  "犬",
+        "reading":  "いぬ",
+        "meaning":  [
+                        "dog (Canis (lupus) familiaris)",
+                        "canine"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_194",
+        "word":  "使う",
+        "reading":  "つかう",
+        "meaning":  [
+                        "to use (a tool, method, etc.)",
+                        "to make use of",
+                        "to put to use"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027u\u0027 ending"
+    },
+    {
+        "id":  "vocab_195",
+        "word":  "大変",
+        "reading":  "たいへん",
+        "meaning":  [
+                        "very",
+                        "greatly",
+                        "terribly",
+                        "awfully"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Adverb (fukushi)"
+    },
+    {
+        "id":  "vocab_196",
+        "word":  "待つ",
+        "reading":  "まつ",
+        "meaning":  "to wait",
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027tsu\u0027 ending"
+    },
+    {
+        "id":  "vocab_197",
+        "word":  "作る",
+        "reading":  "つくる",
+        "meaning":  [
+                        "to make",
+                        "to produce",
+                        "to manufacture",
+                        "to build",
+                        "to construct"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Godan verb with \u0027ru\u0027 ending"
+    },
+    {
+        "id":  "vocab_198",
+        "word":  "後ろ",
+        "reading":  "うしろ",
+        "meaning":  [
+                        "back",
+                        "behind",
+                        "rear"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_199",
+        "word":  "町",
+        "reading":  "まち",
+        "meaning":  [
+                        "town",
+                        "block",
+                        "neighbourhood",
+                        "neighborhood"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    },
+    {
+        "id":  "vocab_200",
+        "word":  "駅",
+        "reading":  "えき",
+        "meaning":  [
+                        "railway station",
+                        "train station"
+                    ],
+        "jlptLevel":  "N5",
+        "partOfSpeech":  "Noun"
+    }
+]

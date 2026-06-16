@@ -1,0 +1,162 @@
+[
+  {
+    "id": "grammar_001",
+    "pattern": "〜は〜です",
+    "meaning": "Topic marker — X is Y",
+    "example": "わたしは学生です",
+    "exampleTranslation": "I am a student.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_002",
+    "pattern": "〜が〜",
+    "meaning": "Subject marker — marks the grammatical subject",
+    "example": "ねこがいます",
+    "exampleTranslation": "There is a cat.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_003",
+    "pattern": "〜を〜",
+    "meaning": "Object marker — marks the direct object of a verb",
+    "example": "りんごをたべます",
+    "exampleTranslation": "I eat an apple.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_004",
+    "pattern": "〜に〜",
+    "meaning": "Direction/time marker — indicates destination or time",
+    "example": "がっこうにいきます",
+    "exampleTranslation": "I go to school.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_005",
+    "pattern": "〜で〜",
+    "meaning": "Location/means marker — where action happens or by what means",
+    "example": "バスでいきます",
+    "exampleTranslation": "I go by bus.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_006",
+    "pattern": "〜の〜",
+    "meaning": "Possessive marker — X's Y",
+    "example": "わたしのほん",
+    "exampleTranslation": "My book.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_007",
+    "pattern": "〜と〜",
+    "meaning": "And/with — connects nouns or indicates accompaniment",
+    "example": "ともだちとえいがをみます",
+    "exampleTranslation": "I watch a movie with a friend.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_008",
+    "pattern": "〜も〜",
+    "meaning": "Also/too — X also, X too",
+    "example": "わたしもがくせいです",
+    "exampleTranslation": "I am also a student.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_009",
+    "pattern": "〜ね",
+    "meaning": "Seeking agreement — isn't it?, right?",
+    "example": "いいてんきですね",
+    "exampleTranslation": "Nice weather, isn't it?",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_010",
+    "pattern": "〜よ",
+    "meaning": "Assertion — I'm telling you, you know",
+    "example": "これはおいしいよ",
+    "exampleTranslation": "This is delicious, I'm telling you.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_011",
+    "pattern": "〜ます／〜ません",
+    "meaning": "Polite verb ending — affirmative/negative",
+    "example": "まいにちべんきょうします／しません",
+    "exampleTranslation": "I study every day / I don't study every day.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_012",
+    "pattern": "〜です／〜ではありません",
+    "meaning": "Copula — X is Y / X is not Y (polite)",
+    "example": "にほんごがすきです／すきではありません",
+    "exampleTranslation": "I like Japanese / I don't like Japanese.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_013",
+    "pattern": "〜て〜",
+    "meaning": "Te-form — connects sequential actions",
+    "example": "おきてはをみがいてがっこうにいきます",
+    "exampleTranslation": "I wake up, brush my teeth, and go to school.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_014",
+    "pattern": "〜ない",
+    "meaning": "Negative plain form — do not / does not",
+    "example": "きょうはたべない",
+    "exampleTranslation": "I won't eat today.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_015",
+    "pattern": "〜たい",
+    "meaning": "Want to do — expresses desire",
+    "example": "にほんにいきたい",
+    "exampleTranslation": "I want to go to Japan.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_016",
+    "pattern": "〜てください",
+    "meaning": "Please do — polite request",
+    "example": "みてください",
+    "exampleTranslation": "Please look.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_017",
+    "pattern": "〜から",
+    "meaning": "Because/from — reason or starting point",
+    "example": "あめがふるからいえにいます",
+    "exampleTranslation": "I'm home because it's raining.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_018",
+    "pattern": "〜まで",
+    "meaning": "Until/to — endpoint in time or place",
+    "example": "えきまであるきます",
+    "exampleTranslation": "I walk to the station.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_019",
+    "pattern": "〜より",
+    "meaning": "Than/from — comparison or starting point",
+    "example": "いぬよりねこがすきです",
+    "exampleTranslation": "I like cats more than dogs.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_020",
+    "pattern": "〜ほうがいい",
+    "meaning": "It's better to — gives advice or recommendation",
+    "example": "はやくねたほうがいい",
+    "exampleTranslation": "You should sleep early.",
+    "jlptLevel": "N5"
+  }
+]
