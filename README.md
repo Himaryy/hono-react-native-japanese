@@ -1,6 +1,8 @@
 # JLPT Learning App
 
-Japanese study app for Mina, Rio, and Kenji — targeting JLPT N5→N3.
+> Personal project — built for a small friend group (Mina, Rio, Kenji) who are learning Japanese together.
+
+A mobile app to study for JLPT N5→N3. Not a commercial product — just a fun tool to keep three friends accountable, track progress, and compete on streaks.
 
 ## Stack
 
