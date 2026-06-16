@@ -36,6 +36,7 @@ const routes = app
   .route("/api/friends", friendsRoute)
   .route("/api/lessons", lessonsRoute);
 
+// Sharing Type using RPC
 export type AppType = typeof routes;
 
 app.get("/", (c) => c.json({ message: "JLPT Backend running!" }));

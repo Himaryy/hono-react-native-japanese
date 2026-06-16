@@ -58,25 +58,28 @@ Auth uses Better Auth with HttpOnly cookies. All API calls must include `credent
 - **Vercel Edge Functions** — deployment
 
 ### Frontend Stack
-- **React Native + Expo** — UI
-- **React Navigation** — bottom tabs (Dashboard, Learn, Review, Profile, Friends) + auth stack
+- **React Native + Expo SDK 54** — UI. Always read https://docs.expo.dev/versions/v54.0.0/ before writing Expo code.
+- **expo-router v6** — file-based routing (replaces manual React Navigation setup)
 - **TanStack Query** — all API calls and caching (never fetch directly in components)
 - **Zustand** — global state (user profile, session)
-- **NativeWind** — Tailwind-style styling for React Native
+- **NativeWind v4 + Tailwind CSS v3** — styling. Use hex colors only (React Native does not support OKLCH)
 - **Better Auth client** — `createAuthClient()` from `better-auth/react`
 
-### Navigation Structure
+### Navigation Structure (expo-router file-based)
 ```
-App
-├── AuthStack (unauthenticated)
-│   ├── SignUp
-│   └── Login
-└── MainTabs (authenticated)
-    ├── Dashboard
-    ├── Lesson
-    ├── Review
-    ├── Profile
-    └── Friends
+app/
+├── _layout.tsx           — root: QueryClientProvider + ThemeProvider
+├── (auth)/
+│   ├── _layout.tsx
+│   ├── login.tsx
+│   └── sign-up.tsx
+└── (tabs)/
+    ├── _layout.tsx       — 5-tab bar
+    ├── index.tsx         — Dashboard
+    ├── lesson.tsx        — Learn
+    ├── review.tsx        — Review
+    ├── profile.tsx       — Profile
+    └── friends.tsx       — Friends
 ```
 
 ### Static Content
@@ -157,10 +160,10 @@ EXPO_PUBLIC_API_URL=https://your-backend.vercel.app
 - ✅ `Backend/` — all routes complete (auth, profile, progress, lessons, friends)
 - ✅ Neon DB — 9 tables live
 - ✅ Static content JSON — all N5 content created (kanji, vocab, grammar, hiragana, katakana, lessons)
-- 🔴 `Frontend/` — not yet started
+- 🟡 `Frontend/` — scaffolded (expo-router + NativeWind + TanStack Query wired, stub screens only)
 - 🔴 Vercel — not yet deployed
 
-**Build order:** Backend → Neon DB → Deploy Vercel → Frontend → Connect
+**Build order:** Backend → Neon DB → Frontend → Deploy Vercel → Connect
 
 ## Active Skills & Tools
 
