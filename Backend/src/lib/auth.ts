@@ -10,7 +10,14 @@ export const auth = betterAuth({
     schema: schemas,
     usePlural: true,
   }),
-  trustedOrigins: ["http://localhost:8081"],
+  trustedOrigins: [
+    "http://localhost:8081",
+    "http://10.10.1.35:8081",
+    "http://192.168.101.8:8081",
+  ],
+  advanced: {
+    disableCSRFCheck: true,
+  },
   secret: process.env.BETTER_AUTH_SECRET!,
   baseURL: process.env.BETTER_AUTH_URL!,
   basePath: "/api/auth",

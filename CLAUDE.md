@@ -85,11 +85,11 @@ app/
 ### Static Content
 N5 curriculum bundled as JSON in `Frontend/static-content/`:
 - `kanji/n5-kanji.json` — 100 kanji
-- `vocab/n5-vocab.json` — 400 words
-- `grammar/n5-grammar.json` — 20 grammar patterns
-- `hiragana/n5-hiragana.json`, `katakana/n5-katakana.json` — 46 chars each
-- `lessons/n5-lessons.json` — 100-day lesson plan
-- `audio/*.mp3` — pronunciations
+- `vocab/n5-vocab.json` — 547 words
+- `grammar/n5-grammar.json` — 25 grammar patterns
+- `hiragana/n5-hiragana.json`, `katakana/n5-katakana.json` — 71 chars each (base + dakuten)
+- `lessons/n5-lessons.json` — 165-day lesson plan
+- `audio/*.mp3` — pronunciations (not yet created)
 
 ## API Endpoints (to be built)
 
@@ -159,8 +159,9 @@ EXPO_PUBLIC_API_URL=https://your-backend.vercel.app
 
 - ✅ `Backend/` — all routes complete (auth, profile, progress, lessons, friends)
 - ✅ Neon DB — 9 tables live
-- ✅ Static content JSON — all N5 content created (kanji, vocab, grammar, hiragana, katakana, lessons)
-- 🟡 `Frontend/` — scaffolded (expo-router + NativeWind + TanStack Query wired, stub screens only)
+- ✅ Static content JSON — kanji(100), vocab(547), grammar(25), kana(71+71), lessons(165)
+- 🟡 `Frontend/` — auth, dashboard, lesson, review, profile, friends all built and wired
+- 🔴 Audio files — not yet created
 - 🔴 Vercel — not yet deployed
 
 **Build order:** Backend → Neon DB → Frontend → Deploy Vercel → Connect

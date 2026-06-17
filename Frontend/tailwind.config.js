@@ -29,6 +29,19 @@ module.exports = {
           dark: '#F5F2EF',
         },
         muted: '#87817B',
+        // RN Reusables tokens
+        popover: {
+          DEFAULT: '#F8F6F5',
+          dark: '#262120',
+          foreground: '#221D17',
+        },
+        border: '#E8E3DE',
+        destructive: {
+          DEFAULT: '#DC2626',
+          foreground: '#FFFFFF',
+        },
+        foreground: '#221D17',
+        'muted-foreground': '#87817B',
       },
     },
   },

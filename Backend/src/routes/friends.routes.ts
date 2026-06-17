@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import { Variables } from "../lib/type-variables";
 import { authMiddleware } from "../middleware/auth.middleware";
 import { db } from "../db/client";
-import { friendCodes, friendships, userProfiles } from "../db";
+import { friendCodes, friendships, userProfiles, users } from "../db";
 import { and, eq, or } from "drizzle-orm";
 import { zValidator } from "@hono/zod-validator";
 import { addFriendSchema } from "../schemas/friends.schema";
@@ -41,45 +41,41 @@ friendsRoute.get("/code", async (c) => {
   }
 });
 
-friendsRoute.post(
-  "/add-friend",
-  zValidator("json", addFriendSchema),
-  async (c) => {
-    try {
-      const userId = c.get("userId");
-      const { code } = c.req.valid("json");
+friendsRoute.post("/add", zValidator("json", addFriendSchema), async (c) => {
+  try {
+    const userId = c.get("userId");
+    const { code } = c.req.valid("json");
 
-      const target = await db
-        .select()
-        .from(friendCodes)
-        .where(eq(friendCodes.code, code))
-        .limit(1);
+    const target = await db
+      .select()
+      .from(friendCodes)
+      .where(eq(friendCodes.code, code))
+      .limit(1);
 
-      if (target.length === 0) {
-        return c.json({ error: "Invalid code" }, 404);
-      }
-
-      if (target[0].userId === userId) {
-        return c.json({ error: "Cannot add yourself" }, 400);
-      }
-
-      const [userId1, userId2] = [userId, target[0].userId].sort();
-
-      await db.insert(friendships).values({
-        userId1,
-        userId2,
-      });
-
-      return c.json({ success: true }, 201);
-    } catch {
-      return c.json({
-        error: "Failed to add friend",
-      });
+    if (target.length === 0) {
+      return c.json({ error: "Invalid code" }, 404);
     }
-  },
-);
 
-friendsRoute.get("/list-friends", async (c) => {
+    if (target[0].userId === userId) {
+      return c.json({ error: "Cannot add yourself" }, 400);
+    }
+
+    const [userId1, userId2] = [userId, target[0].userId].sort();
+
+    await db.insert(friendships).values({
+      userId1,
+      userId2,
+    });
+
+    return c.json({ success: true }, 201);
+  } catch {
+    return c.json({
+      error: "Failed to add friend",
+    });
+  }
+});
+
+friendsRoute.get("/list", async (c) => {
   try {
     const userId = c.get("userId");
     const rows = await db
@@ -115,12 +111,20 @@ friendsRoute.get("/leaderboard", async (c) => {
 
     const allIds = [userId, ...friendIds];
 
-    const profiles = await db
-      .select()
+    const leaderboard = await db
+      .select({
+        userId: userProfiles.userId,
+        name: users.name,
+        jlptLevel: userProfiles.jlptLevel,
+        currentStreak: userProfiles.currentStreak,
+        currentDay: userProfiles.currentDay,
+        lastStudiedAt: userProfiles.lastStudiedAt,
+      })
       .from(userProfiles)
+      .innerJoin(users, eq(userProfiles.userId, users.id))
       .where(or(...allIds.map((id) => eq(userProfiles.userId, id))));
 
-    const sorted = profiles.sort(
+    const sorted = leaderboard.sort(
       (a, b) => (b.currentStreak ?? 0) - (a.currentStreak ?? 0),
     );
 

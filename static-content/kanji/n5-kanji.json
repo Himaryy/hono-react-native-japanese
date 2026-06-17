@@ -1,75 +1,2942 @@
 [
-  { "id": "kanji_001", "character": "日", "onyomi": ["ニチ", "ジツ"], "kunyomi": ["ひ", "-か"], "meaning": ["day", "sun", "Japan"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "日本", "reading": "にほん", "meaning": "Japan" }, { "word": "毎日", "reading": "まいにち", "meaning": "every day" }] },
-  { "id": "kanji_002", "character": "月", "onyomi": ["ゲツ", "ガツ"], "kunyomi": ["つき"], "meaning": ["month", "moon"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "月曜日", "reading": "げつようび", "meaning": "Monday" }, { "word": "今月", "reading": "こんげつ", "meaning": "this month" }] },
-  { "id": "kanji_003", "character": "火", "onyomi": ["カ"], "kunyomi": ["ひ", "-び"], "meaning": ["fire"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "火曜日", "reading": "かようび", "meaning": "Tuesday" }, { "word": "火事", "reading": "かじ", "meaning": "fire (incident)" }] },
-  { "id": "kanji_004", "character": "水", "onyomi": ["スイ"], "kunyomi": ["みず", "-みず"], "meaning": ["water"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "水曜日", "reading": "すいようび", "meaning": "Wednesday" }, { "word": "水", "reading": "みず", "meaning": "water" }] },
-  { "id": "kanji_005", "character": "木", "onyomi": ["ボク", "モク"], "kunyomi": ["き", "-き"], "meaning": ["tree", "wood"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "木曜日", "reading": "もくようび", "meaning": "Thursday" }, { "word": "木", "reading": "き", "meaning": "tree" }] },
-  { "id": "kanji_006", "character": "金", "onyomi": ["キン", "コン", "ゴン"], "kunyomi": ["かね", "-がね"], "meaning": ["gold", "money"], "strokeCount": 8, "jlptLevel": "N5", "examples": [{ "word": "金曜日", "reading": "きんようび", "meaning": "Friday" }, { "word": "お金", "reading": "おかね", "meaning": "money" }] },
-  { "id": "kanji_007", "character": "土", "onyomi": ["ド", "ト"], "kunyomi": ["つち"], "meaning": ["earth", "soil"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "土曜日", "reading": "どようび", "meaning": "Saturday" }, { "word": "土", "reading": "つち", "meaning": "earth/soil" }] },
-  { "id": "kanji_008", "character": "山", "onyomi": ["サン", "セン"], "kunyomi": ["やま"], "meaning": ["mountain"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "山", "reading": "やま", "meaning": "mountain" }, { "word": "富士山", "reading": "ふじさん", "meaning": "Mt. Fuji" }] },
-  { "id": "kanji_009", "character": "川", "onyomi": ["セン"], "kunyomi": ["かわ"], "meaning": ["river"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "川", "reading": "かわ", "meaning": "river" }, { "word": "川口", "reading": "かわぐち", "meaning": "Kawaguchi" }] },
-  { "id": "kanji_010", "character": "田", "onyomi": ["デン"], "kunyomi": ["た"], "meaning": ["rice field", "rice paddy"], "strokeCount": 5, "jlptLevel": "N5", "examples": [{ "word": "田んぼ", "reading": "たんぼ", "meaning": "rice field" }, { "word": "田中", "reading": "たなか", "meaning": "Tanaka (name)" }] },
-  { "id": "kanji_011", "character": "人", "onyomi": ["ジン", "ニン"], "kunyomi": ["ひと", "-り", "-と"], "meaning": ["person"], "strokeCount": 2, "jlptLevel": "N5", "examples": [{ "word": "人", "reading": "ひと", "meaning": "person" }, { "word": "日本人", "reading": "にほんじん", "meaning": "Japanese person" }] },
-  { "id": "kanji_012", "character": "口", "onyomi": ["コウ", "ク"], "kunyomi": ["くち", "-ぐち"], "meaning": ["mouth"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "口", "reading": "くち", "meaning": "mouth" }, { "word": "入口", "reading": "いりぐち", "meaning": "entrance" }] },
-  { "id": "kanji_013", "character": "目", "onyomi": ["モク", "ボク"], "kunyomi": ["-め", "ま-"], "meaning": ["eye"], "strokeCount": 5, "jlptLevel": "N5", "examples": [{ "word": "目", "reading": "め", "meaning": "eye" }, { "word": "目的", "reading": "もくてき", "meaning": "purpose" }] },
-  { "id": "kanji_014", "character": "耳", "onyomi": ["ジ"], "kunyomi": ["みみ"], "meaning": ["ear"], "strokeCount": 6, "jlptLevel": "N5", "examples": [{ "word": "耳", "reading": "みみ", "meaning": "ear" }, { "word": "耳鼻科", "reading": "じびか", "meaning": "ENT clinic" }] },
-  { "id": "kanji_015", "character": "手", "onyomi": ["シュ", "ズ"], "kunyomi": ["-て", "て-"], "meaning": ["hand"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "手", "reading": "て", "meaning": "hand" }, { "word": "手紙", "reading": "てがみ", "meaning": "letter" }] },
-  { "id": "kanji_016", "character": "足", "onyomi": ["ソク"], "kunyomi": ["あし", "-たり", "-た"], "meaning": ["foot", "leg", "sufficient"], "strokeCount": 7, "jlptLevel": "N5", "examples": [{ "word": "足", "reading": "あし", "meaning": "foot/leg" }, { "word": "足りる", "reading": "たりる", "meaning": "to be enough" }] },
-  { "id": "kanji_017", "character": "車", "onyomi": ["シャ"], "kunyomi": ["くるま"], "meaning": ["car", "vehicle"], "strokeCount": 7, "jlptLevel": "N5", "examples": [{ "word": "車", "reading": "くるま", "meaning": "car" }, { "word": "電車", "reading": "でんしゃ", "meaning": "train" }] },
-  { "id": "kanji_018", "character": "花", "onyomi": ["カ", "ケ"], "kunyomi": ["はな"], "meaning": ["flower"], "strokeCount": 7, "jlptLevel": "N5", "examples": [{ "word": "花", "reading": "はな", "meaning": "flower" }, { "word": "花見", "reading": "はなみ", "meaning": "flower viewing" }] },
-  { "id": "kanji_019", "character": "草", "onyomi": ["ソウ"], "kunyomi": ["-くさ", "くさ-"], "meaning": ["grass", "weeds"], "strokeCount": 9, "jlptLevel": "N5", "examples": [{ "word": "草", "reading": "くさ", "meaning": "grass" }, { "word": "草原", "reading": "そうげん", "meaning": "grassland" }] },
-  { "id": "kanji_020", "character": "雨", "onyomi": ["ウ"], "kunyomi": ["-あめ", "あま-"], "meaning": ["rain"], "strokeCount": 8, "jlptLevel": "N5", "examples": [{ "word": "雨", "reading": "あめ", "meaning": "rain" }, { "word": "大雨", "reading": "おおあめ", "meaning": "heavy rain" }] },
-  { "id": "kanji_021", "character": "空", "onyomi": ["クウ"], "kunyomi": ["そら", "-あ", "から", "す-"], "meaning": ["sky", "empty"], "strokeCount": 8, "jlptLevel": "N5", "examples": [{ "word": "空", "reading": "そら", "meaning": "sky" }, { "word": "空港", "reading": "くうこう", "meaning": "airport" }] },
-  { "id": "kanji_022", "character": "電", "onyomi": ["デン"], "kunyomi": [], "meaning": ["electricity"], "strokeCount": 13, "jlptLevel": "N5", "examples": [{ "word": "電気", "reading": "でんき", "meaning": "electricity" }, { "word": "電車", "reading": "でんしゃ", "meaning": "train" }] },
-  { "id": "kanji_023", "character": "気", "onyomi": ["キ", "ケ"], "kunyomi": ["いき"], "meaning": ["spirit", "mind", "air", "energy"], "strokeCount": 6, "jlptLevel": "N5", "examples": [{ "word": "元気", "reading": "げんき", "meaning": "healthy/energetic" }, { "word": "天気", "reading": "てんき", "meaning": "weather" }] },
-  { "id": "kanji_024", "character": "校", "onyomi": ["コウ"], "kunyomi": [], "meaning": ["school", "exam"], "strokeCount": 10, "jlptLevel": "N5", "examples": [{ "word": "学校", "reading": "がっこう", "meaning": "school" }, { "word": "校長", "reading": "こうちょう", "meaning": "principal" }] },
-  { "id": "kanji_025", "character": "語", "onyomi": ["ゴ"], "kunyomi": ["かた-", "-がた"], "meaning": ["language", "word", "speech"], "strokeCount": 14, "jlptLevel": "N5", "examples": [{ "word": "日本語", "reading": "にほんご", "meaning": "Japanese language" }, { "word": "英語", "reading": "えいご", "meaning": "English" }] },
-  { "id": "kanji_026", "character": "本", "onyomi": ["ホン"], "kunyomi": ["もと"], "meaning": ["book", "origin", "main"], "strokeCount": 5, "jlptLevel": "N5", "examples": [{ "word": "本", "reading": "ほん", "meaning": "book" }, { "word": "日本", "reading": "にほん", "meaning": "Japan" }] },
-  { "id": "kanji_027", "character": "文", "onyomi": ["ブン", "モン"], "kunyomi": ["ふみ", "あや"], "meaning": ["sentence", "text", "literature"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "文章", "reading": "ぶんしょう", "meaning": "sentence/text" }, { "word": "作文", "reading": "さくぶん", "meaning": "composition" }] },
-  { "id": "kanji_028", "character": "字", "onyomi": ["ジ"], "kunyomi": ["-な", "あざ-"], "meaning": ["character", "letter", "word"], "strokeCount": 6, "jlptLevel": "N5", "examples": [{ "word": "文字", "reading": "もじ", "meaning": "character/letter" }, { "word": "漢字", "reading": "かんじ", "meaning": "kanji" }] },
-  { "id": "kanji_029", "character": "学", "onyomi": ["ガク"], "kunyomi": ["まな-", "-ざか"], "meaning": ["study", "learning", "science"], "strokeCount": 8, "jlptLevel": "N5", "examples": [{ "word": "学校", "reading": "がっこう", "meaning": "school" }, { "word": "学生", "reading": "がくせい", "meaning": "student" }] },
-  { "id": "kanji_030", "character": "先", "onyomi": ["セン"], "kunyomi": ["さき", "-さき"], "meaning": ["before", "ahead", "previous"], "strokeCount": 6, "jlptLevel": "N5", "examples": [{ "word": "先生", "reading": "せんせい", "meaning": "teacher" }, { "word": "先週", "reading": "せんしゅう", "meaning": "last week" }] },
-  { "id": "kanji_031", "character": "生", "onyomi": ["セイ", "ショウ"], "kunyomi": ["-う", "-うま", "い-", "-い", "い-", "なま-", "-なま"], "meaning": ["life", "birth", "raw"], "strokeCount": 5, "jlptLevel": "N5", "examples": [{ "word": "学生", "reading": "がくせい", "meaning": "student" }, { "word": "先生", "reading": "せんせい", "meaning": "teacher" }] },
-  { "id": "kanji_032", "character": "年", "onyomi": ["ネン"], "kunyomi": ["とし"], "meaning": ["year"], "strokeCount": 6, "jlptLevel": "N5", "examples": [{ "word": "今年", "reading": "ことし", "meaning": "this year" }, { "word": "来年", "reading": "らいねん", "meaning": "next year" }] },
-  { "id": "kanji_033", "character": "国", "onyomi": ["コク"], "kunyomi": ["くに"], "meaning": ["country", "nation"], "strokeCount": 8, "jlptLevel": "N5", "examples": [{ "word": "国", "reading": "くに", "meaning": "country" }, { "word": "外国", "reading": "がいこく", "meaning": "foreign country" }] },
-  { "id": "kanji_034", "character": "会", "onyomi": ["カイ", "エ"], "kunyomi": ["あ-"], "meaning": ["meeting", "association"], "strokeCount": 6, "jlptLevel": "N5", "examples": [{ "word": "会社", "reading": "かいしゃ", "meaning": "company" }, { "word": "会議", "reading": "かいぎ", "meaning": "meeting" }] },
-  { "id": "kanji_035", "character": "社", "onyomi": ["シャ"], "kunyomi": ["やしろ"], "meaning": ["company", "shrine", "society"], "strokeCount": 7, "jlptLevel": "N5", "examples": [{ "word": "会社", "reading": "かいしゃ", "meaning": "company" }, { "word": "神社", "reading": "じんじゃ", "meaning": "shrine" }] },
-  { "id": "kanji_036", "character": "一", "onyomi": ["イチ", "イツ"], "kunyomi": ["ひと-", "-ひとつ"], "meaning": ["one"], "strokeCount": 1, "jlptLevel": "N5", "examples": [{ "word": "一つ", "reading": "ひとつ", "meaning": "one (thing)" }, { "word": "一番", "reading": "いちばん", "meaning": "number one/best" }] },
-  { "id": "kanji_037", "character": "二", "onyomi": ["ニ", "ジ"], "kunyomi": ["ふた", "ふた-"], "meaning": ["two"], "strokeCount": 2, "jlptLevel": "N5", "examples": [{ "word": "二つ", "reading": "ふたつ", "meaning": "two (things)" }, { "word": "二月", "reading": "にがつ", "meaning": "February" }] },
-  { "id": "kanji_038", "character": "三", "onyomi": ["サン", "ゾウ"], "kunyomi": ["み", "み-", "みっ-"], "meaning": ["three"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "三つ", "reading": "みっつ", "meaning": "three (things)" }, { "word": "三月", "reading": "さんがつ", "meaning": "March" }] },
-  { "id": "kanji_039", "character": "四", "onyomi": ["シ"], "kunyomi": ["よ", "よ-", "よっ-", "よん"], "meaning": ["four"], "strokeCount": 5, "jlptLevel": "N5", "examples": [{ "word": "四つ", "reading": "よっつ", "meaning": "four (things)" }, { "word": "四月", "reading": "しがつ", "meaning": "April" }] },
-  { "id": "kanji_040", "character": "五", "onyomi": ["ゴ"], "kunyomi": ["いつ", "いつ-"], "meaning": ["five"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "五つ", "reading": "いつつ", "meaning": "five (things)" }, { "word": "五月", "reading": "ごがつ", "meaning": "May" }] },
-  { "id": "kanji_041", "character": "六", "onyomi": ["ロク", "リク"], "kunyomi": ["む", "む-", "むっ-", "むい"], "meaning": ["six"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "六つ", "reading": "むっつ", "meaning": "six (things)" }, { "word": "六月", "reading": "ろくがつ", "meaning": "June" }] },
-  { "id": "kanji_042", "character": "七", "onyomi": ["シチ"], "kunyomi": ["なな", "なな-", "なの"], "meaning": ["seven"], "strokeCount": 2, "jlptLevel": "N5", "examples": [{ "word": "七つ", "reading": "ななつ", "meaning": "seven (things)" }, { "word": "七月", "reading": "しちがつ", "meaning": "July" }] },
-  { "id": "kanji_043", "character": "八", "onyomi": ["ハチ"], "kunyomi": ["や", "や-", "やっ-", "よう"], "meaning": ["eight"], "strokeCount": 2, "jlptLevel": "N5", "examples": [{ "word": "八つ", "reading": "やっつ", "meaning": "eight (things)" }, { "word": "八月", "reading": "はちがつ", "meaning": "August" }] },
-  { "id": "kanji_044", "character": "九", "onyomi": ["キュウ", "ク"], "kunyomi": ["ここの", "ここの-"], "meaning": ["nine"], "strokeCount": 2, "jlptLevel": "N5", "examples": [{ "word": "九つ", "reading": "ここのつ", "meaning": "nine (things)" }, { "word": "九月", "reading": "くがつ", "meaning": "September" }] },
-  { "id": "kanji_045", "character": "十", "onyomi": ["ジュウ", "ジッ", "ジュッ"], "kunyomi": ["とお", "と"], "meaning": ["ten"], "strokeCount": 2, "jlptLevel": "N5", "examples": [{ "word": "十", "reading": "じゅう", "meaning": "ten" }, { "word": "二十", "reading": "にじゅう", "meaning": "twenty" }] },
-  { "id": "kanji_046", "character": "百", "onyomi": ["ヒャク", "ビャク"], "kunyomi": ["もも"], "meaning": ["hundred"], "strokeCount": 6, "jlptLevel": "N5", "examples": [{ "word": "百", "reading": "ひゃく", "meaning": "hundred" }, { "word": "三百", "reading": "さんびゃく", "meaning": "three hundred" }] },
-  { "id": "kanji_047", "character": "千", "onyomi": ["セン"], "kunyomi": ["ち"], "meaning": ["thousand"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "千", "reading": "せん", "meaning": "thousand" }, { "word": "三千", "reading": "さんぜん", "meaning": "three thousand" }] },
-  { "id": "kanji_048", "character": "万", "onyomi": ["マン", "バン"], "kunyomi": ["よろず"], "meaning": ["ten thousand"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "一万", "reading": "いちまん", "meaning": "ten thousand" }, { "word": "万年筆", "reading": "まんねんひつ", "meaning": "fountain pen" }] },
-  { "id": "kanji_049", "character": "円", "onyomi": ["エン"], "kunyomi": ["まる-", "つぶら"], "meaning": ["yen", "circle", "round"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "円", "reading": "えん", "meaning": "yen" }, { "word": "百円", "reading": "ひゃくえん", "meaning": "100 yen" }] },
-  { "id": "kanji_050", "character": "時", "onyomi": ["ジ"], "kunyomi": ["-どき", "とき"], "meaning": ["time", "hour", "o'clock"], "strokeCount": 10, "jlptLevel": "N5", "examples": [{ "word": "時間", "reading": "じかん", "meaning": "time/hour" }, { "word": "何時", "reading": "なんじ", "meaning": "what time" }] },
-  { "id": "kanji_051", "character": "間", "onyomi": ["カン", "ケン"], "kunyomi": ["あいだ", "ま", "-あいだ"], "meaning": ["interval", "between", "space"], "strokeCount": 12, "jlptLevel": "N5", "examples": [{ "word": "時間", "reading": "じかん", "meaning": "time" }, { "word": "間", "reading": "あいだ", "meaning": "between/interval" }] },
-  { "id": "kanji_052", "character": "分", "onyomi": ["ブン", "フン", "ブ"], "kunyomi": ["-わ", "わ-"], "meaning": ["minute", "part", "understand"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "分", "reading": "ふん", "meaning": "minute" }, { "word": "十分", "reading": "じゅっぷん", "meaning": "ten minutes" }] },
-  { "id": "kanji_053", "character": "半", "onyomi": ["ハン"], "kunyomi": ["なか-", "なか"],  "meaning": ["half", "middle"], "strokeCount": 5, "jlptLevel": "N5", "examples": [{ "word": "半分", "reading": "はんぶん", "meaning": "half" }, { "word": "一時半", "reading": "いちじはん", "meaning": "1:30" }] },
-  { "id": "kanji_054", "character": "上", "onyomi": ["ジョウ", "ショウ", "シャン"], "kunyomi": ["うえ", "-うえ", "うわ-", "かみ", "あ-", "-あ", "のぼ-", "のぼり", "のぼ-"], "meaning": ["above", "up", "top"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "上", "reading": "うえ", "meaning": "above/up" }, { "word": "上手", "reading": "じょうず", "meaning": "skillful" }] },
-  { "id": "kanji_055", "character": "下", "onyomi": ["カ", "ゲ"], "kunyomi": ["した", "しも", "-しも", "もと", "-もと", "さ-", "-さ", "くだ-", "-くだ", "くだり", "お-", "-お"], "meaning": ["below", "under", "down"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "下", "reading": "した", "meaning": "below/under" }, { "word": "下手", "reading": "へた", "meaning": "unskillful" }] },
-  { "id": "kanji_056", "character": "左", "onyomi": ["サ", "シャ"], "kunyomi": ["ひだり"], "meaning": ["left"], "strokeCount": 5, "jlptLevel": "N5", "examples": [{ "word": "左", "reading": "ひだり", "meaning": "left" }, { "word": "左手", "reading": "ひだりて", "meaning": "left hand" }] },
-  { "id": "kanji_057", "character": "右", "onyomi": ["ウ", "ユウ"], "kunyomi": ["みぎ"], "meaning": ["right"], "strokeCount": 5, "jlptLevel": "N5", "examples": [{ "word": "右", "reading": "みぎ", "meaning": "right" }, { "word": "右手", "reading": "みぎて", "meaning": "right hand" }] },
-  { "id": "kanji_058", "character": "中", "onyomi": ["チュウ"], "kunyomi": ["なか", "-なか"], "meaning": ["middle", "inside", "China"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "中", "reading": "なか", "meaning": "inside/middle" }, { "word": "中国", "reading": "ちゅうごく", "meaning": "China" }] },
-  { "id": "kanji_059", "character": "大", "onyomi": ["ダイ", "タイ"], "kunyomi": ["おお-", "-おお", "-おおき", "おお-き"], "meaning": ["big", "large"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "大きい", "reading": "おおきい", "meaning": "big" }, { "word": "大学", "reading": "だいがく", "meaning": "university" }] },
-  { "id": "kanji_060", "character": "小", "onyomi": ["ショウ"], "kunyomi": ["こ-", "お-", "ちい-"], "meaning": ["small", "little"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "小さい", "reading": "ちいさい", "meaning": "small" }, { "word": "小学校", "reading": "しょうがっこう", "meaning": "elementary school" }] },
-  { "id": "kanji_061", "character": "前", "onyomi": ["ゼン"], "kunyomi": ["まえ", "-まえ"], "meaning": ["before", "front", "previous"], "strokeCount": 9, "jlptLevel": "N5", "examples": [{ "word": "前", "reading": "まえ", "meaning": "before/front" }, { "word": "名前", "reading": "なまえ", "meaning": "name" }] },
-  { "id": "kanji_062", "character": "後", "onyomi": ["ゴ", "コウ"], "kunyomi": ["のち", "うし-", "あと", "-あと"], "meaning": ["behind", "after", "later"], "strokeCount": 9, "jlptLevel": "N5", "examples": [{ "word": "後", "reading": "あと", "meaning": "after/behind" }, { "word": "午後", "reading": "ごご", "meaning": "afternoon" }] },
-  { "id": "kanji_063", "character": "東", "onyomi": ["トウ"], "kunyomi": ["ひがし", "あずま"], "meaning": ["east"], "strokeCount": 8, "jlptLevel": "N5", "examples": [{ "word": "東京", "reading": "とうきょう", "meaning": "Tokyo" }, { "word": "東", "reading": "ひがし", "meaning": "east" }] },
-  { "id": "kanji_064", "character": "西", "onyomi": ["サイ", "ス", "セイ"], "kunyomi": ["にし"], "meaning": ["west"], "strokeCount": 6, "jlptLevel": "N5", "examples": [{ "word": "西", "reading": "にし", "meaning": "west" }, { "word": "関西", "reading": "かんさい", "meaning": "Kansai region" }] },
-  { "id": "kanji_065", "character": "南", "onyomi": ["ナン", "ナ"], "kunyomi": ["みなみ"], "meaning": ["south"], "strokeCount": 9, "jlptLevel": "N5", "examples": [{ "word": "南", "reading": "みなみ", "meaning": "south" }, { "word": "南口", "reading": "みなみぐち", "meaning": "south exit" }] },
-  { "id": "kanji_066", "character": "北", "onyomi": ["ホク"], "kunyomi": ["きた"], "meaning": ["north"], "strokeCount": 5, "jlptLevel": "N5", "examples": [{ "word": "北", "reading": "きた", "meaning": "north" }, { "word": "北海道", "reading": "ほっかいどう", "meaning": "Hokkaido" }] },
-  { "id": "kanji_067", "character": "毎", "onyomi": ["マイ"], "kunyomi": ["-ごと", "つね", "つね-"], "meaning": ["every", "each"], "strokeCount": 6, "jlptLevel": "N5", "examples": [{ "word": "毎日", "reading": "まいにち", "meaning": "every day" }, { "word": "毎朝", "reading": "まいあさ", "meaning": "every morning" }] },
-  { "id": "kanji_068", "character": "朝", "onyomi": ["チョウ"], "kunyomi": ["あさ"], "meaning": ["morning"], "strokeCount": 12, "jlptLevel": "N5", "examples": [{ "word": "朝", "reading": "あさ", "meaning": "morning" }, { "word": "毎朝", "reading": "まいあさ", "meaning": "every morning" }] },
-  { "id": "kanji_069", "character": "夕", "onyomi": ["セキ"], "kunyomi": ["ゆう"], "meaning": ["evening", "dusk"], "strokeCount": 3, "jlptLevel": "N5", "examples": [{ "word": "夕方", "reading": "ゆうがた", "meaning": "evening" }, { "word": "夕食", "reading": "ゆうしょく", "meaning": "dinner" }] },
-  { "id": "kanji_070", "character": "今", "onyomi": ["コン", "キン"], "kunyomi": ["いま"], "meaning": ["now", "current"], "strokeCount": 4, "jlptLevel": "N5", "examples": [{ "word": "今日", "reading": "きょう", "meaning": "today" }, { "word": "今", "reading": "いま", "meaning": "now" }] },
-  { "id": "kanji_071", "character": "週", "onyomi": ["シュウ"], "kunyomi": [], "meaning": ["week"], "strokeCount": 11, "jlptLevel": "N5", "examples": [{ "word": "今週", "reading": "こんしゅう", "meaning": "this week" }, { "word": "来週", "reading": "らいしゅう", "meaning": "next week" }] },
-  { "id": "kanji_072", "character": "来", "onyomi": ["ライ", "タイ"], "kunyomi": ["く-", "-き", "-く-", "こ-", "きた-"], "meaning": ["come", "next"], "strokeCount": 7, "jlptLevel": "N5", "examples": [{ "word": "来年", "reading": "らいねん", "meaning": "next year" }, { "word": "来週", "reading": "らいしゅう", "meaning": "next week" }] },
-  { "id": "kanji_073", "character": "何", "onyomi": ["カ"], "kunyomi": ["なに", "なん-", "なに-"], "meaning": ["what", "how many"], "strokeCount": 7, "jlptLevel": "N5", "examples": [{ "word": "何", "reading": "なに", "meaning": "what" }, { "word": "何時", "reading": "なんじ", "meaning": "what time" }] }
+  {
+    "id": "kanji_001",
+    "character": "日",
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-か"
+    ],
+    "meaning": [
+      "day",
+      "sun",
+      "Japan"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Japan"
+      },
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": "every day"
+      }
+    ]
+  },
+  {
+    "id": "kanji_002",
+    "character": "月",
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "meaning": [
+      "month",
+      "moon"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning": "Monday"
+      },
+      {
+        "word": "今月",
+        "reading": "こんげつ",
+        "meaning": "this month"
+      }
+    ]
+  },
+  {
+    "id": "kanji_003",
+    "character": "火",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び"
+    ],
+    "meaning": [
+      "fire"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "meaning": "Tuesday"
+      },
+      {
+        "word": "火事",
+        "reading": "かじ",
+        "meaning": "fire (incident)"
+      }
+    ]
+  },
+  {
+    "id": "kanji_004",
+    "character": "水",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず",
+      "-みず"
+    ],
+    "meaning": [
+      "water"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "meaning": "Wednesday"
+      },
+      {
+        "word": "水",
+        "reading": "みず",
+        "meaning": "water"
+      }
+    ]
+  },
+  {
+    "id": "kanji_005",
+    "character": "木",
+    "onyomi": [
+      "ボク",
+      "モク"
+    ],
+    "kunyomi": [
+      "き",
+      "-き"
+    ],
+    "meaning": [
+      "tree",
+      "wood"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "meaning": "Thursday"
+      },
+      {
+        "word": "木",
+        "reading": "き",
+        "meaning": "tree"
+      }
+    ]
+  },
+  {
+    "id": "kanji_006",
+    "character": "金",
+    "onyomi": [
+      "キン",
+      "コン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "かね",
+      "-がね"
+    ],
+    "meaning": [
+      "gold",
+      "money"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "meaning": "Friday"
+      },
+      {
+        "word": "お金",
+        "reading": "おかね",
+        "meaning": "money"
+      }
+    ]
+  },
+  {
+    "id": "kanji_007",
+    "character": "土",
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "meaning": [
+      "earth",
+      "soil"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning": "Saturday"
+      },
+      {
+        "word": "土",
+        "reading": "つち",
+        "meaning": "earth/soil"
+      }
+    ]
+  },
+  {
+    "id": "kanji_008",
+    "character": "山",
+    "onyomi": [
+      "サン",
+      "セン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "meaning": [
+      "mountain"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "山",
+        "reading": "やま",
+        "meaning": "mountain"
+      },
+      {
+        "word": "富士山",
+        "reading": "ふじさん",
+        "meaning": "Mt. Fuji"
+      }
+    ]
+  },
+  {
+    "id": "kanji_009",
+    "character": "川",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "meaning": [
+      "river"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "川",
+        "reading": "かわ",
+        "meaning": "river"
+      },
+      {
+        "word": "川口",
+        "reading": "かわぐち",
+        "meaning": "Kawaguchi"
+      }
+    ]
+  },
+  {
+    "id": "kanji_010",
+    "character": "田",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "た"
+    ],
+    "meaning": [
+      "rice field",
+      "rice paddy"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "田んぼ",
+        "reading": "たんぼ",
+        "meaning": "rice field"
+      },
+      {
+        "word": "田中",
+        "reading": "たなか",
+        "meaning": "Tanaka (name)"
+      }
+    ]
+  },
+  {
+    "id": "kanji_011",
+    "character": "人",
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと",
+      "-り",
+      "-と"
+    ],
+    "meaning": [
+      "person"
+    ],
+    "strokeCount": 2,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "人",
+        "reading": "ひと",
+        "meaning": "person"
+      },
+      {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "meaning": "Japanese person"
+      }
+    ]
+  },
+  {
+    "id": "kanji_012",
+    "character": "口",
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "くち",
+      "-ぐち"
+    ],
+    "meaning": [
+      "mouth"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "口",
+        "reading": "くち",
+        "meaning": "mouth"
+      },
+      {
+        "word": "入口",
+        "reading": "いりぐち",
+        "meaning": "entrance"
+      }
+    ]
+  },
+  {
+    "id": "kanji_013",
+    "character": "目",
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "-め",
+      "ま-"
+    ],
+    "meaning": [
+      "eye"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "目",
+        "reading": "め",
+        "meaning": "eye"
+      },
+      {
+        "word": "目的",
+        "reading": "もくてき",
+        "meaning": "purpose"
+      }
+    ]
+  },
+  {
+    "id": "kanji_014",
+    "character": "耳",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "みみ"
+    ],
+    "meaning": [
+      "ear"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "耳",
+        "reading": "みみ",
+        "meaning": "ear"
+      },
+      {
+        "word": "耳鼻科",
+        "reading": "じびか",
+        "meaning": "ENT clinic"
+      }
+    ]
+  },
+  {
+    "id": "kanji_015",
+    "character": "手",
+    "onyomi": [
+      "シュ",
+      "ズ"
+    ],
+    "kunyomi": [
+      "-て",
+      "て-"
+    ],
+    "meaning": [
+      "hand"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "手",
+        "reading": "て",
+        "meaning": "hand"
+      },
+      {
+        "word": "手紙",
+        "reading": "てがみ",
+        "meaning": "letter"
+      }
+    ]
+  },
+  {
+    "id": "kanji_016",
+    "character": "足",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "-たり",
+      "-た"
+    ],
+    "meaning": [
+      "foot",
+      "leg",
+      "sufficient"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "足",
+        "reading": "あし",
+        "meaning": "foot/leg"
+      },
+      {
+        "word": "足りる",
+        "reading": "たりる",
+        "meaning": "to be enough"
+      }
+    ]
+  },
+  {
+    "id": "kanji_017",
+    "character": "車",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "meaning": [
+      "car",
+      "vehicle"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "車",
+        "reading": "くるま",
+        "meaning": "car"
+      },
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning": "train"
+      }
+    ]
+  },
+  {
+    "id": "kanji_018",
+    "character": "花",
+    "onyomi": [
+      "カ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "meaning": [
+      "flower"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "花",
+        "reading": "はな",
+        "meaning": "flower"
+      },
+      {
+        "word": "花見",
+        "reading": "はなみ",
+        "meaning": "flower viewing"
+      }
+    ]
+  },
+  {
+    "id": "kanji_019",
+    "character": "草",
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "-くさ",
+      "くさ-"
+    ],
+    "meaning": [
+      "grass",
+      "weeds"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "草",
+        "reading": "くさ",
+        "meaning": "grass"
+      },
+      {
+        "word": "草原",
+        "reading": "そうげん",
+        "meaning": "grassland"
+      }
+    ]
+  },
+  {
+    "id": "kanji_020",
+    "character": "雨",
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "-あめ",
+      "あま-"
+    ],
+    "meaning": [
+      "rain"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "雨",
+        "reading": "あめ",
+        "meaning": "rain"
+      },
+      {
+        "word": "大雨",
+        "reading": "おおあめ",
+        "meaning": "heavy rain"
+      }
+    ]
+  },
+  {
+    "id": "kanji_021",
+    "character": "空",
+    "onyomi": [
+      "クウ"
+    ],
+    "kunyomi": [
+      "そら",
+      "-あ",
+      "から",
+      "す-"
+    ],
+    "meaning": [
+      "sky",
+      "empty"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "空",
+        "reading": "そら",
+        "meaning": "sky"
+      },
+      {
+        "word": "空港",
+        "reading": "くうこう",
+        "meaning": "airport"
+      }
+    ]
+  },
+  {
+    "id": "kanji_022",
+    "character": "電",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "meaning": [
+      "electricity"
+    ],
+    "strokeCount": 13,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "電気",
+        "reading": "でんき",
+        "meaning": "electricity"
+      },
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning": "train"
+      }
+    ]
+  },
+  {
+    "id": "kanji_023",
+    "character": "気",
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "いき"
+    ],
+    "meaning": [
+      "spirit",
+      "mind",
+      "air",
+      "energy"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "元気",
+        "reading": "げんき",
+        "meaning": "healthy/energetic"
+      },
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "meaning": "weather"
+      }
+    ]
+  },
+  {
+    "id": "kanji_024",
+    "character": "校",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [],
+    "meaning": [
+      "school",
+      "exam"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "school"
+      },
+      {
+        "word": "校長",
+        "reading": "こうちょう",
+        "meaning": "principal"
+      }
+    ]
+  },
+  {
+    "id": "kanji_025",
+    "character": "語",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かた-",
+      "-がた"
+    ],
+    "meaning": [
+      "language",
+      "word",
+      "speech"
+    ],
+    "strokeCount": 14,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning": "Japanese language"
+      },
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "meaning": "English"
+      }
+    ]
+  },
+  {
+    "id": "kanji_026",
+    "character": "本",
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "meaning": [
+      "book",
+      "origin",
+      "main"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "book"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Japan"
+      }
+    ]
+  },
+  {
+    "id": "kanji_027",
+    "character": "文",
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "ふみ",
+      "あや"
+    ],
+    "meaning": [
+      "sentence",
+      "text",
+      "literature"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "文章",
+        "reading": "ぶんしょう",
+        "meaning": "sentence/text"
+      },
+      {
+        "word": "作文",
+        "reading": "さくぶん",
+        "meaning": "composition"
+      }
+    ]
+  },
+  {
+    "id": "kanji_028",
+    "character": "字",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "-な",
+      "あざ-"
+    ],
+    "meaning": [
+      "character",
+      "letter",
+      "word"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "文字",
+        "reading": "もじ",
+        "meaning": "character/letter"
+      },
+      {
+        "word": "漢字",
+        "reading": "かんじ",
+        "meaning": "kanji"
+      }
+    ]
+  },
+  {
+    "id": "kanji_029",
+    "character": "学",
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな-",
+      "-ざか"
+    ],
+    "meaning": [
+      "study",
+      "learning",
+      "science"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "school"
+      },
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "student"
+      }
+    ]
+  },
+  {
+    "id": "kanji_030",
+    "character": "先",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき",
+      "-さき"
+    ],
+    "meaning": [
+      "before",
+      "ahead",
+      "previous"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "teacher"
+      },
+      {
+        "word": "先週",
+        "reading": "せんしゅう",
+        "meaning": "last week"
+      }
+    ]
+  },
+  {
+    "id": "kanji_031",
+    "character": "生",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "-う",
+      "-うま",
+      "い-",
+      "-い",
+      "い-",
+      "なま-",
+      "-なま"
+    ],
+    "meaning": [
+      "life",
+      "birth",
+      "raw"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "student"
+      },
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "teacher"
+      }
+    ]
+  },
+  {
+    "id": "kanji_032",
+    "character": "年",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "meaning": [
+      "year"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning": "this year"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "next year"
+      }
+    ]
+  },
+  {
+    "id": "kanji_033",
+    "character": "国",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "meaning": [
+      "country",
+      "nation"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "国",
+        "reading": "くに",
+        "meaning": "country"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": "foreign country"
+      }
+    ]
+  },
+  {
+    "id": "kanji_034",
+    "character": "会",
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [
+      "あ-"
+    ],
+    "meaning": [
+      "meeting",
+      "association"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "company"
+      },
+      {
+        "word": "会議",
+        "reading": "かいぎ",
+        "meaning": "meeting"
+      }
+    ]
+  },
+  {
+    "id": "kanji_035",
+    "character": "社",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "やしろ"
+    ],
+    "meaning": [
+      "company",
+      "shrine",
+      "society"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "company"
+      },
+      {
+        "word": "神社",
+        "reading": "じんじゃ",
+        "meaning": "shrine"
+      }
+    ]
+  },
+  {
+    "id": "kanji_036",
+    "character": "一",
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひと-",
+      "-ひとつ"
+    ],
+    "meaning": [
+      "one"
+    ],
+    "strokeCount": 1,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "一つ",
+        "reading": "ひとつ",
+        "meaning": "one (thing)"
+      },
+      {
+        "word": "一番",
+        "reading": "いちばん",
+        "meaning": "number one/best"
+      }
+    ]
+  },
+  {
+    "id": "kanji_037",
+    "character": "二",
+    "onyomi": [
+      "ニ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "ふた",
+      "ふた-"
+    ],
+    "meaning": [
+      "two"
+    ],
+    "strokeCount": 2,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "二つ",
+        "reading": "ふたつ",
+        "meaning": "two (things)"
+      },
+      {
+        "word": "二月",
+        "reading": "にがつ",
+        "meaning": "February"
+      }
+    ]
+  },
+  {
+    "id": "kanji_038",
+    "character": "三",
+    "onyomi": [
+      "サン",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "み",
+      "み-",
+      "みっ-"
+    ],
+    "meaning": [
+      "three"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "三つ",
+        "reading": "みっつ",
+        "meaning": "three (things)"
+      },
+      {
+        "word": "三月",
+        "reading": "さんがつ",
+        "meaning": "March"
+      }
+    ]
+  },
+  {
+    "id": "kanji_039",
+    "character": "四",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よ-",
+      "よっ-",
+      "よん"
+    ],
+    "meaning": [
+      "four"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "四つ",
+        "reading": "よっつ",
+        "meaning": "four (things)"
+      },
+      {
+        "word": "四月",
+        "reading": "しがつ",
+        "meaning": "April"
+      }
+    ]
+  },
+  {
+    "id": "kanji_040",
+    "character": "五",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ",
+      "いつ-"
+    ],
+    "meaning": [
+      "five"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "五つ",
+        "reading": "いつつ",
+        "meaning": "five (things)"
+      },
+      {
+        "word": "五月",
+        "reading": "ごがつ",
+        "meaning": "May"
+      }
+    ]
+  },
+  {
+    "id": "kanji_041",
+    "character": "六",
+    "onyomi": [
+      "ロク",
+      "リク"
+    ],
+    "kunyomi": [
+      "む",
+      "む-",
+      "むっ-",
+      "むい"
+    ],
+    "meaning": [
+      "six"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "六つ",
+        "reading": "むっつ",
+        "meaning": "six (things)"
+      },
+      {
+        "word": "六月",
+        "reading": "ろくがつ",
+        "meaning": "June"
+      }
+    ]
+  },
+  {
+    "id": "kanji_042",
+    "character": "七",
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな",
+      "なな-",
+      "なの"
+    ],
+    "meaning": [
+      "seven"
+    ],
+    "strokeCount": 2,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "七つ",
+        "reading": "ななつ",
+        "meaning": "seven (things)"
+      },
+      {
+        "word": "七月",
+        "reading": "しちがつ",
+        "meaning": "July"
+      }
+    ]
+  },
+  {
+    "id": "kanji_043",
+    "character": "八",
+    "onyomi": [
+      "ハチ"
+    ],
+    "kunyomi": [
+      "や",
+      "や-",
+      "やっ-",
+      "よう"
+    ],
+    "meaning": [
+      "eight"
+    ],
+    "strokeCount": 2,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "八つ",
+        "reading": "やっつ",
+        "meaning": "eight (things)"
+      },
+      {
+        "word": "八月",
+        "reading": "はちがつ",
+        "meaning": "August"
+      }
+    ]
+  },
+  {
+    "id": "kanji_044",
+    "character": "九",
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの",
+      "ここの-"
+    ],
+    "meaning": [
+      "nine"
+    ],
+    "strokeCount": 2,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "九つ",
+        "reading": "ここのつ",
+        "meaning": "nine (things)"
+      },
+      {
+        "word": "九月",
+        "reading": "くがつ",
+        "meaning": "September"
+      }
+    ]
+  },
+  {
+    "id": "kanji_045",
+    "character": "十",
+    "onyomi": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と"
+    ],
+    "meaning": [
+      "ten"
+    ],
+    "strokeCount": 2,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "十",
+        "reading": "じゅう",
+        "meaning": "ten"
+      },
+      {
+        "word": "二十",
+        "reading": "にじゅう",
+        "meaning": "twenty"
+      }
+    ]
+  },
+  {
+    "id": "kanji_046",
+    "character": "百",
+    "onyomi": [
+      "ヒャク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "もも"
+    ],
+    "meaning": [
+      "hundred"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "百",
+        "reading": "ひゃく",
+        "meaning": "hundred"
+      },
+      {
+        "word": "三百",
+        "reading": "さんびゃく",
+        "meaning": "three hundred"
+      }
+    ]
+  },
+  {
+    "id": "kanji_047",
+    "character": "千",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "meaning": [
+      "thousand"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "千",
+        "reading": "せん",
+        "meaning": "thousand"
+      },
+      {
+        "word": "三千",
+        "reading": "さんぜん",
+        "meaning": "three thousand"
+      }
+    ]
+  },
+  {
+    "id": "kanji_048",
+    "character": "万",
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [
+      "よろず"
+    ],
+    "meaning": [
+      "ten thousand"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "一万",
+        "reading": "いちまん",
+        "meaning": "ten thousand"
+      },
+      {
+        "word": "万年筆",
+        "reading": "まんねんひつ",
+        "meaning": "fountain pen"
+      }
+    ]
+  },
+  {
+    "id": "kanji_049",
+    "character": "円",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まる-",
+      "つぶら"
+    ],
+    "meaning": [
+      "yen",
+      "circle",
+      "round"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "円",
+        "reading": "えん",
+        "meaning": "yen"
+      },
+      {
+        "word": "百円",
+        "reading": "ひゃくえん",
+        "meaning": "100 yen"
+      }
+    ]
+  },
+  {
+    "id": "kanji_050",
+    "character": "時",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "-どき",
+      "とき"
+    ],
+    "meaning": [
+      "time",
+      "hour",
+      "o'clock"
+    ],
+    "strokeCount": 10,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "time/hour"
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "meaning": "what time"
+      }
+    ]
+  },
+  {
+    "id": "kanji_051",
+    "character": "間",
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま",
+      "-あいだ"
+    ],
+    "meaning": [
+      "interval",
+      "between",
+      "space"
+    ],
+    "strokeCount": 12,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "time"
+      },
+      {
+        "word": "間",
+        "reading": "あいだ",
+        "meaning": "between/interval"
+      }
+    ]
+  },
+  {
+    "id": "kanji_052",
+    "character": "分",
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunyomi": [
+      "-わ",
+      "わ-"
+    ],
+    "meaning": [
+      "minute",
+      "part",
+      "understand"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "分",
+        "reading": "ふん",
+        "meaning": "minute"
+      },
+      {
+        "word": "十分",
+        "reading": "じゅっぷん",
+        "meaning": "ten minutes"
+      }
+    ]
+  },
+  {
+    "id": "kanji_053",
+    "character": "半",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なか-",
+      "なか"
+    ],
+    "meaning": [
+      "half",
+      "middle"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "半分",
+        "reading": "はんぶん",
+        "meaning": "half"
+      },
+      {
+        "word": "一時半",
+        "reading": "いちじはん",
+        "meaning": "1:30"
+      }
+    ]
+  },
+  {
+    "id": "kanji_054",
+    "character": "上",
+    "onyomi": [
+      "ジョウ",
+      "ショウ",
+      "シャン"
+    ],
+    "kunyomi": [
+      "うえ",
+      "-うえ",
+      "うわ-",
+      "かみ",
+      "あ-",
+      "-あ",
+      "のぼ-",
+      "のぼり",
+      "のぼ-"
+    ],
+    "meaning": [
+      "above",
+      "up",
+      "top"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "上",
+        "reading": "うえ",
+        "meaning": "above/up"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "skillful"
+      }
+    ]
+  },
+  {
+    "id": "kanji_055",
+    "character": "下",
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "しも",
+      "-しも",
+      "もと",
+      "-もと",
+      "さ-",
+      "-さ",
+      "くだ-",
+      "-くだ",
+      "くだり",
+      "お-",
+      "-お"
+    ],
+    "meaning": [
+      "below",
+      "under",
+      "down"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "下",
+        "reading": "した",
+        "meaning": "below/under"
+      },
+      {
+        "word": "下手",
+        "reading": "へた",
+        "meaning": "unskillful"
+      }
+    ]
+  },
+  {
+    "id": "kanji_056",
+    "character": "左",
+    "onyomi": [
+      "サ",
+      "シャ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "meaning": [
+      "left"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "meaning": "left"
+      },
+      {
+        "word": "左手",
+        "reading": "ひだりて",
+        "meaning": "left hand"
+      }
+    ]
+  },
+  {
+    "id": "kanji_057",
+    "character": "右",
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "meaning": [
+      "right"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "右",
+        "reading": "みぎ",
+        "meaning": "right"
+      },
+      {
+        "word": "右手",
+        "reading": "みぎて",
+        "meaning": "right hand"
+      }
+    ]
+  },
+  {
+    "id": "kanji_058",
+    "character": "中",
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "なか",
+      "-なか"
+    ],
+    "meaning": [
+      "middle",
+      "inside",
+      "China"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "中",
+        "reading": "なか",
+        "meaning": "inside/middle"
+      },
+      {
+        "word": "中国",
+        "reading": "ちゅうごく",
+        "meaning": "China"
+      }
+    ]
+  },
+  {
+    "id": "kanji_059",
+    "character": "大",
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお-",
+      "-おお",
+      "-おおき",
+      "おお-き"
+    ],
+    "meaning": [
+      "big",
+      "large"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "meaning": "big"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "university"
+      }
+    ]
+  },
+  {
+    "id": "kanji_060",
+    "character": "小",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "こ-",
+      "お-",
+      "ちい-"
+    ],
+    "meaning": [
+      "small",
+      "little"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "meaning": "small"
+      },
+      {
+        "word": "小学校",
+        "reading": "しょうがっこう",
+        "meaning": "elementary school"
+      }
+    ]
+  },
+  {
+    "id": "kanji_061",
+    "character": "前",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ",
+      "-まえ"
+    ],
+    "meaning": [
+      "before",
+      "front",
+      "previous"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "前",
+        "reading": "まえ",
+        "meaning": "before/front"
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "name"
+      }
+    ]
+  },
+  {
+    "id": "kanji_062",
+    "character": "後",
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "のち",
+      "うし-",
+      "あと",
+      "-あと"
+    ],
+    "meaning": [
+      "behind",
+      "after",
+      "later"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "後",
+        "reading": "あと",
+        "meaning": "after/behind"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning": "afternoon"
+      }
+    ]
+  },
+  {
+    "id": "kanji_063",
+    "character": "東",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし",
+      "あずま"
+    ],
+    "meaning": [
+      "east"
+    ],
+    "strokeCount": 8,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "meaning": "Tokyo"
+      },
+      {
+        "word": "東",
+        "reading": "ひがし",
+        "meaning": "east"
+      }
+    ]
+  },
+  {
+    "id": "kanji_064",
+    "character": "西",
+    "onyomi": [
+      "サイ",
+      "ス",
+      "セイ"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "meaning": [
+      "west"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "西",
+        "reading": "にし",
+        "meaning": "west"
+      },
+      {
+        "word": "関西",
+        "reading": "かんさい",
+        "meaning": "Kansai region"
+      }
+    ]
+  },
+  {
+    "id": "kanji_065",
+    "character": "南",
+    "onyomi": [
+      "ナン",
+      "ナ"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "meaning": [
+      "south"
+    ],
+    "strokeCount": 9,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "南",
+        "reading": "みなみ",
+        "meaning": "south"
+      },
+      {
+        "word": "南口",
+        "reading": "みなみぐち",
+        "meaning": "south exit"
+      }
+    ]
+  },
+  {
+    "id": "kanji_066",
+    "character": "北",
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "meaning": [
+      "north"
+    ],
+    "strokeCount": 5,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "北",
+        "reading": "きた",
+        "meaning": "north"
+      },
+      {
+        "word": "北海道",
+        "reading": "ほっかいどう",
+        "meaning": "Hokkaido"
+      }
+    ]
+  },
+  {
+    "id": "kanji_067",
+    "character": "毎",
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [
+      "-ごと",
+      "つね",
+      "つね-"
+    ],
+    "meaning": [
+      "every",
+      "each"
+    ],
+    "strokeCount": 6,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": "every day"
+      },
+      {
+        "word": "毎朝",
+        "reading": "まいあさ",
+        "meaning": "every morning"
+      }
+    ]
+  },
+  {
+    "id": "kanji_068",
+    "character": "朝",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "あさ"
+    ],
+    "meaning": [
+      "morning"
+    ],
+    "strokeCount": 12,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "meaning": "morning"
+      },
+      {
+        "word": "毎朝",
+        "reading": "まいあさ",
+        "meaning": "every morning"
+      }
+    ]
+  },
+  {
+    "id": "kanji_069",
+    "character": "夕",
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [
+      "ゆう"
+    ],
+    "meaning": [
+      "evening",
+      "dusk"
+    ],
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "夕方",
+        "reading": "ゆうがた",
+        "meaning": "evening"
+      },
+      {
+        "word": "夕食",
+        "reading": "ゆうしょく",
+        "meaning": "dinner"
+      }
+    ]
+  },
+  {
+    "id": "kanji_070",
+    "character": "今",
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "meaning": [
+      "now",
+      "current"
+    ],
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "meaning": "today"
+      },
+      {
+        "word": "今",
+        "reading": "いま",
+        "meaning": "now"
+      }
+    ]
+  },
+  {
+    "id": "kanji_071",
+    "character": "週",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [],
+    "meaning": [
+      "week"
+    ],
+    "strokeCount": 11,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "今週",
+        "reading": "こんしゅう",
+        "meaning": "this week"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning": "next week"
+      }
+    ]
+  },
+  {
+    "id": "kanji_072",
+    "character": "来",
+    "onyomi": [
+      "ライ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "く-",
+      "-き",
+      "-く-",
+      "こ-",
+      "きた-"
+    ],
+    "meaning": [
+      "come",
+      "next"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "next year"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning": "next week"
+      }
+    ]
+  },
+  {
+    "id": "kanji_073",
+    "character": "何",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん-",
+      "なに-"
+    ],
+    "meaning": [
+      "what",
+      "how many"
+    ],
+    "strokeCount": 7,
+    "jlptLevel": "N5",
+    "examples": [
+      {
+        "word": "何",
+        "reading": "なに",
+        "meaning": "what"
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "meaning": "what time"
+      }
+    ]
+  },
+  {
+    "character": "食",
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "kunyomi": [
+      "たべ",
+      "く"
+    ],
+    "meaning": [
+      "eat",
+      "food",
+      "meal"
+    ],
+    "strokeCount": 9,
+    "examples": [
+      {
+        "word": "食堂",
+        "reading": "しょくどう",
+        "meaning": "dining hall"
+      },
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "meaning": "to eat"
+      }
+    ],
+    "id": "kanji_074",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "飲",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "の"
+    ],
+    "meaning": [
+      "drink",
+      "take"
+    ],
+    "strokeCount": 12,
+    "examples": [
+      {
+        "word": "飲み物",
+        "reading": "のみもの",
+        "meaning": "beverage"
+      },
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "meaning": "to drink"
+      }
+    ],
+    "id": "kanji_075",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "見",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み",
+      "みせ"
+    ],
+    "meaning": [
+      "see",
+      "look",
+      "show"
+    ],
+    "strokeCount": 7,
+    "examples": [
+      {
+        "word": "見物",
+        "reading": "けんぶつ",
+        "meaning": "sightseeing"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "to see"
+      }
+    ],
+    "id": "kanji_076",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "聞",
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "き",
+      "きこ"
+    ],
+    "meaning": [
+      "hear",
+      "ask",
+      "listen"
+    ],
+    "strokeCount": 14,
+    "examples": [
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": "newspaper"
+      },
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "meaning": "to ask/listen"
+      }
+    ],
+    "id": "kanji_077",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "読",
+    "onyomi": [
+      "ドク",
+      "トク"
+    ],
+    "kunyomi": [
+      "よ"
+    ],
+    "meaning": [
+      "read"
+    ],
+    "strokeCount": 14,
+    "examples": [
+      {
+        "word": "読者",
+        "reading": "どくしゃ",
+        "meaning": "reader"
+      },
+      {
+        "word": "読む",
+        "reading": "よむ",
+        "meaning": "to read"
+      }
+    ],
+    "id": "kanji_078",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "話",
+    "onyomi": [
+      "ワ"
+    ],
+    "kunyomi": [
+      "はな",
+      "はなし"
+    ],
+    "meaning": [
+      "talk",
+      "speak",
+      "story"
+    ],
+    "strokeCount": 13,
+    "examples": [
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "meaning": "telephone"
+      },
+      {
+        "word": "話す",
+        "reading": "はなす",
+        "meaning": "to speak"
+      }
+    ],
+    "id": "kanji_079",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "買",
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "か"
+    ],
+    "meaning": [
+      "buy",
+      "purchase"
+    ],
+    "strokeCount": 12,
+    "examples": [
+      {
+        "word": "買い物",
+        "reading": "かいもの",
+        "meaning": "shopping"
+      },
+      {
+        "word": "買う",
+        "reading": "かう",
+        "meaning": "to buy"
+      }
+    ],
+    "id": "kanji_080",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "行",
+    "onyomi": [
+      "コウ",
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "い",
+      "ゆ",
+      "おこな"
+    ],
+    "meaning": [
+      "go",
+      "carry out",
+      "line"
+    ],
+    "strokeCount": 6,
+    "examples": [
+      {
+        "word": "銀行",
+        "reading": "ぎんこう",
+        "meaning": "bank"
+      },
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "to go"
+      }
+    ],
+    "id": "kanji_081",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "帰",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "かえ",
+      "おく"
+    ],
+    "meaning": [
+      "return",
+      "go back"
+    ],
+    "strokeCount": 10,
+    "examples": [
+      {
+        "word": "帰国",
+        "reading": "きこく",
+        "meaning": "return to home country"
+      },
+      {
+        "word": "帰る",
+        "reading": "かえる",
+        "meaning": "to return"
+      }
+    ],
+    "id": "kanji_082",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "入",
+    "onyomi": [
+      "ニュウ"
+    ],
+    "kunyomi": [
+      "い",
+      "はい"
+    ],
+    "meaning": [
+      "enter",
+      "insert"
+    ],
+    "strokeCount": 2,
+    "examples": [
+      {
+        "word": "入口",
+        "reading": "いりぐち",
+        "meaning": "entrance"
+      },
+      {
+        "word": "入る",
+        "reading": "はいる",
+        "meaning": "to enter"
+      }
+    ],
+    "id": "kanji_083",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "出",
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunyomi": [
+      "で",
+      "だ"
+    ],
+    "meaning": [
+      "exit",
+      "put out",
+      "appear"
+    ],
+    "strokeCount": 5,
+    "examples": [
+      {
+        "word": "出口",
+        "reading": "でぐち",
+        "meaning": "exit"
+      },
+      {
+        "word": "出る",
+        "reading": "でる",
+        "meaning": "to go out"
+      }
+    ],
+    "id": "kanji_084",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "立",
+    "onyomi": [
+      "リツ",
+      "リュウ"
+    ],
+    "kunyomi": [
+      "た",
+      "た"
+    ],
+    "meaning": [
+      "stand",
+      "establish"
+    ],
+    "strokeCount": 5,
+    "examples": [
+      {
+        "word": "立派",
+        "reading": "りっぱ",
+        "meaning": "splendid"
+      },
+      {
+        "word": "立つ",
+        "reading": "たつ",
+        "meaning": "to stand"
+      }
+    ],
+    "id": "kanji_085",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "休",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす"
+    ],
+    "meaning": [
+      "rest",
+      "holiday"
+    ],
+    "strokeCount": 6,
+    "examples": [
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning": "holiday"
+      },
+      {
+        "word": "休む",
+        "reading": "やすむ",
+        "meaning": "to rest"
+      }
+    ],
+    "id": "kanji_086",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "女",
+    "onyomi": [
+      "ジョ",
+      "ニョ"
+    ],
+    "kunyomi": [
+      "おんな",
+      "め"
+    ],
+    "meaning": [
+      "woman",
+      "female"
+    ],
+    "strokeCount": 3,
+    "examples": [
+      {
+        "word": "女性",
+        "reading": "じょせい",
+        "meaning": "female"
+      },
+      {
+        "word": "女の子",
+        "reading": "おんなのこ",
+        "meaning": "girl"
+      }
+    ],
+    "id": "kanji_087",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "子",
+    "onyomi": [
+      "シ",
+      "ス"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "meaning": [
+      "child",
+      "son"
+    ],
+    "strokeCount": 3,
+    "examples": [
+      {
+        "word": "子供",
+        "reading": "こども",
+        "meaning": "child"
+      },
+      {
+        "word": "女の子",
+        "reading": "おんなのこ",
+        "meaning": "girl"
+      }
+    ],
+    "id": "kanji_088",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "友",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "meaning": [
+      "friend"
+    ],
+    "strokeCount": 4,
+    "examples": [
+      {
+        "word": "友人",
+        "reading": "ゆうじん",
+        "meaning": "friend"
+      },
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "friend"
+      }
+    ],
+    "id": "kanji_089",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "父",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "meaning": [
+      "father"
+    ],
+    "strokeCount": 4,
+    "examples": [
+      {
+        "word": "父親",
+        "reading": "ちちおや",
+        "meaning": "father"
+      },
+      {
+        "word": "お父さん",
+        "reading": "おとうさん",
+        "meaning": "father (polite)"
+      }
+    ],
+    "id": "kanji_090",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "母",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは"
+    ],
+    "meaning": [
+      "mother"
+    ],
+    "strokeCount": 5,
+    "examples": [
+      {
+        "word": "母親",
+        "reading": "ははおや",
+        "meaning": "mother"
+      },
+      {
+        "word": "お母さん",
+        "reading": "おかあさん",
+        "meaning": "mother (polite)"
+      }
+    ],
+    "id": "kanji_091",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "町",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "まち"
+    ],
+    "meaning": [
+      "town",
+      "street"
+    ],
+    "strokeCount": 7,
+    "examples": [
+      {
+        "word": "町内",
+        "reading": "ちょうない",
+        "meaning": "neighborhood"
+      },
+      {
+        "word": "町",
+        "reading": "まち",
+        "meaning": "town"
+      }
+    ],
+    "id": "kanji_092",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "店",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "みせ",
+      "たな"
+    ],
+    "meaning": [
+      "shop",
+      "store"
+    ],
+    "strokeCount": 8,
+    "examples": [
+      {
+        "word": "喫茶店",
+        "reading": "きっさてん",
+        "meaning": "coffee shop"
+      },
+      {
+        "word": "店",
+        "reading": "みせ",
+        "meaning": "shop"
+      }
+    ],
+    "id": "kanji_093",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "道",
+    "onyomi": [
+      "ドウ",
+      "トウ"
+    ],
+    "kunyomi": [
+      "みち"
+    ],
+    "meaning": [
+      "road",
+      "path",
+      "way"
+    ],
+    "strokeCount": 12,
+    "examples": [
+      {
+        "word": "道路",
+        "reading": "どうろ",
+        "meaning": "road"
+      },
+      {
+        "word": "道",
+        "reading": "みち",
+        "meaning": "road"
+      }
+    ],
+    "id": "kanji_094",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "天",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま"
+    ],
+    "meaning": [
+      "heaven",
+      "sky"
+    ],
+    "strokeCount": 4,
+    "examples": [
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "meaning": "weather"
+      },
+      {
+        "word": "天国",
+        "reading": "てんごく",
+        "meaning": "heaven"
+      }
+    ],
+    "id": "kanji_095",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "長",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "なが"
+    ],
+    "meaning": [
+      "long",
+      "leader"
+    ],
+    "strokeCount": 8,
+    "examples": [
+      {
+        "word": "長い",
+        "reading": "ながい",
+        "meaning": "long"
+      },
+      {
+        "word": "校長",
+        "reading": "こうちょう",
+        "meaning": "principal"
+      }
+    ],
+    "id": "kanji_096",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "新",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "あたら",
+      "あら",
+      "にい"
+    ],
+    "meaning": [
+      "new"
+    ],
+    "strokeCount": 13,
+    "examples": [
+      {
+        "word": "新しい",
+        "reading": "あたらしい",
+        "meaning": "new"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": "newspaper"
+      }
+    ],
+    "id": "kanji_097",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "古",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "ふる"
+    ],
+    "meaning": [
+      "old",
+      "ancient"
+    ],
+    "strokeCount": 5,
+    "examples": [
+      {
+        "word": "古い",
+        "reading": "ふるい",
+        "meaning": "old (thing)"
+      },
+      {
+        "word": "中古",
+        "reading": "ちゅうこ",
+        "meaning": "secondhand"
+      }
+    ],
+    "id": "kanji_098",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "白",
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しら",
+      "じろ"
+    ],
+    "meaning": [
+      "white"
+    ],
+    "strokeCount": 5,
+    "examples": [
+      {
+        "word": "白い",
+        "reading": "しろい",
+        "meaning": "white"
+      },
+      {
+        "word": "白",
+        "reading": "しろ",
+        "meaning": "white"
+      }
+    ],
+    "id": "kanji_099",
+    "jlptLevel": "N5"
+  },
+  {
+    "character": "青",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "あお"
+    ],
+    "meaning": [
+      "blue",
+      "green"
+    ],
+    "strokeCount": 8,
+    "examples": [
+      {
+        "word": "青い",
+        "reading": "あおい",
+        "meaning": "blue"
+      },
+      {
+        "word": "青空",
+        "reading": "あおぞら",
+        "meaning": "blue sky"
+      }
+    ],
+    "id": "kanji_100",
+    "jlptLevel": "N5"
+  }
 ]

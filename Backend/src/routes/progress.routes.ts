@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 import { authMiddleware } from "../middleware/auth.middleware";
 import { db } from "../db/client";
-import { reviewItems, userProgress } from "../db";
+import { reviewItems, userProgress, userProfiles } from "../db";
 import { and, eq, lte } from "drizzle-orm";
 import { Variables } from "../lib/type-variables";
 import { zValidator } from "@hono/zod-validator";
@@ -9,6 +9,83 @@ import {
   completeLessonSchema,
   reviewItemsSchema,
 } from "../schemas/progress.schema";
+import lessonsData from "../../../static-content/lessons/n5-lessons.json";
+
+import { norm } from "../lib/content";
+import hiraganaData from "../../../static-content/hiragana/n5-hiragana.json";
+import katakanaData from "../../../static-content/katakana/n5-katakana.json";
+import kanjiData from "../../../static-content/kanji/n5-kanji.json";
+import vocabData from "../../../static-content/vocab/n5-vocab.json";
+import grammarData from "../../../static-content/grammar/n5-grammar.json";
+
+type ContentType = "hiragana" | "katakana" | "kanji" | "vocab" | "grammar";
+
+function getContentType(contentId: string): ContentType {
+  if (contentId.startsWith("kanji_")) return "kanji";
+  if (contentId.startsWith("vocab_")) return "vocab";
+  if (contentId.startsWith("grammar_")) return "grammar";
+  const code = contentId.charCodeAt(0);
+  if (code >= 0x3040 && code <= 0x309f) return "hiragana";
+  return "katakana";
+}
+
+function enrichItem(item: typeof reviewItems.$inferSelect) {
+  const contentType = getContentType(item.contentId);
+  switch (contentType) {
+    case "hiragana": {
+      const c = hiraganaData.find((h) => h.character === item.contentId);
+      return {
+        ...item,
+        contentType,
+        question: item.contentId,
+        reading: c?.romaji,
+        meaning: c?.romaji ?? "?",
+      };
+    }
+    case "katakana": {
+      const c = katakanaData.find((k) => k.character === item.contentId);
+      return {
+        ...item,
+        contentType,
+        question: item.contentId,
+        reading: c?.romaji,
+        meaning: c?.romaji ?? "?",
+      };
+    }
+    case "kanji": {
+      const c = kanjiData.find((k) => k.id === item.contentId);
+      return {
+        ...item,
+        contentType,
+        question: c?.character ?? item.contentId,
+        reading: [...(c?.onyomi ?? []), ...(c?.kunyomi ?? [])].join("、"),
+        meaning: norm(c?.meaning),
+      };
+    }
+    case "vocab": {
+      const c = vocabData.find((v) => v.id === item.contentId);
+      return {
+        ...item,
+        contentType,
+        question: c?.word ?? item.contentId,
+        reading: c?.reading,
+        meaning: norm(c?.meaning),
+      };
+    }
+    case "grammar": {
+      const c = grammarData.find((g) => g.id === item.contentId);
+      return {
+        ...item,
+        contentType,
+        question: c?.pattern ?? item.contentId,
+        reading: undefined,
+        meaning: norm(c?.meaning),
+        example: c?.example,
+        exampleTranslation: c?.exampleTranslation,
+      };
+    }
+  }
+}
 
 const progressRoute = new Hono<{ Variables: Variables }>();
 
@@ -69,11 +146,18 @@ progressRoute.post(
       const userId = c.get("userId");
       const { day, timeSpentMinutes, itemsMasteredCount } = c.req.valid("json");
 
-      const existing = await db
-        .select()
-        .from(userProgress)
-        .where(and(eq(userProgress.userId, userId), eq(userProgress.day, day)))
-        .limit(1);
+      const [existing, profile] = await Promise.all([
+        db
+          .select()
+          .from(userProgress)
+          .where(and(eq(userProgress.userId, userId), eq(userProgress.day, day)))
+          .limit(1),
+        db
+          .select()
+          .from(userProfiles)
+          .where(eq(userProfiles.userId, userId))
+          .limit(1),
+      ]);
 
       if (existing.length > 0) {
         await db
@@ -87,19 +171,84 @@ progressRoute.post(
           .where(
             and(eq(userProgress.userId, userId), eq(userProgress.day, day)),
           );
-
-        return c.json({ success: true, action: "updated" });
+      } else {
+        await db.insert(userProgress).values({
+          id: crypto.randomUUID(),
+          userId,
+          day,
+          completed: true,
+          completedAt: new Date(),
+          timeSpentMinutes,
+          itemsMasteredCount,
+        });
       }
 
-      await db.insert(userProgress).values({
-        id: crypto.randomUUID(),
-        userId,
-        day,
-        completed: true,
-        completedAt: new Date(),
-        timeSpentMinutes,
-        itemsMasteredCount,
-      });
+      // Recalculate streak from all completed days
+      const allCompleted = await db
+        .select({ day: userProgress.day })
+        .from(userProgress)
+        .where(and(eq(userProgress.userId, userId), eq(userProgress.completed, true)));
+
+      const sortedDays = [...new Set(allCompleted.map((r) => r.day))].sort((a, b) => a - b);
+      let streak = 0;
+      for (let i = sortedDays.length - 1; i >= 0; i--) {
+        const expected = (sortedDays[sortedDays.length - 1]!) - (sortedDays.length - 1 - i);
+        if (sortedDays[i] === expected) streak++;
+        else break;
+      }
+
+      // Advance currentDay if profile is still on this day, always update streak
+      const currentDay = Number(profile[0]?.currentDay ?? 1);
+      await db
+        .update(userProfiles)
+        .set({
+          currentStreak: streak,
+          lastStudiedAt: new Date(),
+          ...(currentDay === day ? { currentDay: Math.min(day + 1, 165) } : {}),
+        })
+        .where(eq(userProfiles.userId, userId));
+
+      // Seed review items for all content in this lesson
+      const lesson = lessonsData.find((l) => l.day === day);
+      if (lesson) {
+        const allIds = [
+          ...lesson.hiraganaIds,
+          ...lesson.katakanaIds,
+          ...lesson.kanjiIds,
+          ...lesson.vocabIds,
+          ...lesson.grammarIds,
+        ];
+
+        // Only insert items not already tracked
+        const existingReviews = allIds.length > 0
+          ? await db
+              .select({ contentId: reviewItems.contentId })
+              .from(reviewItems)
+              .where(eq(reviewItems.userId, userId))
+          : [];
+
+        const existingIds = new Set(existingReviews.map((r) => r.contentId));
+        const now = new Date();
+        const tomorrow = new Date(now);
+        tomorrow.setDate(tomorrow.getDate() + 1);
+
+        const toInsert = allIds
+          .filter((id) => !existingIds.has(id))
+          .map((contentId) => ({
+            id: crypto.randomUUID(),
+            userId,
+            contentId,
+            nextReviewDate: tomorrow,
+            repetitions: 1,
+            interval: 1,
+            easyFactor: 2.5,
+            lastReviewedAt: now,
+          }));
+
+        if (toInsert.length > 0) {
+          await db.insert(reviewItems).values(toInsert);
+        }
+      }
 
       return c.json({ success: true, action: "created" }, 201);
     } catch {
@@ -123,7 +272,7 @@ progressRoute.get("/review-items", async (c) => {
         ),
       );
 
-    return c.json({ items });
+    return c.json({ items: items.map(enrichItem) });
   } catch (error) {
     return c.json({ error: "Failed to fetch review items" }, 500);
   }

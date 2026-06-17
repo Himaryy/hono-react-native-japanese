@@ -158,5 +158,45 @@
     "example": "はやくねたほうがいい",
     "exampleTranslation": "You should sleep early.",
     "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_021",
+    "pattern": "〜ましょう",
+    "meaning": "Let's do — volitional form, polite suggestion",
+    "example": "一緒に行きましょう",
+    "exampleTranslation": "Let's go together.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_022",
+    "pattern": "〜ましょうか",
+    "meaning": "Shall I/we — offer or suggestion",
+    "example": "窓を開けましょうか",
+    "exampleTranslation": "Shall I open the window?",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_023",
+    "pattern": "〜てもいいです",
+    "meaning": "May I do — asking/giving permission",
+    "example": "ここに座ってもいいですか",
+    "exampleTranslation": "May I sit here?",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_024",
+    "pattern": "〜てはいけません",
+    "meaning": "Must not do — prohibition",
+    "example": "ここでタバコを吸ってはいけません",
+    "exampleTranslation": "You must not smoke here.",
+    "jlptLevel": "N5"
+  },
+  {
+    "id": "grammar_025",
+    "pattern": "〜が欲しい",
+    "meaning": "Want (something) — desire for object",
+    "example": "新しいコンピュータが欲しいです",
+    "exampleTranslation": "I want a new computer.",
+    "jlptLevel": "N5"
   }
 ]
