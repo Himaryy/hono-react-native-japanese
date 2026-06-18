@@ -1,17 +1,17 @@
 import { Hono } from "hono";
-import { authMiddleware } from "../middleware/auth.middleware";
-import { db } from "../db/client";
-import { reviewItems, userProgress, userProfiles } from "../db";
+import { authMiddleware } from "../middleware/auth.middleware.js";
+import { db } from "../db/client.js";
+import { reviewItems, userProgress, userProfiles } from "../db/index.js";
 import { and, eq, lte } from "drizzle-orm";
-import { Variables } from "../lib/type-variables";
+import { Variables } from "../lib/type-variables.js";
 import { zValidator } from "@hono/zod-validator";
 import {
   completeLessonSchema,
   reviewItemsSchema,
-} from "../schemas/progress.schema";
+} from "../schemas/progress.schema.js";
 import lessonsData from "../../../static-content/lessons/n5-lessons.json";
 
-import { norm } from "../lib/content";
+import { norm } from "../lib/content.js";
 import hiraganaData from "../../../static-content/hiragana/n5-hiragana.json";
 import katakanaData from "../../../static-content/katakana/n5-katakana.json";
 import kanjiData from "../../../static-content/kanji/n5-kanji.json";

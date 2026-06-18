@@ -1,11 +1,11 @@
 import { Hono } from "hono";
-import { Variables } from "../lib/type-variables";
-import { authMiddleware } from "../middleware/auth.middleware";
-import { db } from "../db/client";
-import { friendCodes, friendships, userProfiles, users } from "../db";
+import { Variables } from "../lib/type-variables.js";
+import { authMiddleware } from "../middleware/auth.middleware.js";
+import { db } from "../db/client.js";
+import { friendCodes, friendships, userProfiles, users } from "../db/index.js";
 import { and, eq, or } from "drizzle-orm";
 import { zValidator } from "@hono/zod-validator";
-import { addFriendSchema } from "../schemas/friends.schema";
+import { addFriendSchema } from "../schemas/friends.schema.js";
 
 const friendsRoute = new Hono<{ Variables: Variables }>();
 

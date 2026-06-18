@@ -1,11 +1,11 @@
 import { Hono } from "hono";
-import { Variables } from "../lib/type-variables";
-import { authMiddleware } from "../middleware/auth.middleware";
-import { db } from "../db/client";
-import { userProfiles } from "../db";
+import { Variables } from "../lib/type-variables.js";
+import { authMiddleware } from "../middleware/auth.middleware.js";
+import { db } from "../db/client.js";
+import { userProfiles } from "../db/index.js";
 import { eq } from "drizzle-orm";
 
-import { norm } from "../lib/content";
+import { norm } from "../lib/content.js";
 import lessonsData from "../../../static-content/lessons/n5-lessons.json";
 import hiraganaData from "../../../static-content/hiragana/n5-hiragana.json";
 import katakanaData from "../../../static-content/katakana/n5-katakana.json";
