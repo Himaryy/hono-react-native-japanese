@@ -11,11 +11,11 @@ import { useCallback, useState } from "react";
 import { FlatList, Pressable, SectionList, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import hiraganaData from "../../../static-content/hiragana/n5-hiragana.json";
-import katakanaData from "../../../static-content/katakana/n5-katakana.json";
-import kanjiData from "../../../static-content/kanji/n5-kanji.json";
-import vocabData from "../../../static-content/vocab/n5-vocab.json";
-import grammarData from "../../../static-content/grammar/n5-grammar.json";
+import hiraganaData from "../../static-content/hiragana/n5-hiragana.json";
+import katakanaData from "../../static-content/katakana/n5-katakana.json";
+import kanjiData from "../../static-content/kanji/n5-kanji.json";
+import vocabData from "../../static-content/vocab/n5-vocab.json";
+import grammarData from "../../static-content/grammar/n5-grammar.json";
 
 type Category = "hiragana" | "katakana" | "kanji" | "vocab" | "grammar";
 

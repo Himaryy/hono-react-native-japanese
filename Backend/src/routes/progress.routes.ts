@@ -229,8 +229,11 @@ progressRoute.post(
 
         const existingIds = new Set(existingReviews.map((r: { contentId: string }) => r.contentId));
         const now = new Date();
-        const tomorrow = new Date(now);
-        tomorrow.setDate(tomorrow.getDate() + 1);
+        const GMT7_MS = 7 * 60 * 60 * 1000;
+        const nowGMT7 = new Date(now.getTime() + GMT7_MS);
+        const tomorrow = new Date(
+          Date.UTC(nowGMT7.getUTCFullYear(), nowGMT7.getUTCMonth(), nowGMT7.getUTCDate() + 1) - GMT7_MS
+        );
 
         const toInsert = allIds
           .filter((id) => !existingIds.has(id))
@@ -300,8 +303,11 @@ progressRoute.post(
       const now = new Date();
 
       if (existing.length === 0) {
-        const nextReviewDate = new Date(now);
-        nextReviewDate.setDate(nextReviewDate.getDate() + 1);
+        const GMT7_MS = 7 * 60 * 60 * 1000;
+        const nowGMT7 = new Date(now.getTime() + GMT7_MS);
+        const nextReviewDate = new Date(
+          Date.UTC(nowGMT7.getUTCFullYear(), nowGMT7.getUTCMonth(), nowGMT7.getUTCDate() + 1) - GMT7_MS
+        );
 
         await db.insert(reviewItems).values({
           id: crypto.randomUUID(),
