@@ -14,6 +14,7 @@ export const auth = betterAuth({
     "http://localhost:8081",
     "http://10.10.1.35:8081",
     "http://192.168.101.8:8081",
+    "exp://",
   ],
   advanced: {
     disableCSRFCheck: true,

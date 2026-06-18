@@ -40,217 +40,47 @@
 
 ---
 
-## PHASE 1: STATIC CONTENT (Week 1–3)
+## PHASE 1: STATIC CONTENT (Week 1–3) ✅
 
 These are the building blocks. Everything else depends on this.
 
 ---
 
-### 1.1: Create Kanji JSON Files (N5) 🔴 HIGH PRIORITY
-**Files needed**:
-- `static-content/kanji/n5-kanji.json`
-
-**Effort**: 40 hours
+### 1.1: Create Kanji JSON Files (N5) ✅
+**Files**: `static-content/kanji/n5-kanji.json`
 **Output**: JSON file with 100 kanji (N5 level)
 
-**Structure**:
-```json
-[
-  {
-    "id": "kanji_001",
-    "kanji": "日",
-    "jlptLevel": "N5",
-    "strokeCount": 4,
-    "readings": {
-      "on": ["にち", "じつ"],
-      "kun": ["ひ"]
-    },
-    "meanings": ["day", "sun"],
-    "strokeOrder": ["M10,10 L10,100...", ...4 total],
-    "examples": [
-      {
-        "sentence": "今日は月曜日です。",
-        "reading": "きょうはげつようびです。",
-        "english": "Today is Monday.",
-        "audioUrl": "audio/example_001.mp3"
-      }
-    ]
-  },
-  ...99 more kanji
-]
-```
+---
 
-**Data sources**:
-- Kanji strokes: KanjiVG (kanjivg.com)
-- Meanings: Jisho.org API
-- Examples: Tatoeba.org
-
-**From PRD Reference**: Section 4.1 - N5 Curriculum (Days 61–80)
+### 1.2: Create Vocabulary JSON Files (N5) ✅
+**Files**: `static-content/vocab/n5-vocab.json`
+**Output**: JSON file with 547 vocabulary words
 
 ---
 
-### 1.2: Create Vocabulary JSON Files (N5) 🔴 HIGH PRIORITY
-**Files needed**:
-- `static-content/vocab/n5-vocab.json`
-
-**Effort**: 30 hours
-**Output**: JSON file with 400 vocabulary words
-
-**Structure**:
-```json
-[
-  {
-    "id": "vocab_001",
-    "word": "猫",
-    "reading": "ねこ",
-    "jlptLevel": "N5",
-    "partOfSpeech": "noun",
-    "meanings": ["cat"],
-    "audioUrl": "audio/vocab_cat.mp3",
-    "examples": [
-      {
-        "sentence": "私の猫は黒いです。",
-        "reading": "わたしのねこはくろいです。",
-        "english": "My cat is black."
-      }
-    ],
-    "pitchAccent": {
-      "type": "atamadaka",
-      "diagram": "●-●-●",
-      "explanation": "First mora is high, then drops"
-    }
-  },
-  ...399 more words
-]
-```
-
-**Data sources**:
-- Vocab: Jisho.org API + Tatoeba
-- Audio: Forvo.com (crowdsourced)
-- Pitch accent: Study guides
-
-**From PRD Reference**: Section 4.1 - N5 Curriculum (Days 21–60)
+### 1.3: Create Grammar JSON Files (N5) ✅
+**Files**: `static-content/grammar/n5-grammar.json`
+**Output**: JSON file with 25 grammar patterns
 
 ---
 
-### 1.3: Create Grammar JSON Files (N5) 🔴 HIGH PRIORITY
-**Files needed**:
-- `static-content/grammar/n5-grammar.json`
-
-**Effort**: 20 hours
-**Output**: JSON file with 20 grammar patterns
-
-**Structure**:
-```json
-[
-  {
-    "id": "grammar_001",
-    "pattern": "です",
-    "jlptLevel": "N5",
-    "meaning": "Polite form (to be)",
-    "explanation": "Used to make sentences polite and formal.",
-    "examples": [
-      {
-        "sentence": "私は学生です。",
-        "reading": "わたしはがくせいです。",
-        "english": "I am a student."
-      }
-    ],
-    "relatedPatterns": ["ます", "だ"],
-    "notes": "Most common ending in formal speech"
-  },
-  ...19 more patterns
-]
-```
-
-**Data sources**:
-- Grammar: Tae Kim's guide (guidetojapanese.org)
-- Examples: Study guides
-
-**From PRD Reference**: Section 4.1 - N5 Curriculum (Days 81–100)
-
----
-
-### 1.4: Create Hiragana/Katakana JSON Files 🔴 HIGH PRIORITY
-**Files needed**:
+### 1.4: Create Hiragana/Katakana JSON Files ✅
+**Files**:
 - `static-content/hiragana/n5-hiragana.json`
 - `static-content/katakana/n5-katakana.json`
-
-**Effort**: 10 hours
-**Output**: JSON files with character mappings
-
-**Structure**:
-```json
-[
-  {
-    "id": "hiragana_001",
-    "character": "あ",
-    "romaji": "a",
-    "strokeOrder": ["M10,10 L20,20...", ...strokes],
-    "audioUrl": "audio/hiragana_a.mp3"
-  },
-  ...45 more hiragana, then 46 katakana
-]
-```
-
-**From PRD Reference**: Section 4.1 - N5 Curriculum (Days 1–20)
+**Output**: JSON files with 71 characters each (base + dakuten)
 
 ---
 
-### 1.5: Download/Record Audio Files 🔴 HIGH PRIORITY
-**Files needed**:
-- `static-content/audio/` (all MP3 files)
-  - Hiragana pronunciations
-  - Katakana pronunciations
-  - Kanji example sentences
-  - Vocabulary words
-  - Grammar examples
-
-**Effort**: 20 hours
-**Output**: ~500 MP3 files (organized by type)
-
-**Sources**:
-- Forvo.com (download native speaker audio)
-- Record yourself (with native speaker review)
-- YouTube (extract audio from JLPT tutors)
-
-**From PRD Reference**: Section 4 - Content Structure
+### 1.5: Download/Record Audio Files 🔴 SKIPPED FOR NOW
+**Files**: `static-content/audio/` (~500 MP3s)
+**Notes**: Deferred. Audio not critical for MVP — content works without it.
 
 ---
 
-### 1.6: Create Lesson Curriculum JSON 🔴 HIGH PRIORITY
-**Files needed**:
-- `static-content/lessons/n5-lessons.json`
-
-**Effort**: 5 hours
-**Output**: 100-day lesson plan
-
-**Structure**:
-```json
-[
-  {
-    "day": 1,
-    "level": "N5",
-    "title": "Hiragana (あ行)",
-    "contentType": "hiragana",
-    "items": ["hiragana_001", "hiragana_002", ...],
-    "estimatedMinutes": 10,
-    "phases": ["learn", "recognize", "write"]
-  },
-  {
-    "day": 2,
-    "level": "N5",
-    "title": "Hiragana (か行)",
-    "contentType": "hiragana",
-    "items": ["hiragana_006", "hiragana_007", ...],
-    "estimatedMinutes": 10,
-    "phases": ["learn", "recognize", "write"]
-  },
-  ...100 days total
-]
-```
-
-**From PRD Reference**: Section 4.1 - N5 Curriculum (Days 1–100)
+### 1.6: Create Lesson Curriculum JSON ✅
+**Files**: `static-content/lessons/n5-lessons.json`
+**Output**: 165-day lesson plan
 
 ---
 
@@ -778,21 +608,21 @@ Same as Phase 1 but for N4:
 |---|------|----------|-------|------|--------|
 | 0.1 | Create Neon DB | 🔴 High | 0.25 | 1 | ✅ |
 | 0.2 | Deploy Backend | 🔴 High | 0.5 | 1 | ✅ |
-| 1.1 | Kanji JSON (N5) | 🔴 High | 40 | 1–2 | ⏳ |
-| 1.2 | Vocab JSON (N5) | 🔴 High | 30 | 1–2 | ⏳ |
-| 1.3 | Grammar JSON (N5) | 🔴 High | 20 | 1–2 | ⏳ |
-| 1.4 | Hiragana/Katakana | 🔴 High | 10 | 1–2 | ⏳ |
-| 1.5 | Download Audio | 🔴 High | 20 | 1–2 | ⏳ |
-| 1.6 | Lesson Curriculum | 🔴 High | 5 | 1–2 | ⏳ |
-| 2.1 | Lesson API | 🔴 High | 8 | 1–2 | ⏳ |
-| 3.1 | Expo Setup | 🟡 Med | 1 | 2 | ⏳ |
-| 3.2 | Auth Screens | 🔴 High | 15 | 2–3 | ⏳ |
-| 3.3 | Dashboard | 🔴 High | 10 | 2–3 | ⏳ |
-| 3.4 | Lesson Screen | 🔴 High | 25 | 3–4 | ⏳ |
-| 3.5 | Review Screen | 🔴 High | 12 | 3–4 | ⏳ |
-| 3.6 | Profile Screen | 🟡 Med | 8 | 4–5 | ⏳ |
-| 3.7 | Friends Screen | 🟡 Med | 12 | 4–5 | ⏳ |
-| 3.8 | Navigation | 🟡 Med | 3 | 4 | ⏳ |
+| 1.1 | Kanji JSON (N5) | 🔴 High | 40 | 1–2 | ✅ |
+| 1.2 | Vocab JSON (N5) — 547 words | 🔴 High | 30 | 1–2 | ✅ |
+| 1.3 | Grammar JSON (N5) — 25 patterns | 🔴 High | 20 | 1–2 | ✅ |
+| 1.4 | Hiragana/Katakana — 71 chars each | 🔴 High | 10 | 1–2 | ✅ |
+| 1.5 | Download Audio | 🔴 High | 20 | 1–2 | ⏸️ |
+| 1.6 | Lesson Curriculum — 165 days | 🔴 High | 5 | 1–2 | ✅ |
+| 2.1 | Lesson API | 🔴 High | 8 | 1–2 | ✅ |
+| 3.1 | Expo Setup | 🟡 Med | 1 | 2 | ✅ |
+| 3.2 | Auth Screens | 🔴 High | 15 | 2–3 | ✅ |
+| 3.3 | Dashboard | 🔴 High | 10 | 2–3 | ✅ |
+| 3.4 | Lesson Screen | 🔴 High | 25 | 3–4 | ✅ |
+| 3.5 | Review Screen | 🔴 High | 12 | 3–4 | ✅ |
+| 3.6 | Profile Screen | 🟡 Med | 8 | 4–5 | ✅ |
+| 3.7 | Friends Screen | 🟡 Med | 12 | 4–5 | ✅ |
+| 3.8 | Navigation | 🟡 Med | 3 | 4 | ✅ |
 | 4.1 | Test Auth | 🔴 High | 2 | 5 | ⏳ |
 | 4.2 | Test Lessons | 🔴 High | 2 | 5 | ⏳ |
 | 4.3 | Test Friends | 🟡 Med | 2 | 5 | ⏳ |
