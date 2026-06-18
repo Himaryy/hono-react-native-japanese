@@ -2,12 +2,12 @@ import "dotenv/config";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { logger } from "hono/logger";
-import { AuthType } from "./lib/auth";
-import authRouter from "./routes/auth";
-import progressRoute from "./routes/progress.routes";
-import profileRoute from "./routes/profile.routes";
-import friendsRoute from "./routes/friends.routes";
-import lessonsRoute from "./routes/lessons.route";
+import { AuthType } from "./lib/auth.js";
+import authRouter from "./routes/auth.js";
+import progressRoute from "./routes/progress.routes.js";
+import profileRoute from "./routes/profile.routes.js";
+import friendsRoute from "./routes/friends.routes.js";
+import lessonsRoute from "./routes/lessons.route.js";
 
 const app = new Hono<{ Bindings: AuthType }>({ strict: false });
 
