@@ -1,0 +1,428 @@
+[
+  {
+    "character": "あ",
+    "romaji": "a",
+    "type": "vowel",
+    "group": "a-row"
+  },
+  {
+    "character": "い",
+    "romaji": "i",
+    "type": "vowel",
+    "group": "a-row"
+  },
+  {
+    "character": "う",
+    "romaji": "u",
+    "type": "vowel",
+    "group": "a-row"
+  },
+  {
+    "character": "え",
+    "romaji": "e",
+    "type": "vowel",
+    "group": "a-row"
+  },
+  {
+    "character": "お",
+    "romaji": "o",
+    "type": "vowel",
+    "group": "a-row"
+  },
+  {
+    "character": "か",
+    "romaji": "ka",
+    "type": "consonant",
+    "group": "ka-row"
+  },
+  {
+    "character": "き",
+    "romaji": "ki",
+    "type": "consonant",
+    "group": "ka-row"
+  },
+  {
+    "character": "く",
+    "romaji": "ku",
+    "type": "consonant",
+    "group": "ka-row"
+  },
+  {
+    "character": "け",
+    "romaji": "ke",
+    "type": "consonant",
+    "group": "ka-row"
+  },
+  {
+    "character": "こ",
+    "romaji": "ko",
+    "type": "consonant",
+    "group": "ka-row"
+  },
+  {
+    "character": "さ",
+    "romaji": "sa",
+    "type": "consonant",
+    "group": "sa-row"
+  },
+  {
+    "character": "し",
+    "romaji": "shi",
+    "type": "consonant",
+    "group": "sa-row"
+  },
+  {
+    "character": "す",
+    "romaji": "su",
+    "type": "consonant",
+    "group": "sa-row"
+  },
+  {
+    "character": "せ",
+    "romaji": "se",
+    "type": "consonant",
+    "group": "sa-row"
+  },
+  {
+    "character": "そ",
+    "romaji": "so",
+    "type": "consonant",
+    "group": "sa-row"
+  },
+  {
+    "character": "た",
+    "romaji": "ta",
+    "type": "consonant",
+    "group": "ta-row"
+  },
+  {
+    "character": "ち",
+    "romaji": "chi",
+    "type": "consonant",
+    "group": "ta-row"
+  },
+  {
+    "character": "つ",
+    "romaji": "tsu",
+    "type": "consonant",
+    "group": "ta-row"
+  },
+  {
+    "character": "て",
+    "romaji": "te",
+    "type": "consonant",
+    "group": "ta-row"
+  },
+  {
+    "character": "と",
+    "romaji": "to",
+    "type": "consonant",
+    "group": "ta-row"
+  },
+  {
+    "character": "な",
+    "romaji": "na",
+    "type": "consonant",
+    "group": "na-row"
+  },
+  {
+    "character": "に",
+    "romaji": "ni",
+    "type": "consonant",
+    "group": "na-row"
+  },
+  {
+    "character": "ぬ",
+    "romaji": "nu",
+    "type": "consonant",
+    "group": "na-row"
+  },
+  {
+    "character": "ね",
+    "romaji": "ne",
+    "type": "consonant",
+    "group": "na-row"
+  },
+  {
+    "character": "の",
+    "romaji": "no",
+    "type": "consonant",
+    "group": "na-row"
+  },
+  {
+    "character": "は",
+    "romaji": "ha",
+    "type": "consonant",
+    "group": "ha-row"
+  },
+  {
+    "character": "ひ",
+    "romaji": "hi",
+    "type": "consonant",
+    "group": "ha-row"
+  },
+  {
+    "character": "ふ",
+    "romaji": "fu",
+    "type": "consonant",
+    "group": "ha-row"
+  },
+  {
+    "character": "へ",
+    "romaji": "he",
+    "type": "consonant",
+    "group": "ha-row"
+  },
+  {
+    "character": "ほ",
+    "romaji": "ho",
+    "type": "consonant",
+    "group": "ha-row"
+  },
+  {
+    "character": "ま",
+    "romaji": "ma",
+    "type": "consonant",
+    "group": "ma-row"
+  },
+  {
+    "character": "み",
+    "romaji": "mi",
+    "type": "consonant",
+    "group": "ma-row"
+  },
+  {
+    "character": "む",
+    "romaji": "mu",
+    "type": "consonant",
+    "group": "ma-row"
+  },
+  {
+    "character": "め",
+    "romaji": "me",
+    "type": "consonant",
+    "group": "ma-row"
+  },
+  {
+    "character": "も",
+    "romaji": "mo",
+    "type": "consonant",
+    "group": "ma-row"
+  },
+  {
+    "character": "や",
+    "romaji": "ya",
+    "type": "consonant",
+    "group": "ya-row"
+  },
+  {
+    "character": "ゆ",
+    "romaji": "yu",
+    "type": "consonant",
+    "group": "ya-row"
+  },
+  {
+    "character": "よ",
+    "romaji": "yo",
+    "type": "consonant",
+    "group": "ya-row"
+  },
+  {
+    "character": "ら",
+    "romaji": "ra",
+    "type": "consonant",
+    "group": "ra-row"
+  },
+  {
+    "character": "り",
+    "romaji": "ri",
+    "type": "consonant",
+    "group": "ra-row"
+  },
+  {
+    "character": "る",
+    "romaji": "ru",
+    "type": "consonant",
+    "group": "ra-row"
+  },
+  {
+    "character": "れ",
+    "romaji": "re",
+    "type": "consonant",
+    "group": "ra-row"
+  },
+  {
+    "character": "ろ",
+    "romaji": "ro",
+    "type": "consonant",
+    "group": "ra-row"
+  },
+  {
+    "character": "わ",
+    "romaji": "wa",
+    "type": "consonant",
+    "group": "wa-row"
+  },
+  {
+    "character": "を",
+    "romaji": "wo",
+    "type": "particle",
+    "group": "wa-row"
+  },
+  {
+    "character": "ん",
+    "romaji": "n",
+    "type": "nasal",
+    "group": "wa-row"
+  },
+  {
+    "character": "が",
+    "romaji": "ga",
+    "type": "voiced",
+    "group": "ga-row"
+  },
+  {
+    "character": "ぎ",
+    "romaji": "gi",
+    "type": "voiced",
+    "group": "ga-row"
+  },
+  {
+    "character": "ぐ",
+    "romaji": "gu",
+    "type": "voiced",
+    "group": "ga-row"
+  },
+  {
+    "character": "げ",
+    "romaji": "ge",
+    "type": "voiced",
+    "group": "ga-row"
+  },
+  {
+    "character": "ご",
+    "romaji": "go",
+    "type": "voiced",
+    "group": "ga-row"
+  },
+  {
+    "character": "ざ",
+    "romaji": "za",
+    "type": "voiced",
+    "group": "za-row"
+  },
+  {
+    "character": "じ",
+    "romaji": "ji",
+    "type": "voiced",
+    "group": "za-row"
+  },
+  {
+    "character": "ず",
+    "romaji": "zu",
+    "type": "voiced",
+    "group": "za-row"
+  },
+  {
+    "character": "ぜ",
+    "romaji": "ze",
+    "type": "voiced",
+    "group": "za-row"
+  },
+  {
+    "character": "ぞ",
+    "romaji": "zo",
+    "type": "voiced",
+    "group": "za-row"
+  },
+  {
+    "character": "だ",
+    "romaji": "da",
+    "type": "voiced",
+    "group": "da-row"
+  },
+  {
+    "character": "ぢ",
+    "romaji": "ji",
+    "type": "voiced",
+    "group": "da-row"
+  },
+  {
+    "character": "づ",
+    "romaji": "zu",
+    "type": "voiced",
+    "group": "da-row"
+  },
+  {
+    "character": "で",
+    "romaji": "de",
+    "type": "voiced",
+    "group": "da-row"
+  },
+  {
+    "character": "ど",
+    "romaji": "do",
+    "type": "voiced",
+    "group": "da-row"
+  },
+  {
+    "character": "ば",
+    "romaji": "ba",
+    "type": "voiced",
+    "group": "ba-row"
+  },
+  {
+    "character": "び",
+    "romaji": "bi",
+    "type": "voiced",
+    "group": "ba-row"
+  },
+  {
+    "character": "ぶ",
+    "romaji": "bu",
+    "type": "voiced",
+    "group": "ba-row"
+  },
+  {
+    "character": "べ",
+    "romaji": "be",
+    "type": "voiced",
+    "group": "ba-row"
+  },
+  {
+    "character": "ぼ",
+    "romaji": "bo",
+    "type": "voiced",
+    "group": "ba-row"
+  },
+  {
+    "character": "ぱ",
+    "romaji": "pa",
+    "type": "semi-voiced",
+    "group": "pa-row"
+  },
+  {
+    "character": "ぴ",
+    "romaji": "pi",
+    "type": "semi-voiced",
+    "group": "pa-row"
+  },
+  {
+    "character": "ぷ",
+    "romaji": "pu",
+    "type": "semi-voiced",
+    "group": "pa-row"
+  },
+  {
+    "character": "ぺ",
+    "romaji": "pe",
+    "type": "semi-voiced",
+    "group": "pa-row"
+  },
+  {
+    "character": "ぽ",
+    "romaji": "po",
+    "type": "semi-voiced",
+    "group": "pa-row"
+  }
+]

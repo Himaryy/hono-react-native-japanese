@@ -6,12 +6,12 @@ import { userProfiles } from "../db/index.js";
 import { eq } from "drizzle-orm";
 
 import { norm } from "../lib/content.js";
-import lessonsData from "../../../static-content/lessons/n5-lessons.json";
-import hiraganaData from "../../../static-content/hiragana/n5-hiragana.json";
-import katakanaData from "../../../static-content/katakana/n5-katakana.json";
-import kanjiData from "../../../static-content/kanji/n5-kanji.json";
-import vocabData from "../../../static-content/vocab/n5-vocab.json";
-import grammarData from "../../../static-content/grammar/n5-grammar.json";
+import lessonsData from "../../static-content/lessons/n5-lessons.json" with { type: "json" };
+import hiraganaData from "../../static-content/hiragana/n5-hiragana.json" with { type: "json" };
+import katakanaData from "../../static-content/katakana/n5-katakana.json" with { type: "json" };
+import kanjiData from "../../static-content/kanji/n5-kanji.json" with { type: "json" };
+import vocabData from "../../static-content/vocab/n5-vocab.json" with { type: "json" };
+import grammarData from "../../static-content/grammar/n5-grammar.json" with { type: "json" };
 
 type ContentType = "hiragana" | "katakana" | "kanji" | "vocab" | "grammar";
 

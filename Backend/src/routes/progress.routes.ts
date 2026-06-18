@@ -9,14 +9,14 @@ import {
   completeLessonSchema,
   reviewItemsSchema,
 } from "../schemas/progress.schema.js";
-import lessonsData from "../../../static-content/lessons/n5-lessons.json";
+import lessonsData from "../../static-content/lessons/n5-lessons.json" with { type: "json" };
 
 import { norm } from "../lib/content.js";
-import hiraganaData from "../../../static-content/hiragana/n5-hiragana.json";
-import katakanaData from "../../../static-content/katakana/n5-katakana.json";
-import kanjiData from "../../../static-content/kanji/n5-kanji.json";
-import vocabData from "../../../static-content/vocab/n5-vocab.json";
-import grammarData from "../../../static-content/grammar/n5-grammar.json";
+import hiraganaData from "../../static-content/hiragana/n5-hiragana.json" with { type: "json" };
+import katakanaData from "../../static-content/katakana/n5-katakana.json" with { type: "json" };
+import kanjiData from "../../static-content/kanji/n5-kanji.json" with { type: "json" };
+import vocabData from "../../static-content/vocab/n5-vocab.json" with { type: "json" };
+import grammarData from "../../static-content/grammar/n5-grammar.json" with { type: "json" };
 
 type ContentType = "hiragana" | "katakana" | "kanji" | "vocab" | "grammar";
 
@@ -104,11 +104,11 @@ progressRoute.get("/stats", async (c) => {
 
     const totalDaysStudied = rows.length;
     const kanjiMastered = rows.reduce(
-      (sum, r) => sum + (r.itemsMasteredCount ?? 0),
+      (sum: number, r: typeof rows[0]) => sum + (r.itemsMasteredCount ?? 0),
       0,
     );
 
-    const days = rows.map((r) => r.day).sort((a, b) => a - b);
+    const days = rows.map((r: typeof rows[0]) => r.day).sort((a: number, b: number) => a - b);
 
     let currentStreak = 0;
     let longestStreak = 0;
@@ -189,7 +189,7 @@ progressRoute.post(
         .from(userProgress)
         .where(and(eq(userProgress.userId, userId), eq(userProgress.completed, true)));
 
-      const sortedDays = [...new Set(allCompleted.map((r) => r.day))].sort((a, b) => a - b);
+      const sortedDays = [...new Set(allCompleted.map((r: { day: number }) => r.day))].sort((a: number, b: number) => a - b);
       let streak = 0;
       for (let i = sortedDays.length - 1; i >= 0; i--) {
         const expected = (sortedDays[sortedDays.length - 1]!) - (sortedDays.length - 1 - i);
@@ -227,7 +227,7 @@ progressRoute.post(
               .where(eq(reviewItems.userId, userId))
           : [];
 
-        const existingIds = new Set(existingReviews.map((r) => r.contentId));
+        const existingIds = new Set(existingReviews.map((r: { contentId: string }) => r.contentId));
         const now = new Date();
         const tomorrow = new Date(now);
         tomorrow.setDate(tomorrow.getDate() + 1);

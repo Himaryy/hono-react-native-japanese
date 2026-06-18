@@ -1,0 +1,3179 @@
+[
+  {
+    "day": 1,
+    "title": "Hiragana: あ row",
+    "description": "Learn the first 5 hiragana vowels",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "あ",
+      "い",
+      "う",
+      "え",
+      "お"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 2,
+    "title": "Hiragana: か row",
+    "description": "Learn the か-ko row",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "か",
+      "き",
+      "く",
+      "け",
+      "こ"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 3,
+    "title": "Hiragana: さ & た rows",
+    "description": "Learn the さ and た rows",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "さ",
+      "し",
+      "す",
+      "せ",
+      "そ",
+      "た",
+      "ち",
+      "つ",
+      "て",
+      "と"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 4,
+    "title": "Hiragana: な & は rows",
+    "description": "Learn the な and は rows",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "な",
+      "に",
+      "ぬ",
+      "ね",
+      "の",
+      "は",
+      "ひ",
+      "ふ",
+      "へ",
+      "ほ"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 5,
+    "title": "Hiragana: ま, や, ら, わ rows",
+    "description": "Learn remaining hiragana including ん",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "ま",
+      "み",
+      "む",
+      "め",
+      "も",
+      "や",
+      "ゆ",
+      "よ",
+      "ら",
+      "り",
+      "る",
+      "れ",
+      "ろ",
+      "わ",
+      "を",
+      "ん"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 6,
+    "title": "Katakana: ア row",
+    "description": "Learn the first 5 katakana vowels",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "ア",
+      "イ",
+      "ウ",
+      "エ",
+      "オ"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 7,
+    "title": "Katakana: カ row",
+    "description": "Learn the カ-コ row",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "カ",
+      "キ",
+      "ク",
+      "ケ",
+      "コ"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 8,
+    "title": "Katakana: サ & タ rows",
+    "description": "Learn the サ and タ rows",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "サ",
+      "シ",
+      "ス",
+      "セ",
+      "ソ",
+      "タ",
+      "チ",
+      "ツ",
+      "テ",
+      "ト"
+    ],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 9,
+    "title": "Katakana: ナ & ハ rows",
+    "description": "Learn the ナ and ハ rows",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "ナ",
+      "ニ",
+      "ヌ",
+      "ネ",
+      "ノ",
+      "ハ",
+      "ヒ",
+      "フ",
+      "ヘ",
+      "ホ"
+    ],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 10,
+    "title": "Katakana: マ, ヤ, ラ, ワ rows",
+    "description": "Learn remaining katakana including ン",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "マ",
+      "ミ",
+      "ム",
+      "メ",
+      "モ",
+      "ヤ",
+      "ユ",
+      "ヨ",
+      "ラ",
+      "リ",
+      "ル",
+      "レ",
+      "ロ",
+      "ワ",
+      "ヲ",
+      "ン"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 11,
+    "title": "Hiragana: が row (voiced)",
+    "description": "Learn voiced hiragana がぎぐげご",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "が",
+      "ぎ",
+      "ぐ",
+      "げ",
+      "ご"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 12,
+    "title": "Hiragana: ざ row (voiced)",
+    "description": "Learn voiced hiragana ざじずぜぞ",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "ざ",
+      "じ",
+      "ず",
+      "ぜ",
+      "ぞ"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 13,
+    "title": "Hiragana: だ row (voiced)",
+    "description": "Learn voiced hiragana だぢづでど",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "だ",
+      "ぢ",
+      "づ",
+      "で",
+      "ど"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 14,
+    "title": "Hiragana: ば row (voiced)",
+    "description": "Learn voiced hiragana ばびぶべぼ",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "ば",
+      "び",
+      "ぶ",
+      "べ",
+      "ぼ"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 15,
+    "title": "Hiragana: ぱ row (semi-voiced)",
+    "description": "Learn semi-voiced hiragana ぱぴぷぺぽ",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [
+      "ぱ",
+      "ぴ",
+      "ぷ",
+      "ぺ",
+      "ぽ"
+    ],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 16,
+    "title": "Katakana: ガ row (voiced)",
+    "description": "Learn voiced katakana ガギグゲゴ",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "ガ",
+      "ギ",
+      "グ",
+      "ゲ",
+      "ゴ"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 17,
+    "title": "Katakana: ザ row (voiced)",
+    "description": "Learn voiced katakana ザジズゼゾ",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "ザ",
+      "ジ",
+      "ズ",
+      "ゼ",
+      "ゾ"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 18,
+    "title": "Katakana: ダ row (voiced)",
+    "description": "Learn voiced katakana ダヂヅデド",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "ダ",
+      "ヂ",
+      "ヅ",
+      "デ",
+      "ド"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 19,
+    "title": "Katakana: バ row (voiced)",
+    "description": "Learn voiced katakana バビブベボ",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "バ",
+      "ビ",
+      "ブ",
+      "ベ",
+      "ボ"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 20,
+    "title": "Katakana: パ row (semi-voiced)",
+    "description": "Learn semi-voiced katakana パピプペポ",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [
+      "パ",
+      "ピ",
+      "プ",
+      "ペ",
+      "ポ"
+    ],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 21,
+    "title": "Numbers: 一 to 五",
+    "description": "Learn kanji for numbers 1-5 and basic counting vocab",
+    "kanjiIds": [
+      "kanji_036",
+      "kanji_037",
+      "kanji_038",
+      "kanji_039",
+      "kanji_040"
+    ],
+    "vocabIds": [
+      "vocab_001",
+      "vocab_002",
+      "vocab_003"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 22,
+    "title": "Numbers: 六 to 十",
+    "description": "Learn kanji for numbers 6-10",
+    "kanjiIds": [
+      "kanji_041",
+      "kanji_042",
+      "kanji_043",
+      "kanji_044",
+      "kanji_045"
+    ],
+    "vocabIds": [
+      "vocab_004",
+      "vocab_005",
+      "vocab_006"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 23,
+    "title": "Large Numbers: 百・千・万・円",
+    "description": "Hundreds, thousands, ten-thousands, and yen",
+    "kanjiIds": [
+      "kanji_046",
+      "kanji_047",
+      "kanji_048",
+      "kanji_049"
+    ],
+    "vocabIds": [
+      "vocab_007",
+      "vocab_008"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 24,
+    "title": "Time: 時・分・半",
+    "description": "Telling time in Japanese",
+    "kanjiIds": [
+      "kanji_050",
+      "kanji_052",
+      "kanji_053"
+    ],
+    "vocabIds": [
+      "vocab_009",
+      "vocab_010",
+      "vocab_011"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 25,
+    "title": "Days: 日・月・火・水",
+    "description": "Days of the week part 1",
+    "kanjiIds": [
+      "kanji_001",
+      "kanji_002",
+      "kanji_003",
+      "kanji_004"
+    ],
+    "vocabIds": [
+      "vocab_012",
+      "vocab_013"
+    ],
+    "grammarIds": [
+      "grammar_001"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 26,
+    "title": "Days: 木・金・土",
+    "description": "Days of the week part 2",
+    "kanjiIds": [
+      "kanji_005",
+      "kanji_006",
+      "kanji_007"
+    ],
+    "vocabIds": [
+      "vocab_014",
+      "vocab_015"
+    ],
+    "grammarIds": [
+      "grammar_001"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 27,
+    "title": "Nature: 山・川・田",
+    "description": "Natural landscape kanji",
+    "kanjiIds": [
+      "kanji_008",
+      "kanji_009",
+      "kanji_010"
+    ],
+    "vocabIds": [
+      "vocab_016",
+      "vocab_017"
+    ],
+    "grammarIds": [
+      "grammar_006"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 28,
+    "title": "Weather: 雨・空・電・気",
+    "description": "Weather vocabulary",
+    "kanjiIds": [
+      "kanji_020",
+      "kanji_021",
+      "kanji_022",
+      "kanji_023"
+    ],
+    "vocabIds": [
+      "vocab_018",
+      "vocab_019",
+      "vocab_020"
+    ],
+    "grammarIds": [
+      "grammar_001"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 29,
+    "title": "Body: 人・口・目・耳",
+    "description": "Body parts vocabulary",
+    "kanjiIds": [
+      "kanji_011",
+      "kanji_012",
+      "kanji_013",
+      "kanji_014"
+    ],
+    "vocabIds": [
+      "vocab_021",
+      "vocab_022",
+      "vocab_023"
+    ],
+    "grammarIds": [
+      "grammar_002"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 30,
+    "title": "Body: 手・足",
+    "description": "More body parts and verbs",
+    "kanjiIds": [
+      "kanji_015",
+      "kanji_016"
+    ],
+    "vocabIds": [
+      "vocab_024",
+      "vocab_025",
+      "vocab_026"
+    ],
+    "grammarIds": [
+      "grammar_003"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 31,
+    "title": "Grammar: は and が",
+    "description": "Topic marker は vs subject marker が",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_027",
+      "vocab_028"
+    ],
+    "grammarIds": [
+      "grammar_001",
+      "grammar_002"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 32,
+    "title": "Grammar: を and に",
+    "description": "Object marker を and direction/time に",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_029",
+      "vocab_030"
+    ],
+    "grammarIds": [
+      "grammar_003",
+      "grammar_004"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 33,
+    "title": "Directions: 上・下・左・右・中",
+    "description": "Directional kanji",
+    "kanjiIds": [
+      "kanji_054",
+      "kanji_055",
+      "kanji_056",
+      "kanji_057",
+      "kanji_058"
+    ],
+    "vocabIds": [
+      "vocab_031",
+      "vocab_032",
+      "vocab_033"
+    ],
+    "grammarIds": [
+      "grammar_004"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 34,
+    "title": "Size: 大・小",
+    "description": "Big and small, and related adjectives",
+    "kanjiIds": [
+      "kanji_059",
+      "kanji_060"
+    ],
+    "vocabIds": [
+      "vocab_034",
+      "vocab_035",
+      "vocab_036"
+    ],
+    "grammarIds": [
+      "grammar_001"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 35,
+    "title": "Position: 前・後",
+    "description": "Before/front and after/behind",
+    "kanjiIds": [
+      "kanji_061",
+      "kanji_062"
+    ],
+    "vocabIds": [
+      "vocab_037",
+      "vocab_038"
+    ],
+    "grammarIds": [
+      "grammar_004"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 36,
+    "title": "Compass: 東・西・南・北",
+    "description": "Cardinal directions",
+    "kanjiIds": [
+      "kanji_063",
+      "kanji_064",
+      "kanji_065",
+      "kanji_066"
+    ],
+    "vocabIds": [
+      "vocab_039",
+      "vocab_040"
+    ],
+    "grammarIds": [
+      "grammar_005"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 37,
+    "title": "Time: 今・週・年",
+    "description": "Time expressions: now, week, year",
+    "kanjiIds": [
+      "kanji_070",
+      "kanji_071",
+      "kanji_032"
+    ],
+    "vocabIds": [
+      "vocab_041",
+      "vocab_042",
+      "vocab_043"
+    ],
+    "grammarIds": [
+      "grammar_001"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 38,
+    "title": "Daily time: 朝・夕・間",
+    "description": "Morning, evening, interval/between",
+    "kanjiIds": [
+      "kanji_068",
+      "kanji_069",
+      "kanji_051"
+    ],
+    "vocabIds": [
+      "vocab_044",
+      "vocab_045"
+    ],
+    "grammarIds": [
+      "grammar_004"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 39,
+    "title": "Every: 毎・来・何",
+    "description": "Every day, next/come, what/how many",
+    "kanjiIds": [
+      "kanji_067",
+      "kanji_072",
+      "kanji_073"
+    ],
+    "vocabIds": [
+      "vocab_046",
+      "vocab_047",
+      "vocab_048"
+    ],
+    "grammarIds": [
+      "grammar_008"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 40,
+    "title": "Review: Numbers & Time",
+    "description": "Review all numbers and time expressions learned so far",
+    "kanjiIds": [
+      "kanji_036",
+      "kanji_037",
+      "kanji_038",
+      "kanji_039",
+      "kanji_040",
+      "kanji_041",
+      "kanji_042",
+      "kanji_043",
+      "kanji_044",
+      "kanji_045",
+      "kanji_050",
+      "kanji_052",
+      "kanji_053"
+    ],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_001",
+      "grammar_002",
+      "grammar_003"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 40
+  },
+  {
+    "day": 41,
+    "title": "School: 学・校・先・生",
+    "description": "School-related vocabulary",
+    "kanjiIds": [
+      "kanji_029",
+      "kanji_024",
+      "kanji_030",
+      "kanji_031"
+    ],
+    "vocabIds": [
+      "vocab_049",
+      "vocab_050",
+      "vocab_051"
+    ],
+    "grammarIds": [
+      "grammar_001"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 42,
+    "title": "Language: 語・本・文・字",
+    "description": "Language and writing kanji",
+    "kanjiIds": [
+      "kanji_025",
+      "kanji_026",
+      "kanji_027",
+      "kanji_028"
+    ],
+    "vocabIds": [
+      "vocab_052",
+      "vocab_053",
+      "vocab_054"
+    ],
+    "grammarIds": [
+      "grammar_006"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 43,
+    "title": "Society: 国・会・社",
+    "description": "Country, meeting, company",
+    "kanjiIds": [
+      "kanji_033",
+      "kanji_034",
+      "kanji_035"
+    ],
+    "vocabIds": [
+      "vocab_055",
+      "vocab_056",
+      "vocab_057"
+    ],
+    "grammarIds": [
+      "grammar_007"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 44,
+    "title": "Plants: 花・草",
+    "description": "Flowers, grass and nature vocabulary",
+    "kanjiIds": [
+      "kanji_018",
+      "kanji_019"
+    ],
+    "vocabIds": [
+      "vocab_058",
+      "vocab_059",
+      "vocab_060"
+    ],
+    "grammarIds": [
+      "grammar_004"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 45,
+    "title": "Transport: 車・電",
+    "description": "Cars, trains and transport vocabulary",
+    "kanjiIds": [
+      "kanji_017",
+      "kanji_022"
+    ],
+    "vocabIds": [
+      "vocab_061",
+      "vocab_062",
+      "vocab_063"
+    ],
+    "grammarIds": [
+      "grammar_005"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 46,
+    "title": "Grammar: で and の",
+    "description": "Location/means marker で and possessive の",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_064",
+      "vocab_065"
+    ],
+    "grammarIds": [
+      "grammar_005",
+      "grammar_006"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 47,
+    "title": "Grammar: と and も",
+    "description": "And/with と and also/too も",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_066",
+      "vocab_067"
+    ],
+    "grammarIds": [
+      "grammar_007",
+      "grammar_008"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 48,
+    "title": "Grammar: ね and よ",
+    "description": "Sentence-ending particles ね and よ",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_068",
+      "vocab_069"
+    ],
+    "grammarIds": [
+      "grammar_009",
+      "grammar_010"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 49,
+    "title": "Polite Speech: ます・ません",
+    "description": "Polite verb conjugation — affirmative and negative",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_070",
+      "vocab_071",
+      "vocab_072"
+    ],
+    "grammarIds": [
+      "grammar_011"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 50,
+    "title": "Copula: です・ではありません",
+    "description": "Polite 'to be' and its negative form",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_073",
+      "vocab_074"
+    ],
+    "grammarIds": [
+      "grammar_012"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 51,
+    "title": "Common Verbs 1",
+    "description": "Everyday action verbs: eat, drink, go, come",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_075",
+      "vocab_076",
+      "vocab_077",
+      "vocab_078",
+      "vocab_079"
+    ],
+    "grammarIds": [
+      "grammar_011"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 52,
+    "title": "Common Verbs 2",
+    "description": "More verbs: see, hear, read, write, speak",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_080",
+      "vocab_081",
+      "vocab_082",
+      "vocab_083",
+      "vocab_084"
+    ],
+    "grammarIds": [
+      "grammar_003"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 53,
+    "title": "Common Verbs 3",
+    "description": "Verbs of state: be, exist, have, understand",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_085",
+      "vocab_086",
+      "vocab_087",
+      "vocab_088"
+    ],
+    "grammarIds": [
+      "grammar_002"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 54,
+    "title": "Adjectives: い-adjectives",
+    "description": "Common い-adjectives: big, small, new, old",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_089",
+      "vocab_090",
+      "vocab_091",
+      "vocab_092",
+      "vocab_093"
+    ],
+    "grammarIds": [
+      "grammar_001"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 55,
+    "title": "Adjectives: な-adjectives",
+    "description": "Common な-adjectives: quiet, busy, good, bad",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_094",
+      "vocab_095",
+      "vocab_096",
+      "vocab_097"
+    ],
+    "grammarIds": [
+      "grammar_001"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 56,
+    "title": "Te-form: Connecting Verbs",
+    "description": "How to connect actions using て-form",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_098",
+      "vocab_099",
+      "vocab_100"
+    ],
+    "grammarIds": [
+      "grammar_013"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 57,
+    "title": "Negative: ない-form",
+    "description": "How to make verbs negative in plain form",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_101",
+      "vocab_102",
+      "vocab_103"
+    ],
+    "grammarIds": [
+      "grammar_014"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 58,
+    "title": "Desire: たい-form",
+    "description": "Expressing wants and desires",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_104",
+      "vocab_105",
+      "vocab_106"
+    ],
+    "grammarIds": [
+      "grammar_015"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 59,
+    "title": "Requests: ください",
+    "description": "Making polite requests",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_107",
+      "vocab_108",
+      "vocab_109"
+    ],
+    "grammarIds": [
+      "grammar_016"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 60,
+    "title": "Review: Grammar Points 1-10",
+    "description": "Review all particles and verb forms learned",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_001",
+      "grammar_002",
+      "grammar_003",
+      "grammar_004",
+      "grammar_005",
+      "grammar_006",
+      "grammar_007",
+      "grammar_008",
+      "grammar_009",
+      "grammar_010"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 61,
+    "title": "Reason: から",
+    "description": "Expressing because/reason with から",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_110",
+      "vocab_111",
+      "vocab_112"
+    ],
+    "grammarIds": [
+      "grammar_017"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 62,
+    "title": "Until: まで",
+    "description": "Expressing until/to with まで",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_113",
+      "vocab_114",
+      "vocab_115"
+    ],
+    "grammarIds": [
+      "grammar_018"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 63,
+    "title": "Comparison: より",
+    "description": "Making comparisons with より",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_116",
+      "vocab_117",
+      "vocab_118"
+    ],
+    "grammarIds": [
+      "grammar_019"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 64,
+    "title": "Advice: ほうがいい",
+    "description": "Giving advice with ほうがいい",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_119",
+      "vocab_120",
+      "vocab_121"
+    ],
+    "grammarIds": [
+      "grammar_020"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 65,
+    "title": "Food & Drink Vocabulary",
+    "description": "Common food and drink words",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_122",
+      "vocab_123",
+      "vocab_124",
+      "vocab_125",
+      "vocab_126"
+    ],
+    "grammarIds": [
+      "grammar_003",
+      "grammar_011"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 66,
+    "title": "Places: Home & School",
+    "description": "Vocabulary for home, school, and daily places",
+    "kanjiIds": [
+      "kanji_029",
+      "kanji_024"
+    ],
+    "vocabIds": [
+      "vocab_127",
+      "vocab_128",
+      "vocab_129",
+      "vocab_130"
+    ],
+    "grammarIds": [
+      "grammar_004"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 67,
+    "title": "Places: Town & Transport",
+    "description": "Town locations and transport vocabulary",
+    "kanjiIds": [
+      "kanji_017",
+      "kanji_022"
+    ],
+    "vocabIds": [
+      "vocab_131",
+      "vocab_132",
+      "vocab_133",
+      "vocab_134"
+    ],
+    "grammarIds": [
+      "grammar_004",
+      "grammar_005"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 68,
+    "title": "Family Vocabulary",
+    "description": "Family member words",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_135",
+      "vocab_136",
+      "vocab_137",
+      "vocab_138",
+      "vocab_139"
+    ],
+    "grammarIds": [
+      "grammar_006"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 69,
+    "title": "Colors & Appearance",
+    "description": "Color words and basic appearance adjectives",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_140",
+      "vocab_141",
+      "vocab_142",
+      "vocab_143",
+      "vocab_144"
+    ],
+    "grammarIds": [
+      "grammar_001"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 70,
+    "title": "Review: Grammar Points 11-20",
+    "description": "Review から, まで, より, ほうがいい and all grammar patterns",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_011",
+      "grammar_012",
+      "grammar_013",
+      "grammar_014",
+      "grammar_015",
+      "grammar_016",
+      "grammar_017",
+      "grammar_018",
+      "grammar_019",
+      "grammar_020"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 71,
+    "title": "Numbers Review + Shopping",
+    "description": "Apply number knowledge to shopping situations",
+    "kanjiIds": [
+      "kanji_049",
+      "kanji_046",
+      "kanji_047",
+      "kanji_048"
+    ],
+    "vocabIds": [
+      "vocab_145",
+      "vocab_146",
+      "vocab_147"
+    ],
+    "grammarIds": [
+      "grammar_003",
+      "grammar_011"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 72,
+    "title": "Greetings & Introductions",
+    "description": "Common greetings and self-introduction phrases",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_148",
+      "vocab_149",
+      "vocab_150",
+      "vocab_151",
+      "vocab_152"
+    ],
+    "grammarIds": [
+      "grammar_001",
+      "grammar_012"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 73,
+    "title": "Questions: なに・どこ・だれ",
+    "description": "What, where, who question words",
+    "kanjiIds": [
+      "kanji_073"
+    ],
+    "vocabIds": [
+      "vocab_153",
+      "vocab_154",
+      "vocab_155",
+      "vocab_156"
+    ],
+    "grammarIds": [
+      "grammar_002"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 74,
+    "title": "Questions: いつ・どうして・どう",
+    "description": "When, why, how question words",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_157",
+      "vocab_158",
+      "vocab_159",
+      "vocab_160"
+    ],
+    "grammarIds": [
+      "grammar_017"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 75,
+    "title": "Counting Objects",
+    "description": "Japanese counters: つ, 本, 枚, 台",
+    "kanjiIds": [
+      "kanji_036",
+      "kanji_037",
+      "kanji_038",
+      "kanji_039",
+      "kanji_040"
+    ],
+    "vocabIds": [
+      "vocab_161",
+      "vocab_162",
+      "vocab_163"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 76,
+    "title": "Seasons & Weather",
+    "description": "Seasons vocabulary and weather expressions",
+    "kanjiIds": [
+      "kanji_020",
+      "kanji_021"
+    ],
+    "vocabIds": [
+      "vocab_164",
+      "vocab_165",
+      "vocab_166",
+      "vocab_167"
+    ],
+    "grammarIds": [
+      "grammar_017"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 77,
+    "title": "Daily Routine Verbs",
+    "description": "Verbs for daily activities: wake up, sleep, eat, work",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_168",
+      "vocab_169",
+      "vocab_170",
+      "vocab_171",
+      "vocab_172"
+    ],
+    "grammarIds": [
+      "grammar_013",
+      "grammar_011"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 78,
+    "title": "Hobbies & Free Time",
+    "description": "Hobby vocabulary and expressing preferences",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_173",
+      "vocab_174",
+      "vocab_175",
+      "vocab_176"
+    ],
+    "grammarIds": [
+      "grammar_015",
+      "grammar_008"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 79,
+    "title": "Health & Body",
+    "description": "Body vocabulary and health expressions",
+    "kanjiIds": [
+      "kanji_013",
+      "kanji_014",
+      "kanji_015",
+      "kanji_016"
+    ],
+    "vocabIds": [
+      "vocab_177",
+      "vocab_178",
+      "vocab_179"
+    ],
+    "grammarIds": [
+      "grammar_020"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 80,
+    "title": "Review: All Kanji Set 1",
+    "description": "Review kanji 001-036 (numbers, days, nature, body)",
+    "kanjiIds": [
+      "kanji_001",
+      "kanji_002",
+      "kanji_003",
+      "kanji_004",
+      "kanji_005",
+      "kanji_006",
+      "kanji_007",
+      "kanji_008",
+      "kanji_009",
+      "kanji_010",
+      "kanji_011",
+      "kanji_012",
+      "kanji_013",
+      "kanji_014",
+      "kanji_015",
+      "kanji_016",
+      "kanji_017",
+      "kanji_018",
+      "kanji_019",
+      "kanji_020"
+    ],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 81,
+    "title": "At a Restaurant",
+    "description": "Ordering food, asking for the bill",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_180",
+      "vocab_181",
+      "vocab_182",
+      "vocab_183"
+    ],
+    "grammarIds": [
+      "grammar_003",
+      "grammar_016"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 82,
+    "title": "At a Station",
+    "description": "Buying tickets, asking for directions at a station",
+    "kanjiIds": [
+      "kanji_022",
+      "kanji_017"
+    ],
+    "vocabIds": [
+      "vocab_184",
+      "vocab_185",
+      "vocab_186"
+    ],
+    "grammarIds": [
+      "grammar_004",
+      "grammar_018"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 83,
+    "title": "At a Shop",
+    "description": "Shopping vocabulary and phrases",
+    "kanjiIds": [
+      "kanji_049"
+    ],
+    "vocabIds": [
+      "vocab_187",
+      "vocab_188",
+      "vocab_189",
+      "vocab_190"
+    ],
+    "grammarIds": [
+      "grammar_011",
+      "grammar_003"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 84,
+    "title": "Phone & Communication",
+    "description": "Phone vocabulary and basic communication phrases",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_191",
+      "vocab_192",
+      "vocab_193"
+    ],
+    "grammarIds": [
+      "grammar_016",
+      "grammar_011"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 85,
+    "title": "Making Plans",
+    "description": "Inviting someone, making and declining plans",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_194",
+      "vocab_195",
+      "vocab_196"
+    ],
+    "grammarIds": [
+      "grammar_007",
+      "grammar_015",
+      "grammar_014"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 86,
+    "title": "Expressing Feelings",
+    "description": "Vocabulary for emotions and feelings",
+    "kanjiIds": [
+      "kanji_023"
+    ],
+    "vocabIds": [
+      "vocab_197",
+      "vocab_198",
+      "vocab_199",
+      "vocab_200"
+    ],
+    "grammarIds": [
+      "grammar_008",
+      "grammar_009"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 87,
+    "title": "Describing Places",
+    "description": "Adjectives and phrases for describing locations",
+    "kanjiIds": [
+      "kanji_059",
+      "kanji_060",
+      "kanji_054",
+      "kanji_055"
+    ],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_001",
+      "grammar_005"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 88,
+    "title": "Past Tense: ました・でした",
+    "description": "Polite past tense forms",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_011",
+      "grammar_012"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 89,
+    "title": "Future & Intentions: つもり",
+    "description": "Expressing plans and intentions",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_015",
+      "grammar_011"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 90,
+    "title": "Review: All Kanji Set 2",
+    "description": "Review kanji 037-073 (school, language, directions, time)",
+    "kanjiIds": [
+      "kanji_021",
+      "kanji_022",
+      "kanji_023",
+      "kanji_024",
+      "kanji_025",
+      "kanji_026",
+      "kanji_027",
+      "kanji_028",
+      "kanji_029",
+      "kanji_030",
+      "kanji_031",
+      "kanji_032",
+      "kanji_033",
+      "kanji_034",
+      "kanji_035",
+      "kanji_036",
+      "kanji_037",
+      "kanji_038",
+      "kanji_039",
+      "kanji_040"
+    ],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 91,
+    "title": "Giving & Receiving: あげる・もらう",
+    "description": "Expressing giving and receiving actions",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_013"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 92,
+    "title": "Permission: てもいい",
+    "description": "Asking for and giving permission",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_016",
+      "grammar_014"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 93,
+    "title": "Prohibition: てはいけない",
+    "description": "Expressing prohibition and rules",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_014"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 94,
+    "title": "Ability: できる",
+    "description": "Expressing ability and possibility",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_011"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 95,
+    "title": "Experience: たことがある",
+    "description": "Expressing past experience",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_013"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 96,
+    "title": "Trying: てみる",
+    "description": "Expressing trying something out",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_013",
+      "grammar_015"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 97,
+    "title": "Continuing Actions: ている",
+    "description": "Ongoing actions and states with ている",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_013"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 35
+  },
+  {
+    "day": 98,
+    "title": "Counting People & Things",
+    "description": "Counters for people (人) and things (個、枚)",
+    "kanjiIds": [
+      "kanji_011"
+    ],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 99,
+    "title": "Months & Years",
+    "description": "Months of the year and year expressions",
+    "kanjiIds": [
+      "kanji_002",
+      "kanji_032",
+      "kanji_001"
+    ],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_004"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 100,
+    "title": "Review: All Grammar Patterns",
+    "description": "Full review of all 20 N5 grammar patterns",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_001",
+      "grammar_002",
+      "grammar_003",
+      "grammar_004",
+      "grammar_005",
+      "grammar_006",
+      "grammar_007",
+      "grammar_008",
+      "grammar_009",
+      "grammar_010",
+      "grammar_011",
+      "grammar_012",
+      "grammar_013",
+      "grammar_014",
+      "grammar_015",
+      "grammar_016",
+      "grammar_017",
+      "grammar_018",
+      "grammar_019",
+      "grammar_020"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 50
+  },
+  {
+    "day": 101,
+    "title": "Comprehensive Review 1",
+    "description": "Mixed review: hiragana, katakana, numbers, days",
+    "kanjiIds": [
+      "kanji_001",
+      "kanji_002",
+      "kanji_003",
+      "kanji_036",
+      "kanji_037",
+      "kanji_038"
+    ],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_001",
+      "grammar_002"
+    ],
+    "hiraganaIds": [
+      "あ",
+      "い",
+      "う",
+      "え",
+      "お",
+      "か",
+      "き",
+      "く",
+      "け",
+      "こ"
+    ],
+    "katakanaIds": [
+      "ア",
+      "イ",
+      "ウ",
+      "エ",
+      "オ",
+      "カ",
+      "キ",
+      "ク",
+      "ケ",
+      "コ"
+    ],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 102,
+    "title": "Comprehensive Review 2",
+    "description": "Mixed review: body, nature, directions",
+    "kanjiIds": [
+      "kanji_011",
+      "kanji_012",
+      "kanji_013",
+      "kanji_054",
+      "kanji_055",
+      "kanji_056",
+      "kanji_057"
+    ],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_003",
+      "grammar_004",
+      "grammar_005"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 103,
+    "title": "Comprehensive Review 3",
+    "description": "Mixed review: school, language, society",
+    "kanjiIds": [
+      "kanji_024",
+      "kanji_025",
+      "kanji_026",
+      "kanji_029",
+      "kanji_030",
+      "kanji_031"
+    ],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_006",
+      "grammar_007",
+      "grammar_008"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 104,
+    "title": "Comprehensive Review 4",
+    "description": "Mixed review: time, frequency, question words",
+    "kanjiIds": [
+      "kanji_050",
+      "kanji_051",
+      "kanji_052",
+      "kanji_067",
+      "kanji_068",
+      "kanji_070",
+      "kanji_073"
+    ],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_009",
+      "grammar_010",
+      "grammar_011"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 105,
+    "title": "Comprehensive Review 5",
+    "description": "Mixed review: verbs and verb forms",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_012",
+      "grammar_013",
+      "grammar_014",
+      "grammar_015"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 106,
+    "title": "Comprehensive Review 6",
+    "description": "Mixed review: advanced grammar patterns",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_016",
+      "grammar_017",
+      "grammar_018",
+      "grammar_019",
+      "grammar_020"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 45
+  },
+  {
+    "day": 107,
+    "title": "Mock Test: Vocabulary",
+    "description": "Practice test covering all N5 vocabulary",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 50
+  },
+  {
+    "day": 108,
+    "title": "Mock Test: Grammar",
+    "description": "Practice test covering all N5 grammar",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 50
+  },
+  {
+    "day": 109,
+    "title": "Mock Test: Reading",
+    "description": "Practice reading comprehension for N5",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 50
+  },
+  {
+    "day": 110,
+    "title": "N5 Complete!",
+    "description": "Congratulations! You have completed the N5 curriculum. Full review and celebration.",
+    "kanjiIds": [
+      "kanji_001",
+      "kanji_002",
+      "kanji_003",
+      "kanji_004",
+      "kanji_005"
+    ],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_001",
+      "grammar_002",
+      "grammar_003"
+    ],
+    "hiraganaIds": [
+      "あ",
+      "い",
+      "う",
+      "え",
+      "お"
+    ],
+    "katakanaIds": [
+      "ア",
+      "イ",
+      "ウ",
+      "エ",
+      "オ"
+    ],
+    "estimatedMinutes": 30
+  },
+  {
+    "day": 111,
+    "title": "Vocabulary: 母 and more",
+    "description": "Learn 8 new words: 母, 父, 兄, 弟…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_201",
+      "vocab_202",
+      "vocab_203",
+      "vocab_204",
+      "vocab_205",
+      "vocab_206",
+      "vocab_207",
+      "vocab_208"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 112,
+    "title": "Vocabulary: お父さん and more",
+    "description": "Learn 8 new words: お父さん, お兄さん, お姉さん, ご家族…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_209",
+      "vocab_210",
+      "vocab_211",
+      "vocab_212",
+      "vocab_213",
+      "vocab_214",
+      "vocab_215",
+      "vocab_216"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 113,
+    "title": "Vocabulary: 牛乳 and more",
+    "description": "Learn 8 new words: 牛乳, お茶, コーヒー, ジュース…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_217",
+      "vocab_218",
+      "vocab_219",
+      "vocab_220",
+      "vocab_221",
+      "vocab_222",
+      "vocab_224",
+      "vocab_225"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 114,
+    "title": "Vocabulary: ビール and more",
+    "description": "Learn 8 new words: ビール, 朝ご飯, 昼ご飯, 晩ご飯…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_226",
+      "vocab_228",
+      "vocab_229",
+      "vocab_230",
+      "vocab_231",
+      "vocab_232",
+      "vocab_233",
+      "vocab_234"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 115,
+    "title": "Vocabulary: お酒 and more",
+    "description": "Learn 8 new words: お酒, お弁当, お皿, コップ…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_235",
+      "vocab_236",
+      "vocab_237",
+      "vocab_238",
+      "vocab_239",
+      "vocab_240",
+      "vocab_241",
+      "vocab_242"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 116,
+    "title": "Vocabulary: 肉屋 and more",
+    "description": "Learn 8 new words: 肉屋, 魚屋, 花屋, 本屋…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_244",
+      "vocab_245",
+      "vocab_246",
+      "vocab_247",
+      "vocab_248",
+      "vocab_253",
+      "vocab_254",
+      "vocab_257"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 117,
+    "title": "Vocabulary: 博物館 and more",
+    "description": "Learn 8 new words: 博物館, 美術館, 駅前, 出口…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_258",
+      "vocab_259",
+      "vocab_260",
+      "vocab_261",
+      "vocab_262",
+      "vocab_263",
+      "vocab_264",
+      "vocab_265"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 118,
+    "title": "Vocabulary: 歩道 and more",
+    "description": "Learn 8 new words: 歩道, バス, タクシー, 新幹線…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_266",
+      "vocab_267",
+      "vocab_268",
+      "vocab_270",
+      "vocab_273",
+      "vocab_275",
+      "vocab_276",
+      "vocab_277"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 119,
+    "title": "Vocabulary: 聞く and more",
+    "description": "Learn 8 new words: 聞く, 書く, 行く, 来る…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_279",
+      "vocab_281",
+      "vocab_284",
+      "vocab_285",
+      "vocab_286",
+      "vocab_287",
+      "vocab_289",
+      "vocab_290"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 120,
+    "title": "Vocabulary: 寝る and more",
+    "description": "Learn 8 new words: 寝る, 起きる, 泳ぐ, 遊ぶ…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_291",
+      "vocab_292",
+      "vocab_293",
+      "vocab_294",
+      "vocab_295",
+      "vocab_296",
+      "vocab_297",
+      "vocab_298"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 121,
+    "title": "Vocabulary: 覚える and more",
+    "description": "Learn 8 new words: 覚える, 借りる, 貸す, 閉める…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_299",
+      "vocab_300",
+      "vocab_301",
+      "vocab_302",
+      "vocab_303",
+      "vocab_304",
+      "vocab_305",
+      "vocab_307"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 122,
+    "title": "Vocabulary: 届ける and more",
+    "description": "Learn 8 new words: 届ける, 習う, 乗る, 降りる…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_308",
+      "vocab_309",
+      "vocab_310",
+      "vocab_311",
+      "vocab_312",
+      "vocab_313",
+      "vocab_316",
+      "vocab_317"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 123,
+    "title": "Vocabulary: 分かる and more",
+    "description": "Learn 8 new words: 分かる, 忘れる, 送る, 住まい…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_318",
+      "vocab_319",
+      "vocab_320",
+      "vocab_321",
+      "vocab_323",
+      "vocab_324",
+      "vocab_325",
+      "vocab_326"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 124,
+    "title": "Vocabulary: 脱ぐ and more",
+    "description": "Learn 8 new words: 脱ぐ, 入れる, 出す, 死ぬ…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_327",
+      "vocab_328",
+      "vocab_329",
+      "vocab_330",
+      "vocab_331",
+      "vocab_332",
+      "vocab_333",
+      "vocab_334"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 125,
+    "title": "Vocabulary: 持って来る and more",
+    "description": "Learn 8 new words: 持って来る, 答える, 大きい, 小さい…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_335",
+      "vocab_336",
+      "vocab_337",
+      "vocab_338",
+      "vocab_339",
+      "vocab_340",
+      "vocab_341",
+      "vocab_342"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 126,
+    "title": "Vocabulary: 多い and more",
+    "description": "Learn 8 new words: 多い, 少ない, 早い, 遅い…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_343",
+      "vocab_344",
+      "vocab_345",
+      "vocab_346",
+      "vocab_348",
+      "vocab_350",
+      "vocab_351",
+      "vocab_352"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 127,
+    "title": "Vocabulary: 暑い and more",
+    "description": "Learn 8 new words: 暑い, 寒い, 暖かい, 涼しい…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_353",
+      "vocab_354",
+      "vocab_355",
+      "vocab_356",
+      "vocab_357",
+      "vocab_358",
+      "vocab_359",
+      "vocab_360"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 128,
+    "title": "Vocabulary: 嬉しい and more",
+    "description": "Learn 8 new words: 嬉しい, 悲しい, 忙しい, 優しい…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_361",
+      "vocab_362",
+      "vocab_363",
+      "vocab_364",
+      "vocab_365",
+      "vocab_366",
+      "vocab_367",
+      "vocab_368"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 129,
+    "title": "Vocabulary: 明るい and more",
+    "description": "Learn 8 new words: 明るい, 暗い, 強い, 弱い…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_369",
+      "vocab_370",
+      "vocab_371",
+      "vocab_372",
+      "vocab_373",
+      "vocab_374",
+      "vocab_375",
+      "vocab_376"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 130,
+    "title": "Vocabulary: 白い and more",
+    "description": "Learn 8 new words: 白い, 黒い, 赤い, 青い…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_377",
+      "vocab_378",
+      "vocab_379",
+      "vocab_380",
+      "vocab_381",
+      "vocab_382",
+      "vocab_383",
+      "vocab_385"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 131,
+    "title": "Vocabulary: 体 and more",
+    "description": "Learn 8 new words: 体, 背, 肩, 膝…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_386",
+      "vocab_387",
+      "vocab_388",
+      "vocab_389",
+      "vocab_390",
+      "vocab_391",
+      "vocab_392",
+      "vocab_393"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 132,
+    "title": "Vocabulary: 浴衣 and more",
+    "description": "Learn 8 new words: 浴衣, 上着, 下着, ネクタイ…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_394",
+      "vocab_395",
+      "vocab_396",
+      "vocab_398",
+      "vocab_399",
+      "vocab_400",
+      "vocab_401",
+      "vocab_402"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 133,
+    "title": "Vocabulary: 眼鏡 and more",
+    "description": "Learn 8 new words: 眼鏡, 腕時計, 指輪, かばん…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_404",
+      "vocab_405",
+      "vocab_406",
+      "vocab_407",
+      "vocab_410",
+      "vocab_411",
+      "vocab_413",
+      "vocab_414"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 134,
+    "title": "Vocabulary: 浴室 and more",
+    "description": "Learn 8 new words: 浴室, トイレ, お手洗い, 階段…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_415",
+      "vocab_416",
+      "vocab_417",
+      "vocab_418",
+      "vocab_419",
+      "vocab_420",
+      "vocab_423",
+      "vocab_426"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 135,
+    "title": "Vocabulary: 暖房 and more",
+    "description": "Learn 8 new words: 暖房, 冷房, 電子レンジ, 洗濯機…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_427",
+      "vocab_428",
+      "vocab_430",
+      "vocab_431",
+      "vocab_432",
+      "vocab_433",
+      "vocab_434",
+      "vocab_435"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 136,
+    "title": "Vocabulary: ドア and more",
+    "description": "Learn 8 new words: ドア, 鏡, 学生, 同級生…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_439",
+      "vocab_441",
+      "vocab_444",
+      "vocab_445",
+      "vocab_448",
+      "vocab_449",
+      "vocab_450",
+      "vocab_451"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 137,
+    "title": "Vocabulary: 消しゴム and more",
+    "description": "Learn 8 new words: 消しゴム, 定規, 練習, テスト…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_452",
+      "vocab_453",
+      "vocab_455",
+      "vocab_456",
+      "vocab_458",
+      "vocab_459",
+      "vocab_460",
+      "vocab_461"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 138,
+    "title": "Vocabulary: 晴れ and more",
+    "description": "Learn 8 new words: 晴れ, 風, 台風, 地震…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_463",
+      "vocab_466",
+      "vocab_467",
+      "vocab_468",
+      "vocab_469",
+      "vocab_470",
+      "vocab_471",
+      "vocab_473"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 139,
+    "title": "Vocabulary: 森 and more",
+    "description": "Learn 8 new words: 森, 島, 鳥, 馬…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_474",
+      "vocab_475",
+      "vocab_478",
+      "vocab_479",
+      "vocab_481",
+      "vocab_482",
+      "vocab_483",
+      "vocab_484"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 140,
+    "title": "Vocabulary: 二つ and more",
+    "description": "Learn 8 new words: 二つ, 三つ, 四つ, 五つ…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_485",
+      "vocab_486",
+      "vocab_487",
+      "vocab_488",
+      "vocab_489",
+      "vocab_490",
+      "vocab_491",
+      "vocab_492"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 141,
+    "title": "Vocabulary: 十 and more",
+    "description": "Learn 8 new words: 十, 一人, 二人, 三人…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_493",
+      "vocab_494",
+      "vocab_495",
+      "vocab_496",
+      "vocab_497",
+      "vocab_498",
+      "vocab_499",
+      "vocab_500"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 142,
+    "title": "Vocabulary: いくら and more",
+    "description": "Learn 8 new words: いくら, おととい, あさって, 今週…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_501",
+      "vocab_502",
+      "vocab_503",
+      "vocab_504",
+      "vocab_505",
+      "vocab_506",
+      "vocab_507",
+      "vocab_508"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 143,
+    "title": "Vocabulary: 先月 and more",
+    "description": "Learn 8 new words: 先月, 今年, 去年, 毎朝…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_509",
+      "vocab_510",
+      "vocab_511",
+      "vocab_512",
+      "vocab_513",
+      "vocab_514",
+      "vocab_515",
+      "vocab_516"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 144,
+    "title": "Vocabulary: 今晩 and more",
+    "description": "Learn 8 new words: 今晩, 昼間, 夜中, 午前…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_517",
+      "vocab_518",
+      "vocab_519",
+      "vocab_520",
+      "vocab_521",
+      "vocab_522",
+      "vocab_523",
+      "vocab_524"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 145,
+    "title": "Vocabulary: 三時 and more",
+    "description": "Learn 8 new words: 三時, 四時, 五時, 六時…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_525",
+      "vocab_526",
+      "vocab_527",
+      "vocab_528",
+      "vocab_529",
+      "vocab_530",
+      "vocab_531",
+      "vocab_532"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 146,
+    "title": "Vocabulary: 半 and more",
+    "description": "Learn 8 new words: 半, 十分, 三十分, 休みの日…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_533",
+      "vocab_534",
+      "vocab_535",
+      "vocab_536",
+      "vocab_537",
+      "vocab_538",
+      "vocab_539",
+      "vocab_540"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 147,
+    "title": "Vocabulary: こちら and more",
+    "description": "Learn 8 new words: こちら, そちら, あちら, どちら…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_541",
+      "vocab_542",
+      "vocab_543",
+      "vocab_544",
+      "vocab_545",
+      "vocab_546",
+      "vocab_547",
+      "vocab_549"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 148,
+    "title": "Vocabulary: 下 and more",
+    "description": "Learn 8 new words: 下, 中, 隣, 間…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_550",
+      "vocab_551",
+      "vocab_553",
+      "vocab_554",
+      "vocab_555",
+      "vocab_556",
+      "vocab_557",
+      "vocab_558"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 149,
+    "title": "Vocabulary: ゴルフ and more",
+    "description": "Learn 8 new words: ゴルフ, 釣り, 読書, 趣味…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_559",
+      "vocab_563",
+      "vocab_565",
+      "vocab_569",
+      "vocab_570",
+      "vocab_571",
+      "vocab_572",
+      "vocab_573"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 150,
+    "title": "Vocabulary: まだ and more",
+    "description": "Learn 8 new words: まだ, もう, いつも, よく…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_574",
+      "vocab_575",
+      "vocab_576",
+      "vocab_577",
+      "vocab_578",
+      "vocab_579",
+      "vocab_580",
+      "vocab_581"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 151,
+    "title": "Vocabulary: ゆっくり and more",
+    "description": "Learn 8 new words: ゆっくり, 一緒に, 大丈夫, 大好き…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_582",
+      "vocab_583",
+      "vocab_584",
+      "vocab_585",
+      "vocab_586",
+      "vocab_587",
+      "vocab_588",
+      "vocab_589"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 152,
+    "title": "Vocabulary: いろいろ and more",
+    "description": "Learn 8 new words: いろいろ, ぜひ, 必ず, 確かに…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_590",
+      "vocab_591",
+      "vocab_592",
+      "vocab_593",
+      "vocab_594",
+      "vocab_595",
+      "vocab_596",
+      "vocab_597"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 153,
+    "title": "Vocabulary: こんにちは and more",
+    "description": "Learn 8 new words: こんにちは, こんばんは, おはよう, さようなら…",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_598",
+      "vocab_599",
+      "vocab_600",
+      "vocab_601",
+      "vocab_602",
+      "vocab_603",
+      "vocab_604",
+      "vocab_605"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 154,
+    "title": "Vocabulary: いただきます and more",
+    "description": "Learn 4 new words: いただきます, ごちそうさま, 失礼します, おやすみ",
+    "kanjiIds": [],
+    "vocabIds": [
+      "vocab_606",
+      "vocab_607",
+      "vocab_608",
+      "vocab_609"
+    ],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 155,
+    "title": "Grammar: 〜ましょう",
+    "description": "Let's do — volitional form, polite suggestion",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_021"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 156,
+    "title": "Grammar: 〜ましょうか",
+    "description": "Shall I/we — offer or suggestion",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_022"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 157,
+    "title": "Grammar: 〜てもいいです",
+    "description": "May I do — asking/giving permission",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_023"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 158,
+    "title": "Grammar: 〜てはいけません",
+    "description": "Must not do — prohibition",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_024"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 159,
+    "title": "Grammar: 〜が欲しい",
+    "description": "Want (something) — desire for object",
+    "kanjiIds": [],
+    "vocabIds": [],
+    "grammarIds": [
+      "grammar_025"
+    ],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 20
+  },
+  {
+    "day": 160,
+    "title": "Kanji: 食 / 飲 / 見 etc.",
+    "description": "Learn kanji: 食, 飲, 見, 聞, 読 — eat, drink, see, hear, read",
+    "kanjiIds": [
+      "kanji_074",
+      "kanji_075",
+      "kanji_076",
+      "kanji_077",
+      "kanji_078"
+    ],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 161,
+    "title": "Kanji: 話 / 買 / 行 etc.",
+    "description": "Learn kanji: 話, 買, 行, 帰, 入 — talk, buy, go, return, enter",
+    "kanjiIds": [
+      "kanji_079",
+      "kanji_080",
+      "kanji_081",
+      "kanji_082",
+      "kanji_083"
+    ],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 162,
+    "title": "Kanji: 出 / 立 / 休 etc.",
+    "description": "Learn kanji: 出, 立, 休, 女, 子 — exit, stand, rest, woman, child",
+    "kanjiIds": [
+      "kanji_084",
+      "kanji_085",
+      "kanji_086",
+      "kanji_087",
+      "kanji_088"
+    ],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 163,
+    "title": "Kanji: 友 / 父 / 母 etc.",
+    "description": "Learn kanji: 友, 父, 母, 町, 店 — friend, father, mother, town, shop",
+    "kanjiIds": [
+      "kanji_089",
+      "kanji_090",
+      "kanji_091",
+      "kanji_092",
+      "kanji_093"
+    ],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 164,
+    "title": "Kanji: 道 / 天 / 長 etc.",
+    "description": "Learn kanji: 道, 天, 長, 新, 古 — road, heaven, long, new, old",
+    "kanjiIds": [
+      "kanji_094",
+      "kanji_095",
+      "kanji_096",
+      "kanji_097",
+      "kanji_098"
+    ],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  },
+  {
+    "day": 165,
+    "title": "Kanji: 白 / 青",
+    "description": "Learn kanji: 白, 青 — white, blue",
+    "kanjiIds": [
+      "kanji_099",
+      "kanji_100"
+    ],
+    "vocabIds": [],
+    "grammarIds": [],
+    "hiraganaIds": [],
+    "katakanaIds": [],
+    "estimatedMinutes": 25
+  }
+]
