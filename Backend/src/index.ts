@@ -41,8 +41,10 @@ export type AppType = typeof routes;
 
 app.get("/", (c) => c.json({ message: "JLPT Backend running!" }));
 
-serve({ fetch: app.fetch, port: 3000, hostname: "0.0.0.0" }, (info) => {
-  console.log(`Server running on http://localhost:${info.port}`);
-});
+if (!process.env.VERCEL) {
+  serve({ fetch: app.fetch, port: 3000, hostname: "0.0.0.0" }, (info) => {
+    console.log(`Server running on http://localhost:${info.port}`);
+  });
+}
 
 export default app;
