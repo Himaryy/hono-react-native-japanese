@@ -35,4 +35,4 @@ app.route("/api/lessons", lessonsRoute);
 
 app.get("/", (c) => c.json({ message: "JLPT Backend running!" }));
 
-export default app;
+export default app.fetch;
