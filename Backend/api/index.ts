@@ -1,34 +1,37 @@
-import "dotenv/config";
-import { Hono } from "hono";
-import { cors } from "hono/cors";
-import { logger } from "hono/logger";
-import { AuthType } from "../src/lib/auth";
-import authRouter from "../src/routes/auth";
-import progressRoute from "../src/routes/progress.routes";
-import profileRoute from "../src/routes/profile.routes";
-import friendsRoute from "../src/routes/friends.routes";
-import lessonsRoute from "../src/routes/lessons.route";
+import type { IncomingMessage, ServerResponse } from "http";
+import app from "../src/app";
 
-const app = new Hono<{ Bindings: AuthType }>({ strict: false });
+export default async function handler(
+  req: IncomingMessage,
+  res: ServerResponse,
+) {
+  let body = "";
+  if (req.method !== "GET" && req.method !== "HEAD") {
+    body = await new Promise<string>((resolve) => {
+      const chunks: Buffer[] = [];
+      req.on("data", (chunk: Buffer) => chunks.push(chunk));
+      req.on("end", () => resolve(Buffer.concat(chunks).toString()));
+    });
+  }
 
-app.use("*", logger());
-app.use(
-  "*",
-  cors({
-    origin: (origin) => origin ?? "*",
-    allowHeaders: ["Content-Type", "Authorization"],
-    allowMethods: ["POST", "GET", "PATCH", "DELETE", "OPTIONS"],
-    exposeHeaders: ["Content-Length"],
-    maxAge: 600,
-    credentials: true,
-  }),
-);
+  const proto = req.headers["x-forwarded-proto"] ?? "https";
+  const host = req.headers.host ?? "localhost";
+  const url = `${Array.isArray(proto) ? proto[0] : proto}://${host}${req.url ?? "/"}`;
 
-app.route("/", authRouter);
-app.route("/api/progress", progressRoute);
-app.route("/api/profile", profileRoute);
-app.route("/api/friends", friendsRoute);
-app.route("/api/lessons", lessonsRoute);
-app.get("/", (c) => c.json({ message: "JLPT Backend running!" }));
+  const headers = new Headers();
+  for (const [key, value] of Object.entries(req.headers)) {
+    if (value) headers.set(key, Array.isArray(value) ? value.join(", ") : value);
+  }
 
-export default app;
+  const request = new Request(url, {
+    method: req.method,
+    headers,
+    body: body || undefined,
+  });
+
+  const response = await app.fetch(request);
+
+  res.writeHead(response.status, Object.fromEntries(response.headers.entries()));
+  const responseBody = await response.text();
+  res.end(responseBody);
+}
